@@ -12,9 +12,8 @@ O título podería ter sido algo así como "As ondas evanescentes en óptica", p
 sería algo seco, aséptico. Así que optei polo título actual en alusión a unha
 serie dos anos 80 do meu agrado, titulada "Aquellos maravillosos años" en
 castelán, ou "The wonder years" en inglés, serie que conta a vida dun
-adolescente dunha familia americana corrente #footnote[Actualmente pode verse
-capítulos da serie orixinal en inglés ou na versión latina en YouTube]. Unha
-boa serie e un bo recordo, que esvaece na memoria.
+adolescente dunha familia americana corrente. Unha boa serie e un bo recordo,
+que esvaece na memoria.
 
 Se buscamos o significado de evanescente nun dicionario, atopamos algo como que
 se esfuma ou desaparece aos poucos; fai referencia a algo efémero, tenue ou
@@ -24,19 +23,6 @@ que tamén son sonadas as ondas evanescentes cuánticas, sobre todo en relación
 co efecto túnel @raul_1. Podedes preguntarlle aos profesores de física cuántica
 por este efecto, o efecto cuántico análogo ao efecto óptico da reflexión total
 frustrada (normalmente esta frase se formula ao revés, non coñezo o porqué).
-Cando falamos da luz, falamos de algo que se despraza ou se propaga cunha
-velocidade inmensamente grande, 300000 $frac(k m, s, style: "horizontal")$ no
-espazo baleiro. As ondas de luz ordinarias son ondas viaxeiras, emerxen dunha
-fonte para propagarse polo espazo. No sentido clásico, propáganse como
-oscilacións ou vibracións de alta frecuencia dos campos electromagnéticos,
-arredor de 1014–1015 Hz. E apáganse, amortécense, cando chegan a obxectos
-opacos (a meirande parte dos obxectos). Poderiamos dicir que as ondas esvaecen
-nos obxectos, pero ese non é o termo que se usa: fálase de ondas amortecidas,
-xa que son ondas que perden a súa enerxía; desaparecen ou morren para aumentar
-a enerxía do medio opaco. En cambio, as ondas evanescentes prodúcense en medios
-transparentes onde a enerxía da luz é conservada, pero chega ao seu fin
-espacialmente. É dicir, son ondas que decaen sen perda de enerxía (véxase a
-@im:1).
 
 #figure(
   image("/revistas/006/imaxes/RAUL_FC_1.png"),
@@ -46,30 +32,42 @@ espacialmente. É dicir, son ondas que decaen sen perda de enerxía (véxase a
   descontinuas indican a dirección de decrecemento da amplitude das ondas.]
 )<im:1>
 
+Cando falamos da luz, falamos de algo que se despraza ou se propaga cunha
+velocidade inmensamente grande, $300000 thin frac(k m, s, style: "horizontal")$
+no espazo baleiro. As ondas de luz ordinarias son ondas viaxeiras, emerxen
+dunha fonte para propagarse polo espazo. No sentido clásico, propáganse como
+oscilacións ou vibracións de alta frecuencia dos campos electromagnéticos,
+arredor de 1014–1015 Hz. E apáganse, amortécense, cando chegan a obxectos
+opacos. Poderiamos dicir que as ondas esvaecen nos obxectos, pero ese non é o
+termo que se usa: fálase de ondas amortecidas, xa que son ondas que perden a
+súa enerxía; desaparecen ou morren para aumentar a enerxía do medio opaco. En
+cambio, as ondas evanescentes prodúcense en medios transparentes onde a enerxía
+da luz é conservada, pero chega ao seu fin espacialmente. É dicir, son ondas
+que decaen sen perda de enerxía (véxase a @im:1).
+
 O primeiro físico que se decatou da existencia de ondas evanescentes foi I.
-Newton @raul_2 (moi célebre en Física sobre todo polos seus traballos nos
-ámbitos mecánica e da gravitación, pero que tamén fixo aportacións excelentes
-no ámbito da óptica), pero a súa explicación tardou en darse máis de cen anos.
-As ondas evanescentes poden considerarse ondas superficiais, xa que están
+Newton @raul_2, pero a súa explicación tardou en darse máis de cen anos. As
+ondas evanescentes poden considerarse ondas superficiais, xa que están
 localizadas na proximidade dunha superficie que separa dous medios con
 diferentes propiedades ópticas. Insistimos: son ondas localizadas, non
 viaxeiras, aínda que tamén podemos consideralas como a cola dunha onda
-viaxeira. Imos falar do exemplo máis coñecido. Observade o debuxo da @im:2. A
-luz penetra nun prisma por unha cara e chega a unha segunda cara incidindo cun
-ángulo $theta$. Ao tratarse de vidro, se o ángulo $theta$ é pequeno, hai pouca
-luz reflectida e a maioría da luz transmítese cara ao aire cun ángulo de
-refracción maior ca o de incidencia (@im:2 a). Isto é así porque o índice de
-refracción do vidro é maior ca o do aire. Non obstante, se aumentamos o ángulo
-de incidencia cara a incidencias rasantes, a cantidade de luz reflectida
-aumenta repentinamente ata que, a partir dun certo ángulo --denominado ángulo
-crítico--, toda a luz é reflectida no prisma: non hai luz transmitida cara ao
-aire (@im:2 b).
+viaxeira. Imos falar do exemplo máis coñecido. 
 
 #figure(
   image("/revistas/006/imaxes/RAUL_FC_2.png"),
   caption: [(a) Reflexión e transmisión parcial de luz. (b) Reflexión total.
   (c) Reflexión total frustrada.]
 )<im:2>
+
+Observade o debuxo da @im:2. A luz penetra nun prisma por unha cara e chega a
+unha segunda cara incidindo cun ángulo $theta$. Ao tratarse de vidro, se o
+ángulo $theta$ é pequeno, hai pouca luz reflectida e a maioría da luz
+transmítese cara ao aire cun ángulo de refracción maior ca o de incidencia
+(@im:2 a). Isto é así porque o índice de refracción do vidro é maior ca o do
+aire. Non obstante, se aumentamos o ángulo de incidencia cara a incidencias
+rasantes, a cantidade de luz reflectida aumenta repentinamente ata que, a
+partir dun certo ángulo --denominado ángulo crítico--, toda a luz é reflectida
+no prisma: non hai luz transmitida cara ao aire (@im:2 b).
 
 Esta é a explicación simple do que sucede, pero hai máis. As ondas corresponden
 a un fenómeno continuo. Aínda que estamos acostumados a falar de
@@ -90,7 +88,7 @@ misteriosas e, como corolario, marabillosas para un científico.
 
 Imos ver se resolvemos esta trama. Como xa comentamos, a luz corresponde a
 oscilacións moi rápidas dos campos electromagnéticos que se propagan a través
-do espazo. Os detectores de luz non son sensibles a esas oscilaciónstan
+do espazo. Os detectores de luz non son sensibles a esas oscilacións tan
 rápidas, senón que o que miden son sempre magnitude mediadas no tempo como o
 fluxo de enerxía (a irradiancia). Non obstante, podemos considerar, imaxinar e
 calcular o que poderiamos chamar fluxo instantáneo. Deste xeito, o que ocorre é
@@ -113,63 +111,52 @@ coñecido é a fibra óptica, usada sobre todo para transmisión de datos a gran
 distancias con alta velocidade, pero con outras múltiples aplicacións. As
 fibras ópticas son cables flexibles de luz, formados por vidros ou plásticos
 transparentes @raul_3. Constan principalmente de dúas partes: un núcleo
-interior cilíndrico e un revestimento que o rodea (@im:3). Tamén posúen unha
-cuberta protectora. A característica principal das fibras ópticas é que o
-índice de refracción do núcleo é maior ca o do revestimento. Esta
-característica permite que a luz quede confinada na fibra e poida propagarse a
-distancias moi longas. En fibras ópticas típicas, o diámetro do núcleo varía de
-8–10 $mu m$ ata 50–60 $mu m$, cun revestimento de 125 $mu m$, aínda que existen
-fibras de centos de micras de espesor. Que papel xogan as ondas evanescentes
-nunha fibra? A maior parte da luz propágase dentro do núcleo, pero sempre
-existe unha cola que penetra no revestimento ata esvaecer dentro del.
-Poderiamos dicir que son simplemente unha parte da onda viaxeira que se propaga
-dentro da fibra, pero existen razóns para distinguir as partes da onda que se
-propagan dentro e fóra do núcleo. En primeiro lugar, descríbense
-matematicamente de xeito diferente: dentro do núcleo temos unha función
-oscilatoria e no revestimento unha función decaínte. Por outra banda, pódense
-fabricar dispositivos como acopladores ou sensores en fibras ópticas nos que a
-onda evanescente ten un papel esencial. 
-
-#figure(
-  image("/revistas/006/imaxes/RAUL_FC_3.png"),
-  caption: [Representación dunha fibra óptica.]
-)<im:3>
+interior cilíndrico e un revestimento que o rodea. Tamén posúen unha cuberta
+protectora. A característica principal das fibras ópticas é que o índice de
+refracción do núcleo é maior ca o do revestimento. Esta característica permite
+que a luz quede confinada na fibra e poida propagarse a distancias moi longas.
+En fibras ópticas típicas, o diámetro do núcleo varía de 8–10 $mu m$ ata 50–60
+$mu m$, cun revestimento de 125 $mu m$, aínda que existen fibras de centos de
+micras de espesor. Que papel xogan as ondas evanescentes nunha fibra? A maior
+parte da luz propágase dentro do núcleo, pero sempre existe unha cola que
+penetra no revestimento ata esvaecer dentro del. Poderiamos dicir que son
+simplemente unha parte da onda viaxeira que se propaga dentro da fibra, pero
+existen razóns para distinguir as partes da onda que se propagan dentro e fóra
+do núcleo. En primeiro lugar, descríbense matematicamente de xeito diferente:
+dentro do núcleo temos unha función oscilatoria e no revestimento unha función
+decaínte. Por outra banda, pódense fabricar dispositivos como acopladores ou
+sensores en fibras ópticas nos que a onda evanescente ten un papel esencial. 
 
 Un terceiro tipo de configuración onde aparecen ondas evanescentes é aquel que
 contén capas metálicas moi finas. En xeral, a luz e os metais non se levan nada
-ben. En condicións normais, cando a luz chega a un metal esta é repelida
-(reflectida) na súa maior parte. Esa é a causa do brillo típico dos materiais
-metálicos. Ademais, metais como o aluminio ben pulido úsanse para construír
-espellos. E que pasa co resto do sinal que se transmite ao metal? Pois é
-absorbido moi rapidamente, de forma que desaparece nunha distancia de decenas
-de nanómetros. Podemos concluír que nun metal non se propaga radiación, senón
-que esta é amortecida. Salvo que consideremos capas metálicas moi finas; por
-dicir, cun espesor inferior a 100 nm. En teoría, pódese propagar luz ao longo
-dunha interface metal/dieléctrico, como prata/aire, mediante ondas que decaen
-cara a ambos os medios #footnote[Para que isto aconteza, a parte real da
-  constante dieléctrica do metal debe ser negativa. Isto é certo para moitos
-  metais no rango espectral visible.], pero que se van atenuando pola absorción
-no metal. Temos entón unha guía de ondas superficial --ou de espesor nulo-- a
-diferenza das guías dieléctricas, que teñen un espesor mínimo para poder
-confinar a luz. Tamén existe unha diferenza fundamental entre as guías
-dieléctricas e as guías metal/dieléctrico. As primeiras débense á interacción
-da luz con electróns ligados nos átomos ou moléculas dos dieléctricos; as
-segundas están asociadas á interacción cos electróns libres presentes no metal
-na veciñanza da interface. A luz xera unha oscilación colectiva de electróns
-libres denominada plasmón de superficie @raul_4 (ver @im:4). Na práctica
-úsanse capas metálicas finas para que a luz penetre o suficiente no metal e
-chegue á superficie metal/dieléctrico coma unha onda evanescente cara ambos
-lados. Hai que destacar que isto non ocorre para calquera dirección de
-incidencia sobre esa superficie, senón que debe de verificarse unha condición
-de sincronismo ou de resonancia asociada ao plasmón de superficie. Unha
-característica esencial desta interacción plasmónica é que é moi sensible a
-pequenos cambios físico-químicos no dieléctrico.
+ben. En condicións normais, cando a luz chega a un metal esta é reflectida na
+súa maior parte. Esa é a causa do brillo típico dos materiais metálicos.
+Ademais, metais como o aluminio ben pulido úsanse para construír espellos. E
+que pasa co resto do sinal que se transmite ao metal? Pois é absorbido moi
+rapidamente, de forma que desaparece nunha distancia de decenas de nanómetros.
+Podemos concluír que nun metal non se propaga radiación, senón que esta é
+amortecida. Salvo que consideremos capas metálicas moi finas; por dicir, cun
+espesor inferior a 100 nm. 
 
 #figure(
-  image("/revistas/006/imaxes/RAUL_FC_4.png"),
+  image(width: 80%, "/revistas/006/imaxes/RAUL_FC_3.png"),
   caption: [Representación da excitación dun plasmón de superficie 
     mediante luz.]
-)<im:4>
+)<im:3>
+
+En teoría, pódese propagar luz ao longo dunha interface metal/dieléctrico, como
+prata/aire, mediante ondas que decaen cara a ambos os medios, pero que se van
+atenuando pola absorción no metal. Temos entón unha guía de ondas superficial
+--ou de espesor nulo-- a diferenza das guías dieléctricas, que teñen un espesor
+mínimo para poder confinar a luz. Tamén existe unha diferenza fundamental entre
+as guías dieléctricas e as guías metal/dieléctrico. As primeiras débense á
+interacción da luz con electróns ligados nos átomos ou moléculas dos
+dieléctricos; as segundas están asociadas á interacción cos electróns libres
+presentes no metal na veciñanza da interface. A luz xera unha oscilación
+colectiva de electróns libres denominada plasmón de superficie @raul_4 (ver
+@im:3). Na práctica úsanse capas metálicas finas para que a luz penetre o
+suficiente no metal e chegue á superficie metal/dieléctrico coma unha onda
+evanescente cara ambos lados.
 
 Imos xa co último caso que reforza a importancia das ondas evanescentes. Imos
 falar da luz que reflicte un obxecto opaco. Para simplificar, consideramos un
@@ -183,21 +170,21 @@ que sae nunha dirección dada é unha onda harmónica viaxeira e dicimos que o
 feixe reflectido é unha superposición de ondas harmónicas viaxeiras. Esas ondas
 poden ser recollidas por unha lente converxente para formar unha imaxe do
 obxecto. Podemos imaxinar que se a lente é perfecta, a imaxe tamén o é. Pero
-non, os especialistas en óptica (e moitos fotógrafos profesionais) sabemos ben
-que hai un límite na perfección da imaxe: dise que a resolución da imaxe está
-limitada pola difracción. Basicamente, podemos dicir que a lente ten unha
-abertura limitada e non é capaz de recoller toda a luz reflectida. Pero podemos
-imaxinar que usamos un obxectivo de microscopio de gran abertura que colocamos
-moi preto do obxecto, de xeito que poida recoller practicamente toda a luz
-reflectida por unha parte pequena do obxecto e facer unha imaxe moi boa desa
-zona. Con todo, aínda estamos limitados a resolucións da orde da lonxitude de
-onda da luz. É dicir, se o obxecto ten detalles de dimensións da lonxitude de
-onda ou menores, imos perder información na imaxe. A razón fundamental é que,
-nese caso, a luz reflectida non só consta de ondas viaxeiras, senón que tamén
-inclúe ondas evanescentes. Esas ondas son creadas por eses detalles tan finos e
-non van poder ser recollidas pola lente (como xa dixemos son ondas localizadas
-de moi pouca extensión). Para resumir: podemos explicar o límite de difracción
-pola presenza das ondas evanescentes xeradas na reflexión nun obxecto.
+non, os especialistas en óptica sabemos ben que hai un límite na perfección da
+imaxe: dise que a resolución da imaxe está limitada pola difracción.
+Basicamente, podemos dicir que a lente ten unha abertura limitada e non é capaz
+de recoller toda a luz reflectida. Pero podemos imaxinar que usamos un
+obxectivo de microscopio de gran abertura que colocamos moi preto do obxecto,
+de xeito que poida recoller practicamente toda a luz reflectida por unha parte
+pequena do obxecto e facer unha imaxe moi boa desa zona. Con todo, aínda
+estamos limitados a resolucións da orde da lonxitude de onda da luz. É dicir,
+se o obxecto ten detalles de dimensións da lonxitude de onda ou menores, imos
+perder información na imaxe. A razón fundamental é que, nese caso, a luz
+reflectida non só consta de ondas viaxeiras, senón que tamén inclúe ondas
+evanescentes. Esas ondas son creadas por eses detalles tan finos e non van
+poder ser recollidas pola lente. Para resumir: podemos explicar o límite de
+difracción pola presenza das ondas evanescentes xeradas na reflexión nun
+obxecto.
 
 Agora que xa sabemos un pouco máis das ondas evanescentes, podemos
 preguntarnos: para que serven? Boa pregunta. Para empezar, vou indicar algúns
@@ -224,12 +211,8 @@ detección cunha sonda moi fina e moi próxima á superficie dunha mostra permit
 ou ben limitar a excitación á zona do campo evanescente, ou ben obter
 información detallada por debaixo do límite de difracción. Finalmente, nas
 pinzas ópticas evanescentes úsase o campo evanescente para exercer forzas sobre
-partículas nanométricas moi próximas a unha superficie.
-
-Poderiamos estendérmonos máis, pero creo que non paga a pena. O propósito desta
-publicación é só estimular a vosa curiosidade e transmitirvos unha pinga de
-coñecemento do mundo máxico das ondas evanescentes. Para saber máis, consultade
-a referencia @raul_5.
+partículas nanométricas moi próximas a unha superficie. Para saber máis,
+consultade a referencia @raul_5.
 
 A modo de resumo, as ondas evanescentes son ondas localizadas na contorna dunha
 superficie que decaen rapidamente sen que haxa perda neta de enerxía. O
