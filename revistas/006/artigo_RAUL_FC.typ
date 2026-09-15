@@ -39,7 +39,7 @@ espacialmente. É dicir, son ondas que decaen sen perda de enerxía (véxase a
 @im:1).
 
 #figure(
-  image("/revistas/006/imaxes/raul_1.png"),
+  image("/revistas/006/imaxes/RAUL_FC_1.png"),
   caption: [Representación dunha onda harmónica (esquerda), una onda
   amortecida (centro) e unha onda evanescente (dereita). As frechas continuas
   indican a dirección de propagación das ondas mentres que as frechas
@@ -66,7 +66,7 @@ crítico--, toda a luz é reflectida no prisma: non hai luz transmitida cara ao
 aire (@im:2 b).
 
 #figure(
-  image("/revistas/006/imaxes/raul_2.png"),
+  image("/revistas/006/imaxes/RAUL_FC_2.png"),
   caption: [(a) Reflexión e transmisión parcial de luz. (b) Reflexión total.
   (c) Reflexión total frustrada.]
 )<im:2>
@@ -131,7 +131,7 @@ fabricar dispositivos como acopladores ou sensores en fibras ópticas nos que a
 onda evanescente ten un papel esencial. 
 
 #figure(
-  image("/revistas/006/imaxes/raul_3.png"),
+  image("/revistas/006/imaxes/RAUL_FC_3.png"),
   caption: [Representación dunha fibra óptica.]
 )<im:3>
 
@@ -166,7 +166,7 @@ característica esencial desta interacción plasmónica é que é moi sensible a
 pequenos cambios físico-químicos no dieléctrico.
 
 #figure(
-  image("/revistas/006/imaxes/raul_4.png"),
+  image("/revistas/006/imaxes/RAUL_FC_4.png"),
   caption: [Representación da excitación dun plasmón de superficie 
     mediante luz.]
 )<im:4>
