@@ -11,7 +11,7 @@ dentro coma fóra da Facultade de Física, coa finalidade de fomentar e cultivar
 o interese e a curiosidade pola física e a ciencia. Por medio de artigos de
 divulgación, novas científicas, entrevistas a personalidades, achegas sobre a
 historia e filosofía da ciencia, e mesmo algún que outro artigo de corte
-popular, a revista pretende ofrecer unha visión ampla e accesíbel.
+popular, a revista pretende ofrecer unha visión ampla e accesible.
 
 Este proxecto, impulsado polo estudantado de Física da USC, naceu no ano 2025
 co obxectivo de crear un recuncho de expresión que vaia máis aló do
@@ -68,9 +68,9 @@ escribirnos ao correo ou preguntar nos grupos da DAF e da revista!
 O repositorio contén:
 
 - `estilo.typ` - Estilo de Typst para a revista.
-- `momentum-citacions.csl` - Estilo de citas bibliográficas do Citation Style Language, variante do estilo APS
+- `momentum-citacions.csl` - Estilo de citas bibliográficas do Citation Style Language, variante do estilo APS.
 - `Makefile` - Configuración para compilar a revista.
-- `CITATION.cff` - Para descargar a propia referencia bibliográfica da nosa revista ca información correcta.
+- `CITATION.cff` - Para descargar a propia referencia bibliográfica da nosa revista coa información correcta.
 
 Cartafoles principais:
 
@@ -100,7 +100,7 @@ Cartafoles principais:
     No tocante á imaxe da portada, cómpre que sexa *exactamente*
     cadrada para non ter problemas na compilación, isto pode facerse
     con programas como [Inkscape](https://inkscape.org/), [Gimp](https://www.gimp.org/)
-    ou [ImageMagick](https://imagemagick.org/)
+    ou [ImageMagick](https://imagemagick.org/).
 - `logos/` - Logos da universidade, facultade e institucións colaboradoras en PDF.
 - `fontes/` - Tipos de letra empregados na revista.
 - `trebellos/` - Recursos auxiliares e outros scripts da equipa de edición.
@@ -129,10 +129,10 @@ que fai é cargar o estilo da revista, aplicalo, e chamar a función que xera o 
 #crear_revista()
 ```
 
-O **ficheiro de datos** de cada revista, ven sendo `revistas/001/datos_001.typ`,
-onde se define a variable `informacion_revista` que é usada polo estilo para saber
+O **ficheiro de datos** de cada revista vén sendo `revistas/001/datos_001.typ`,
+onde se define a variable `informacion_revista`, que é usada polo estilo para saber
 que artigos meter dentro, que cores usar, que datas, imaxe da portada, etc. Estes datos
-sobreescriben os que temos por defecto no ficheiro `estilo.typ`
+sobreescriben os que temos por defecto no ficheiro `estilo.typ`.
 
 ```typst
 // revistas/001/datos_001.typ
@@ -167,7 +167,7 @@ sobreescriben os que temos por defecto no ficheiro `estilo.typ`
 )
 ```
 
-Adicionalmente, tamén se poden incluir os datos `repositorio`,  `whatsapp`,
+Adicionalmente, tamén se poden incluír os datos `repositorio`,  `whatsapp`,
 `instagram`, `anteriores` e `correo`, pero como son sempre os mesmos, non fai
 falla repetilos en cada número. Máis información sobre a implementación e
 particularidades no ficheiro de [estilo da revista](./estilo.typ).
@@ -210,9 +210,9 @@ e inclúense na revista metendo o seu nome en `datos_001.typ`. Teñen a seguinte
 ] // fin das fúas columnas
 ```
 
-A función `Artigo` é o centro de cada artigo: cambia as seccións da revista,
+A función `Artigo` é o centro de cada escrito: cambia as seccións da revista,
 reinicia numeracións, dá formato aos encabezados, define nomes... Véxase
-[a documentacion](./docs/proceso_edicion.md) pra máis info de como funcionan os artigos.
+[a documentación](./docs/proceso_edicion.md) para máis info de como funcionan os artigos.
 
 <p align="right"><a href="#mag-índice-de-contidos">(voltar ao índice)</a></p>
 
@@ -223,9 +223,9 @@ reinicia numeracións, dá formato aos encabezados, define nomes... Véxase
 Este proxecto usa [Typst](https://typst.app/) como linguaxe de programación; a
 compilación manéxase con [make](https://www.gnu.org/software/make/); e as
 versións do código con [Git](https://git-scm.com/). Fai falla ter o compilador
-de Typst, GNU-Make e Git instalados e na `$PATH`. **non** se soporta a
-compilación en liña en typst.app. En principio so se soporta Linux(es), pero
-pode que Mac e Windows tamén funcionen.
+de Typst, GNU-Make e Git instalados e na `$PATH`. **Non** se dá soporte á
+compilación en liña a través de typst.app. En principio só se soporta
+Linux(es), pero pode que Mac e Windows tamén funcionen.
 
 - O recomendable é traballar en Linux e ter unha [instalación de rust](https://rustup.rs/),
   logo instalar a última versión de desenvolvemento de Typst usando
@@ -234,10 +234,10 @@ pode que Mac e Windows tamén funcionen.
   cargo install --git https://github.com/typst/typst --locked typst-cli
   ```
 - En windows, o recomendable sería instalar Typst usando [scoop](https://scoop.sh/),
-  usando o cubo **nightly**. Para instalar Make, pode probarse tamén a instalalo con Scoop,
-  senón, están as *toolchains* [MYSYS2](https://www.msys2.org/), [CYGWIN](https://cygwin.com/),
+  usando o cubo **nightly**. Para instalar Make, pode probarse tamén a instalalo con Scoop;
+  se non, están as *toolchains* [MYSYS2](https://www.msys2.org/), [CYGWIN](https://cygwin.com/),
   [GIT BASH](https://gitforwindows.org/) ou pode que [WSL](https://github.com/microsoft/WSL).
-  En calquera caso, **NON** nos esperamos que se use en Windows, enserio,
+  En calquera caso, **NON** nos esperamos que se use en Windows, en serio,
   cambiade de sistema operativo.
 - Se ides facer **git clone** do repositorio precisaredes instalar tamén
   [git-lfs](https://git-lfs.com/), que é o que empregamos para evitar gardar
@@ -259,9 +259,9 @@ pode que Mac e Windows tamén funcionen.
 - Todo o proceso de compilación se manexa con Make (véxase a [makefile](./Makefile)):
   ```bash
   make numero=001              # Compilar a revista número 001
-  make numero=001 metodo=watch # compila a revista usando o método incremental de Typst
+  make numero=001 metodo=watch # Compila a revista usando o método incremental de Typst
   make numero=001 propaganda   # Xerar as propagandas do número 001
-  make numero=001 artigos      # compila a revista e os artigos individuais para os redactores.
+  make numero=001 artigos      # Compila a revista e os artigos individuais para os redactores
   make todo                    # Compila todas as revistas, propagandas e artigos individuais
   make limpa                   # Limpar os ficheiros auxiliares
   ```
