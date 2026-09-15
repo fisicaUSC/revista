@@ -1,6 +1,8 @@
 #let informacion_revista = (
 
     artigos : (
+		"/revistas/006/artigo_VICTOR_DD.typ",
+
     ),
 
     cor_resalte: "ff0000",
