@@ -2,6 +2,7 @@
 
     artigos : (
       "revistas/006/artigo_RAUL_FC.typ",
+        "/revistas/006/artigo_DAVID_CV.typ",
     ),
 
     cor_resalte: "ff0000",
