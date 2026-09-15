@@ -5,7 +5,7 @@
     subtitulo  : [As dificultades técnicas de crear un documento dixital de calidade.],
     afiliacion : [(un) xefe de Edición da Revista *$arrow("M")$*omentum],
     autoria    : "David Cotelo Varela",
-    estilo     : "PROGRAMACIÓN e HISTORIA",
+    tema       : "PROGRAMACIÓN e HISTORIA",
 )
 
 #columns[
