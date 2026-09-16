@@ -5,6 +5,7 @@
 		"/revistas/006/artigo_JULIO_NF.typ",
         "/revistas/006/artigo_RAUL_FC.typ",
         "/revistas/006/artigo_DAVID_CV.typ",
+        "/revistas/006/artigo_SAXA_ESTEVO_MARTA.typ"
     ),
 
     cor_resalte: "ff0000",
