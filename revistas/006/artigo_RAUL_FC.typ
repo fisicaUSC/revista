@@ -33,7 +33,7 @@ frustrada (normalmente esta frase se formula ao revés, non coñezo o porqué).
 )<im:1>
 
 Cando falamos da luz, falamos de algo que se despraza ou se propaga cunha
-velocidade inmensamente grande, $300000 thin frac(k m, s, style: "horizontal")$
+velocidade inmensamente grande, $300000$~km/s
 no espazo baleiro. As ondas de luz ordinarias son ondas viaxeiras, emerxen
 dunha fonte para propagarse polo espazo. No sentido clásico, propáganse como
 oscilacións ou vibracións de alta frecuencia dos campos electromagnéticos,
@@ -115,8 +115,8 @@ interior cilíndrico e un revestimento que o rodea. Tamén posúen unha cuberta
 protectora. A característica principal das fibras ópticas é que o índice de
 refracción do núcleo é maior ca o do revestimento. Esta característica permite
 que a luz quede confinada na fibra e poida propagarse a distancias moi longas.
-En fibras ópticas típicas, o diámetro do núcleo varía de 8–10 $mu m$ ata 50–60
-$mu m$, cun revestimento de 125 $mu m$, aínda que existen fibras de centos de
+En fibras ópticas típicas, o diámetro do núcleo varía de 8–10 $upright(mu)$m ata 50–60
+$upright(mu)$m, cun revestimento de 125 $upright(mu)$m, aínda que existen fibras de centos de
 micras de espesor. Que papel xogan as ondas evanescentes nunha fibra? A maior
 parte da luz propágase dentro do núcleo, pero sempre existe unha cola que
 penetra no revestimento ata esvaecer dentro del. Poderiamos dicir que son
