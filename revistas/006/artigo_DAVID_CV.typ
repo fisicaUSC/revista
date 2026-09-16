@@ -72,9 +72,9 @@ revista que estás a ler agora.
 
 O estilo final da portada, contraportada e dos artigos foi a concurso
 aberto, que gañou Víctor Díaz e quen fixo a portada inicial en
-Scribus#footnote[Dita portada feita en Scribus tívena que pasar de cero a
+Scribus/*#footnote[Dita portada feita en Scribus tívena que pasar de cero a
 `LaTeX`, o cal foi das experiencias máis frustrantes da miña vida, chegando
-a provocarme pesadelos.] e o exemplo dos artigos e a contraportada a
+a provocarme pesadelos.]*/ e o exemplo dos artigos e a contraportada a
 `LaTeX` seguindo a inspiración que discutimos en varias reunións. O índice
 foi feito de cero por Dani. Eu encargueime de pasar todo a un so documento
 de `LaTeX` (portada, índice, artigos e contraportada), e de crear a
@@ -124,15 +124,6 @@ reunións e discusións; a organización xeral dentro do grupo de edición e co
 resto de grupos foi mellorando (a base de discusións exclusivamente); as
 datas comezaron a respectarse máis...
 
-#figure(
-    image( "/revistas/006/imaxes/DAVID_CV_propaganda.png"),
-    caption: [
-        Exemplo dos carteis propagandísticos que colgamos polas facultades.
-        Créanse _automaticamente_ a partir do PDF orixinal da versión
-        dixital da revista.
-    ]
-) <fig:propaganda>
-
 Co tempo e ca experiencia vímonos na necesidade de implementar novas
 funcións que eran moi complexas, como xerar un PDF etiquetado e accesible
 (`Tagged PDF` + #box[`PDF/UA-1`]); manexar mellor os espazos de cores do
@@ -146,6 +137,15 @@ redactores; entre outros. Todo feito a man en `LaTeX`, automatizado con
 máis elaborado, e a funcionalidade ampliouse moito. Non teñades vergoña,
 mirade o código en #link("https://github.com/fisicaUSC/revista",
 [`https://github.com/fisicaUSC/revista`]).
+
+#figure(
+    image( "/revistas/006/imaxes/DAVID_CV_propaganda.png"),
+    caption: [
+        Exemplo dos carteis propagandísticos que colgamos polas facultades.
+        Créanse _automaticamente_ a partir do PDF orixinal da versión
+        dixital da revista.
+    ]
+) <fig:propaganda>
 
 == Inda así, está aprobado
 
@@ -188,16 +188,8 @@ equipa de corrección, quenes se aseguran de que a revista esté escrita
 _ben_. Deseguido, os redactores reciben unha copia do seu artigo para
 confirmar o traballo, e despois damos un repaso editorial final e rematamos
 o proceso compilando os carteis e a versión impresa.
-
 O proceso é, en xeral, máis complexo. En total leva aproximadamente un mes
 de traballo por parte dunha ducia de persoas.
-
-#figure(
-    image( "/revistas/006/imaxes/DAVID_CV_gantt.png"),
-    caption: [
-        Un diagrama de Gantt _orientativo_ do traballo de facer unha revista.
-    ]
-)
 
 Si, a revista é complicada. Un esforzo moi grande que levamos facendo
 durante meses na nosa equipa é facilitar na medida do posible a edición da
@@ -213,6 +205,13 @@ traballo. Como referencia, dende a creación da revista fixéronse cambios ao
 longo dunhas 175 contribucións, cambiando a man unhas ~16.000 liñas de
 código entre uns 230 ficheiros diferentes. E _todo_ feito a man por 8
 persoas.
+
+// #figure(
+//     image( "/revistas/006/imaxes/DAVID_CV_gantt.png"),
+//     caption: [
+//         Un diagrama de Gantt _orientativo_ do traballo de facer unha revista.
+//     ]
+// )
 
 Un dos cambios máis relevantes que fixemos no código foi unha migración de
 linguaxe de `LaTeX` a `Typst` #link("https://typst.app",
