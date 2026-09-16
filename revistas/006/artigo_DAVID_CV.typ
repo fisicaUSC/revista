@@ -206,13 +206,6 @@ longo dunhas 175 contribucións, cambiando a man unhas ~16.000 liñas de
 código entre uns 230 ficheiros diferentes. E _todo_ feito a man por 8
 persoas.
 
-// #figure(
-//     image( "/revistas/006/imaxes/DAVID_CV_gantt.png"),
-//     caption: [
-//         Un diagrama de Gantt _orientativo_ do traballo de facer unha revista.
-//     ]
-// )
-
 Un dos cambios máis relevantes que fixemos no código foi unha migración de
 linguaxe de `LaTeX` a `Typst` #link("https://typst.app",
 [`https://typst.app`]), que é unha alternativa moderna, potente, rápida e
