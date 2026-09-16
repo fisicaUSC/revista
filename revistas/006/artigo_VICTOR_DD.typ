@@ -122,7 +122,7 @@
 	#figure(
 		image(
 			width: 100%,
-			"/revistas/006/imaxes/caixa.png"
+			"/revistas/006/imaxes/VICTOR_DD_caixa.png"
 		),
 		caption: [
 			A caixa construida por Tait. Extraído de @Tait.
@@ -162,7 +162,7 @@
 	#figure(
 		image(
 			width: 100%,
-			"/revistas/006/imaxes/nos.png"
+			"/revistas/006/imaxes/VICTOR_DD_nos.png"
 		),
 		caption: [
 			Os sete nós máis sinxelos clasificados por Tait. 
