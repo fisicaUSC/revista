@@ -1,7 +1,8 @@
 #let informacion_revista = (
 
     artigos : (
-		    "/revistas/006/artigo_VICTOR_DD.typ",
+		"/revistas/006/artigo_VICTOR_DD.typ",
+		"/revistas/006/artigo_JULIO_NF.typ",
         "/revistas/006/artigo_RAUL_FC.typ",
         "/revistas/006/artigo_DAVID_CV.typ",
     ),
