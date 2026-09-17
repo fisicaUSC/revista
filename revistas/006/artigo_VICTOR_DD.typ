@@ -199,7 +199,7 @@
 
 	A revolución chegou en 1905 da man de Albert Einstein coa proposta 
 	dunha teoría derivada a partir de primeiros principios que ignoraba 
-	a existencia do éter,pero que conseguía explicar todos os fenómenos 
+	a existencia do éter, pero que conseguía explicar todos os fenómenos 
 	observables anteriormente atribuídos a el @Einstein. Esta nova 
 	teoría incluía o fenómeno de contracción de lonxitudes, e implicaba 
 	tanto a relatividade do espazo coma do tempo.
