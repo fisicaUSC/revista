@@ -15,7 +15,7 @@ Este artigo tratará o fenómeno estrutural que se agocha tras o momento concret
 e como se expresan estes antagonismos na facultade e, en xeral, no sistema
 educativo.
 
-== Análise conxuntural ou como se manifestan os síntomas da crise do capital
+== Análise conxuntural // ou como se manifestan os síntomas da crise do capital
 
 A vida nos nosos centros de ensino está marcada polo constante empeoramento das
 condicións de estudo, traballo e investigación. Equipos que levan décadas sen
@@ -52,9 +52,9 @@ periodicamente enchen as rúas de Compostela, nas xornadas de loita que os días
 26 e 27 de novembro tomaron as universidades de Madrid ou as protestas masivas
 que mobilizaron centos de miles de persoas na capital arxentina contra os
 recortes no ensino do goberno de Milei, tal e como se analiza en
-@2262_marcha_universitaria. É claro que estamos ante unha ofensiva global.
-Entón, cabe preguntarse como xorde este empeoramento das nosas condicións de
-vida e como podemos freala.
+@2262_marcha_universitaria. // É claro que estamos ante unha ofensiva global.
+// Entón, cabe preguntarse como xorde este empeoramento das nosas condicións de
+// vida e como podemos freala.
 
 == Causas estruturais desta crise (marco político)
 
@@ -94,28 +94,27 @@ primeira universidade privada na Galiza, ao crecemento descarado da subvención
 de centros concertados e a un pico inédito da oferta en formación profesional
 privada.
 
-Caracterizada e contestada a pregunta de como xorde a crise, de forma xeral e
-no contexto educativo en particular, corresponde dar algús apuntes sobre como
-combatela de forma efectiva. Para isto  sería necesario falar do papel que
-desenvolve a educación no disciplinamento da nosa clase e no mantemento das
-relacións sociais capitalistas, mais por extensión non será posíbel unha
-analise detallada deste proceso. Pese a todo, cabe recalcar que esta función
-responde a unha necesidade xeral do capital que se traduce en meritocracia e
-burocracia, polo que as institucións educativas son necesariamente clasistas,
-sexan públicas ou privadas. Falamos de clasismo no ensino non unicamente polas
-diferenzas de oportunidades á hora de acceder ao mesmo, senón tamén polas
-posibilidades de excelencia e estudo evidentemente distintas entre clases
-incluso en momentos de relativo auxe da educación pública. Isto ocorre porque a
-educación non é unha esfera illada do conxunto da vida. Quen ten que
-preocuparse polo desfiuzamento da súa familia ou do despido dos seus pais,
-obviamente non vive un bo contexto para o estudo. Se queremos reivindicar
-melloras nas condicións de estudo, debemos abordar as condicións de vida, non
-nos podemos limitar á loita estudiantil. É polo tanto unha cuestión de clase.
-Neste sentido é evidente que a educación pública ofrece un servizo moito máis
-accesíbel e con certas garantías democráticas. Pero debemos recordar que estes
-mínimos en termos de educación non son eternos nin están asegurados e se
-existen, non é pola vontade do presidente de turno, senón pola loita histórica
-da nosa clase pola calidade de vida. @ani_perez
+Caracterizada e contestada a pregunta de como xorde a crise corresponde dar
+algús apuntes sobre como combatela de forma efectiva. Para isto  sería
+necesario falar do papel que desenvolve a educación no disciplinamento da nosa
+clase e no mantemento das relacións sociais capitalistas, mais por extensión
+non será posíbel unha analise detallada deste proceso. Pese a todo, cabe
+recalcar que esta función responde a unha necesidade xeral do capital que se
+traduce en meritocracia e burocracia, polo que as institucións educativas son
+necesariamente clasistas, sexan públicas ou privadas. Falamos de clasismo no
+ensino non unicamente polas diferenzas de oportunidades á hora de acceder ao
+mesmo, senón tamén polas posibilidades de excelencia e estudo evidentemente
+distintas entre clases incluso en momentos de relativo auxe da educación
+pública. Isto ocorre porque a educación non é unha esfera illada do conxunto da
+vida. Quen ten que preocuparse polo desfiuzamento da súa familia ou do despido
+dos seus pais, obviamente non vive un bo contexto para o estudo. Se queremos
+reivindicar melloras nas condicións de estudo, debemos abordar as condicións de
+vida, non nos podemos limitar á loita estudiantil. É polo tanto unha cuestión
+de clase. Neste sentido é evidente que a educación pública ofrece un servizo
+moito máis accesíbel e con certas garantías democráticas. Pero debemos recordar
+que estes mínimos en termos de educación non son eternos nin están asegurados e
+se existen, non é pola vontade do presidente de turno, senón pola loita
+histórica da nosa clase pola calidade de vida. @ani_perez
 
 == Formas organizativas e estratexias de loita //\ (definición do suxeito político e ferramentas de loita)
 
@@ -126,7 +125,7 @@ de sociedade. Quen vai acometer esta tarefa non é o estudantado en xeral, pois
 o empeoramento das condicións de estudo e o proceso de privatización da
 educación non afecta no mesmo grado a quen pode pagar unha matrícula nunha
 universidade privada e a quen non. Do mesmo xeito, o obxectivo do acceso á
-educación do proletariado  é o mellor exercicio a futuro da súa función como
+educación do proletariado é o mellor exercicio a futuro da súa función como
 forza de traballo explotada, distanciándoo do resto de sectores do estudantado.
 Por último, tratándose a crise dumha problematica xeral, so a organización de
 amplos sectores da clase pode atacar o problema de raiz. A forza da clase
