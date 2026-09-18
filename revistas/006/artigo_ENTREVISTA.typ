@@ -15,8 +15,6 @@ histórico da NASA pareceu marcar a traxectoria desta galega formada entre a
 Universidade de Santiago de Compostela e o Instituto de Astrofísica de
 Canarias que se doutorou en Astrofísica na Universidade de Manchester.
 
-
-
 A súa estela continuou ata Canadá onde traballou nunha empresa baixo a
 dirección da Axencia Espacial dese país, deseñando e construíndo o Fine
 Guidance Sensor, que empregaría a NASA para o telescopio espacial James Webb. A
@@ -50,7 +48,7 @@ clases, despois da boa experiencia coa miña tesis en Jodrell Bank (Universidade
 de Manchester), cando empecei a traballar en Canadá xa na empresa privada para
 telescopios no espazo, en particular no James Webb, tiñamos reunións a miúdo
 cos encargados da NASA que ían a recibir os dous instrumentos que eran a
-contribución Canadense - o Fine Guidance Sensor (FGS) e o Near Infrared Imager
+contribución Canadense -- o Fine Guidance Sensor (FGS) e o Near Infrared Imager
 and Slitless Spectrograph (NIRISS) -- e coñeceron o meu traballo como enxeñeira
 de sistemas deses dous instrumentos e gustáballes ese traballo e aprenderon a
 confiar en min. Cando entregamos os instrumentos para integración do telescopio
@@ -80,11 +78,11 @@ e inspirar a confianza de que vas a cumprir aquelo do que es responsable.
 
 O FGS é crítico para o telescopio porque é o que permite que apunte onde sexa
 necesario para a ciencia e que o telescopio se manteña estable cando os datos
-científicos se están tomando -- é como si queres tomar unha foto coa cámara pero
-se a cámara se está movendo a foto sería movida. Facemos isto buscando unha
-estrela en particular en cada zoa do ceo que se queira mirar e mandando a
-información da súa posición moi precisamente - 1 millisegundo de arco (mas) --
-16 veces cada segundo. Esta información é recibida polo control de atitude do
+científicos se están tomando -- é como si queres tomar unha foto coa cámara
+pero se a cámara se está movendo a foto sería movida. Facemos isto buscando
+unha estrela en particular en cada zoa do ceo que se queira mirar e mandando a
+información da súa posición moi precisamente -- 1 millisegundo de arco (mas) --
+16 veces cada segundo. Esta información é recibida polo control de altitude do
 telescopio que pode mover un espello para que a estrela se quede exactamente
 nesa posición cando os datos científicos se están tomando.
 
@@ -98,7 +96,6 @@ imaxes en distintas lonxitudes de onda e tamén ten elementos que dispersan a
 luz para poder facer espectros (grisms e prismas), e tamén ten un elemento nesa
 roda que elimina a luz de unha estrela por interferencia e permite buscar
 planetas cerca de esa estrela -- é o instrumento de Webb que pode buscar
-
 planetas máis cercanos as estrelas coa tecnoloxía de esa máscara. Como todos os
 instrumentos de Webb con moitos avances tecnolóxicos.
 
@@ -111,9 +108,9 @@ directora da última proba fría dos instrumentos en Goddard e de participar
 tamén na proba fría en Houston xa cos espellos unidos aos instrumentos. Estas
 probas son fundamentales porque duplican as condicións que verán os
 instrumentos no espazo -- o baleiro e as temperaturas tan baixas (no caso dos
-instrumentos de Webb a -233 C). Traballamos 24 horas o día en turnos, 7 días a
-semán no caso de Webb por 100 días pra ensayar todo o que necesitamos facer en
-órbita tan eficientemente como sea posible e comprobar a alienación de todas as
+instrumentos de Webb a -233ºC). Traballamos 24 horas o día en turnos, 7 días a
+semán no caso de Webb por 100 días para ensayar todo o que necesitamos facer en
+órbita tan eficientemente como sexa posible e comprobar a alienación de todas as
 compoñentes -- son probas difíciles que requieren moita coordinación e un equipo
 grande para executalas.
 
@@ -152,7 +149,7 @@ enriquecedor.
 ]
 
 Teño a sorte de seguir traballando no Webb co instrumento de guía pero tamén de
-haberme podido unir ao equipo de outro telescopio punteiro da NASA -- o Nancy
+poderme unir ao equipo de outro telescopio punteiro da NASA -- o Nancy
 Grace Roman. Encargueime da proba fría dos instrumentos de Roman e estou
 encargada das operacións do seo instrumento de guía. Este telescopio pode facer
 imaxines do universo mais de 100 veces mais amplias das que poden facer Hubble
@@ -165,9 +162,9 @@ noso universo se expanda cada vez mais rápido inda que pode que esa velocidade
 de expansión fora distinta antes -- ultimamente esas dous compoñentes
 determinan o futuro de este universo.
 
-▪ Roman pode tamén encontrar miles de planetas novos arredor de outras estrelas
+Roman pode tamén encontrar miles de planetas novos arredor de outras estrelas
 o incluso aqueles que foran expulsados dun sistema solar e vayan ‘flotando’ no
-espáceo -- esto vai a ser moi importante nesta procura dun planeta que se poda
+espazo -- esto vai a ser moi importante nesta procura dun planeta que se poda
 parecer a o noso e que quizá poda albergar vida.
 
 #Pregunta[
@@ -233,7 +230,7 @@ toda a súa contribución. Está demostrado en moitas empresas que ter unha
 variedade en todos os niveis é moi beneficioso porque pensamos de forma
 distinta e pódense atacar problemas é realizar cousas mellor así.
 
-E sempre agradecerei ao meo pai efectivamente que nos educou e animou por igual
+E sempre agradecerei ao meu pai efectivamente que nos educou e animou por igual
 a estudiar e traballar e esforzarnos en dar o mellor posible de nós, sen perder
 a humildade.
 
@@ -249,16 +246,16 @@ podan cumprir os seus sonos.
 
 Que teñan confianza neles mesmos, que non teñan medo aos cambios e podan
 apreciar as oportunidades que xurdan no seu camiño -- e que sigan aprendendo e
-traballando para que cando xurdan esas oportunidades estean preparados pa
-tomalas. Aconsello Aconsexo ter contactos e colaboracións internacionais para
+traballando para que cando xurdan esas oportunidades estean preparados para
+tomalas. Aconsello ter contactos e colaboracións internacionais para
 aprender o entender como se fan as cousas noutros sitios. É a importancia da
 divulgación e podar explicar a todos aquelo non que se traballa.
 
 Tamén que a vida nunca vai exactamente como pensamos e planeamos e todos temos
-días ou semas que non foron como desexábamos pero non hai que deixarse
-desanimar que sempre ven outros mellores e aprendemos moito dos que non foron
+días ou semanas que non foron como desexábamos pero non hai que deixarse
+desanimar que sempre veñen outros mellores e aprendemos moito dos que non foron
 exactamente como quixemos.
 
 É non olvidarse de intentar ser boas persoas é de apreciar o camiño e todo o
-que encontraremos nel -- cando se mira pa atrás dámonos conta de moitas cousas a
-desfrutar no día a día.
+que encontraremos nel -- cando se mira para atrás dámonos conta de moitas
+cousas a desfrutar no día a día.
