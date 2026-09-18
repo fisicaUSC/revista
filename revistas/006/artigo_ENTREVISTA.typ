@@ -30,9 +30,7 @@ distinguida foi acreditada polas Súas Maxestades os Reis de España como
 Embaixadora Honoraria da Marca España en Ciencia e Innovación e formou parte da
 lista Forbes das 100 mulleres máis influentes en España no 2022 e no 2023.
 
-#v(0.3em)
-
-#line(length: 100%, stroke: 0.6pt + rgb(datos.cor_resalte))
+#divider()
 
 #Pregunta[
   Moitas grazas Begoña por darnos a oportunidade de falar contigo sobre a túa
