@@ -912,7 +912,7 @@
 #let CrearBibliografia(bib) = {
     // Nota: as traduccións de CSL están incluídas xa en hayagriva: https://github.com/typst/hayagriva/blob/main/archive/locales/gl-ES.cbor
     // :FACER:MIGRACION: usar o nome do ficheiro automaticamente
-    heading(depth: 2, condensada[*Bibliografía*])
+    heading(depth: 2, condensada[*Referencias*])
     bibliography(
         bib,
         style: "/momentum-citacions.csl",
