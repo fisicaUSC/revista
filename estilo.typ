@@ -116,6 +116,7 @@
     repositorio       : "fisicaUSC/revista",
     whatsapp          : "https://chat.whatsapp.com/E900g1Bq7QT5ZKeuiIpxTk",
     instagram         : "momentum.usc",
+    twitter           : "momentumusc",
     anteriores        : "https://www.usc.gal/gl/centro/facultade-fisica/revista-estudantil-momentum",
     correo            : "revistafisicaUSC@gmail.com",
     participantes     : ( "-- SEN POSTOS -- ": ("-- SEN PARTICIPANTES --",),),
@@ -394,7 +395,7 @@
 #let crear_indice() = grid(
 
     // Grid tamaño 4x3
-    rows    : (2cm, 1fr  , 5.5cm, 3.5cm),
+    rows    : (2cm, 1fr  , 7cm, 3.5cm),
     columns : (1fr, 1.5cm, 6.2cm       ),
 
     // Índice de artigos
@@ -414,6 +415,7 @@
                 )
             )
             // Texto coas liñas e o tema da sección
+            // :FACER: poñer esta función afora do grid
             let separador(tema) = block(
                 width: 10cm,
                 grid(
@@ -504,7 +506,7 @@
         {
             set par(spacing: 0pt)
             grid(
-                rows: 3,
+                rows: 4,
                 row-gutter: 1em,
                 columns : (100%,),
                 // CORREO
@@ -518,6 +520,12 @@
                     columns:1, rows:2, row-gutter: 7pt,
                     text(size: 20pt, font: _simb.familia)[#h(3pt) ],
                     link("https://www.instagram.com/" + datos.instagram, sans[@#datos.instagram])
+                ),
+                // INSTAGRAM
+                grid(
+                    columns:1, rows:2, row-gutter: 7pt,
+                    text(size: 20pt, font: _simb.familia)[#h(3pt) 󰕄],
+                    link("https://www.twitter.com/" + datos.twitter, sans[@#datos.twitter])
                 ),
                 // INFO GIT
                 grid(

@@ -4,6 +4,7 @@
 #let version = sys.inputs.at("version")
 #import("/estilo.typ"): datos
 
+// :FACER: usar estilo.typ: _norm.familia etc.
 #set text(
     font     : "New Computer Modern Sans",
     tracking : -0.04em,
@@ -143,25 +144,30 @@
                             ),
                             grid.cell(x:0, y:1, block(stroke: 1pt, width: 90%, inset: 7pt, fill: white, QR)),
                         ),
-                    grid(
-                        rows: (1fr,1fr,1fr),
-                        columns : (100%,),
                         grid(
-                            columns:1, rows:2, row-gutter: 7pt,
-                            text(size: 20pt, font: "Symbols Nerd Font Mono")[#h(3pt) ],
-                            link("mailto:" + datos.correo, [#datos.correo])
-                        ),
-                        grid(
-                            columns:1, rows:2, row-gutter: 7pt,
-                            text(size: 20pt,  font: "Symbols Nerd Font Mono")[#h(3pt) ],
-                            link("https://www.instagram.com/" + datos.instagram, [@#datos.instagram])
-                        ),
-                        grid(
-                            columns:1, rows:2, row-gutter: 7pt,
-                            text(size: 20pt, font: "Symbols Nerd Font Mono")[#h(3pt) ],
-                            link("https://github.com/" + datos.repositorio, [#datos.repositorio]),
+                            rows: (1fr,1fr,1fr),
+                            columns : (100%,),
+                            grid(
+                                columns:1, rows:2, row-gutter: 7pt,
+                                text(size: 20pt, font: "Symbols Nerd Font Mono")[#h(3pt) ],
+                                link("mailto:" + datos.correo, [#datos.correo])
+                            ),
+                            grid(
+                                columns:1, rows:2, row-gutter: 7pt,
+                                text(size: 20pt,  font: "Symbols Nerd Font Mono")[#h(3pt) ],
+                                link("https://www.instagram.com/" + datos.instagram, [@#datos.instagram])
+                            ),
+                            grid(
+                                columns:1, rows:2, row-gutter: 7pt,
+                                text(size: 20pt,  font: "Symbols Nerd Font Mono")[#h(3pt) 󰕄],
+                                link("https://www.twitter.com/" + datos.twitter, [@#datos.twitter])
+                            ),
+                            grid(
+                                columns:1, rows:2, row-gutter: 7pt,
+                                text(size: 20pt, font: "Symbols Nerd Font Mono")[#h(3pt) ],
+                                link("https://github.com/" + datos.repositorio, [#datos.repositorio]),
+                            )
                         )
-                    )
 
                     )
 

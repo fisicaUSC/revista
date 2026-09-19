@@ -129,6 +129,7 @@
 
     block(
         width  : 100%,
+        height : 4cm,
         inset  : 1em,
         fill   : rgb(datos.cor_resalte).lighten(25%),
         stroke : rgb(datos.cor_resalte).darken(50%) + 3pt,
@@ -139,22 +140,24 @@
             align   : (center + horizon, center + horizon),
             grid(
                 columns       : (auto, auto, auto),
-                rows          : (2em, 2em, 2em),
+                rows          : (1fr, 1fr, 1fr, 1fr),
                 column-gutter : 1.1em,
-                row-gutter    : 1em,
+                // row-gutter    : 1em,
                 align         : (right + horizon, center + horizon, left + horizon),
 
                 grid.cell(x:0, y:0, text(size: 12pt, [Explora o proxecto])),
-                grid.cell(x:1, y:0, text(font: "Symbols Nerd Font Mono", size: 20pt, box[])),
+                grid.cell(x:0, y:1, rowspan: 2, text(size: 12pt, [Síguenos en redes])),
+                grid.cell(x:0, y:3, text(size: 12pt, [Manda teu artigo])),
+
+                grid.cell(x:1, y:0, text(font: "Symbols Nerd Font Mono", size: 19pt, box[])),
+                grid.cell(x:1, y:1, text(font: "Symbols Nerd Font Mono", size: 19pt, box[])),
+                grid.cell(x:1, y:2, text(font: "Symbols Nerd Font Mono", size: 19pt, box[󰕄])),
+                grid.cell(x:1, y:3, text(font: "Symbols Nerd Font Mono", size: 19pt, box[󰊫])),
+
                 grid.cell(x:2, y:0, link("https://github.com/" + datos.repositorio)[ #text(size: 12pt, font: "New Computer Modern Mono", [#datos.repositorio]) ],),
-
-                grid.cell(x:0, y:1, text(size: 12pt, [Síguenos en redes])),
-                grid.cell(x:1, y:1, text(font: "Symbols Nerd Font Mono", size: 20pt, box[])),
                 grid.cell(x:2, y:1, link("https://www.instagram.com/" + datos.instagram)[#text(size: 12pt, [\@#datos.instagram])]),
-
-                grid.cell(x:0, y:2, text(size: 12pt, [Manda teu artigo])),
-                grid.cell(x:1, y:2, text(font: "Symbols Nerd Font Mono", size: 20pt, box[󰊫])),
-                grid.cell(x:2, y:2, link("mailto:" + datos.correo)[#text(size: 12pt, [#datos.correo])]),
+                grid.cell(x:2, y:2, link("https://www.twitter.com/" + datos.twitter)[#text(size: 12pt, [\@#datos.twitter])]),
+                grid.cell(x:2, y:3, link("mailto:" + datos.correo)[#text(size: 12pt, [#datos.correo])]),
             ),
             grid(
                 columns : 2,
@@ -168,7 +171,7 @@
                             text(size:1.5em, [WhatsApp ])
                             text(font: "Symbols Nerd Font Mono", fallback: false, size:1.6em)[]
                         }
-                    ),
+                    )
                 )
             )
         )
