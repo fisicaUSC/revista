@@ -16,7 +16,7 @@
 
     data_dia: 1,
     data_numero_mes: 9,
-    data_mes: "Setembro",
+    data_mes: "setembro",
     data_ano: 2026,
 
     comentario_imaxe: "",
@@ -31,7 +31,7 @@
        "Edición": (
             "Andrea Real Blanco",
             "David Cotelo Varela",
-            "Diego Couto García",  
+            "Diego Couto García",
             "Víctor Díaz Díaz",
        ),
        "Correción": (
