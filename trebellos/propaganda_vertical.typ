@@ -142,7 +142,7 @@
                 columns       : (auto, auto, auto),
                 rows          : (1fr, 1fr, 1fr, 1fr),
                 column-gutter : 1.1em,
-                // row-gutter    : 1em,
+                row-gutter    : 1em,
                 align         : (right + horizon, center + horizon, left + horizon),
 
                 grid.cell(x:0, y:0, text(size: 12pt, [Explora o proxecto])),
