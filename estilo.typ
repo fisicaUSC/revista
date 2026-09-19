@@ -521,7 +521,7 @@
                     text(size: 20pt, font: _simb.familia)[#h(3pt) ],
                     link("https://www.instagram.com/" + datos.instagram, sans[@#datos.instagram])
                 ),
-                // INSTAGRAM
+                // TWITTER
                 grid(
                     columns:1, rows:2, row-gutter: 7pt,
                     text(size: 20pt, font: _simb.familia)[#h(3pt) 󰕄],
