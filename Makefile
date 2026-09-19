@@ -61,12 +61,10 @@ OPCIONS_TYPST := \
 
 # Información de Git que aparece no índice. Son parámetros que tamén lle
 # pasamos a typst
-# :FACER: o nome de quen compila é útil pero igual era mellor quitalo do índice
 INFO_GIT := \
 	--input rama=$(shell git rev-parse --abbrev-ref HEAD) \
 	--input hash=$(shell git rev-parse --short HEAD) \
-	--input dirt=$(shell test -z "$$(git status --porcelain)" && echo "" || echo "*") \
-	--input quen="$(shell git config user.name)"
+	--input dirt=$(shell test -z "$$(git status --porcelain)" && echo "" || echo "*")
 
 # Dependencias dun número.
 # :FACER: a dependencia .../imaxes/* é molesta para as revistas novas

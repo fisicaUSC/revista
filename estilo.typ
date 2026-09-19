@@ -87,10 +87,9 @@
 //     --font-path=fontes        -> usar fontes do diretorio 'fontes'
 //     --timings=.aux/perf.json  -> gardar datos da compilación
 //     --input numero=001        -> número da revista
-//     --input rama=principal    -> rama de Git actual    | Estas 4 opcións collen a info
+//     --input rama=principal    -> rama de Git actual    | Estas 3 opcións collen a info
 //     --input hash=9000e53      -> hash de Git actual    | automáticamente usando Git
 //     --input dirt=*            -> estado do WorkingTree | na Makefile
-//     --input quen=davis        -> quen está a compilar  |
 //
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -521,18 +520,23 @@
                 ),
                 // INFO GIT
                 grid(
-                    columns:1, rows:4, row-gutter: 7pt,
+                    columns:1, rows:3, row-gutter: 7pt,
                     text(size: 20pt, font: _simb.familia)[#h(3pt) ],
-                    link("https://github.com/" + datos.repositorio, mono[#datos.repositorio]),
+                    link(
+                        "https://github.com/" + datos.repositorio,
+                        {
+                            set text(size: 0.9em)
+                            mono[#datos.repositorio]
+                        }
+                    ),
                     {
+                        set text(size: 0.9em)
                         simbolos[]
                         mono(sys.inputs.at("rama", default: "sen rama"))
                         [:]
                         mono(sys.inputs.at("hash", default: "sen hash"))
                         mono(sys.inputs.at("dirt", default: "sen dirt"))
-                    },
-                    // :FACER: quitar isto? ou movelo
-                    mono[Compilado por: #sys.inputs.at("quen", default: "sen quen")]
+                    }
                 )
             )
         }
