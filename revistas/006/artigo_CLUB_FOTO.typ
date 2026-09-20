@@ -3,7 +3,7 @@
 
 #show: Artigo.with(
 	titulo		: [Vendo cores onde non os hai],
-	subtitulo	: [Unha breve introdución ao proceso de tricromía.],
+	subtitulo	: [Unha pequena demostración do proceso de tricromía.],
 	autoria		: "Club de Fotografía",
 	tema		: "MISCELÁNEA",
 )
@@ -136,7 +136,7 @@
     ),
     caption : [
 	Tricromías realizadas por membras do club. 
-	Fotos: Mencía Platas (esquerda) e Natalia ??? 
+	Fotos: Mencía Platas (esquerda) e Natalia Martínez 
 	(centro e dereita).
     ]
 )
