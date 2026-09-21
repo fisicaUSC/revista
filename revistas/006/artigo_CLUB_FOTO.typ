@@ -20,7 +20,7 @@
     actuais. E un dos máis importante é, ao mesmo tempo, un dos máis 
     evidentes: como podemos facer fotografías a cor?
 
-    As técnicas desenvoltas nos primeiros anos da fotografía rexitraban
+    As técnicas desenvoltas nos primeiros anos da fotografía rexistraban
     a imaxe nunha única capa fotosensible, polo que a contribución
     correspondente a cada lonxitude de onda da luz perdíase. Polo tanto,
     se pudiésemos tomar a mesma fotografía filtrando as cores con filtros
@@ -71,8 +71,7 @@
     Esto conséguese empregando filtros, que deixan pasar a cor 
     correspondente e bloquean as demáis. Tomando unha fotografía en 
     branco e negro cun filtro, o filtro elimina as linxitudes de onda
-    do resto de cores e o sensor en branco e negro rexitra a intensidade
-    da luz que lle chega. Deste xeito podemos rexitrar a "cantidade dunha
+    do resto de cores, de xeito que podemos rexistrar a "cantidade dunha
     certa cor" que hai na imaxe.
 
     Se facemos esto cun conxunto de cores que cubra o espectro visible 
@@ -99,45 +98,42 @@
 	    width: 100%,
 	    "/revistas/006/imaxes/CLUB_FOTO_camelia_b.jpg"
 	),
+	grid.cell(
+	    colspan: 3,
+	    image(
+		width: 100%,
+		"/revistas/006/imaxes/CLUB_FOTO_camelia.jpg"
+	    ),
+	),
     ),
     caption : [
 	Fotografías dunha camelia con filtros 
-	vermello, verde e azul respectivamente. Fotos: 
-	Pablo Falgueras. 
-    ]
-)
-
-#figure(
-    image(
-	width: 100%,
-	"/revistas/006/imaxes/CLUB_FOTO_camelia.jpg"
-    ),
-    caption : [
-	Tricromía dunha camelia. Fonte: Pablo Falgueras. 
+	vermello, verde e azul respectivamente e tricormía resultante. 
+	Fonte: Pablo Falgueras. 
     ]
 )
 
 #figure(
     grid(
-	columns: 3,
+	columns: 2,
 	gutter: 10pt,
 	image(
 	    width: 100%,
 	    "/revistas/006/imaxes/CLUB_FOTO_mencia.jpg"
 	),
+	//image(
+	//    width: 90%,
+	//    "/revistas/006/imaxes/CLUB_FOTO_natalia_1.jpeg"
+	//),
 	image(
-	    width: 100%,
-	    "/revistas/006/imaxes/CLUB_FOTO_natalia_1.jpeg"
-	),
-	image(
-	    width: 100%,
+	    width: 95%,
 	    "/revistas/006/imaxes/CLUB_FOTO_natalia_2.jpeg"
 	),
     ),
     caption : [
 	Tricromías realizadas por membras do club. 
-	Fotos: Mencía Platas (esquerda) e Natalia Martínez 
-	(centro e dereita).
+	Fonte: Mencía Platas (esquerda) e Natalia Martínez 
+	(dereita).
     ]
 )
 
@@ -147,55 +143,34 @@
 
     Para experimentar con este proceso, no club de fotografía 
     repartíronse laḿinas translúcidas de cores para empregalas como
-    filtro.
+    filtro, obtendo as imaxes que se presentan neste artigo.
 
-    Evidentemente, a calidade óptica das láminas de plástico é moi 
-    baixa, pero serven para o obxetivo de demostrar o funcionamento 
-    do proceso e lograr diferenciar algunhas cores.
-    As fotografías orixinais só conteñen 
+    Evidentemente, a baixa calidade óptica das láminas de plástico 
+    fai que os resultados non se axusten de maneira moi correcta
+    ás cores reais. Malia todo, este experimento serve para o obxetivo 
+    de demostrar o funcionamento do proceso e lograr intuir 
+    algunhas das cores naturais. As fotografías orixinais só conteñen 
     información das diferentes tonalidades de vermello, verde e azul, 
-    pero ao combinalas poden empezar a apreciarse outras colores que 
-    xorden da mistura.
+    pero ao combinalas poden apreciarse outras colores que xorden da 
+    mistura.
    
-]
-
-#figure(
-    grid(
-	columns: 2,
-	gutter: 10pt,
-	image(
-	    width: 100%,
-	    "/revistas/006/imaxes/CLUB_FOTO_geranio.jpg"
-	),
-	image(
-	    width: 100%,
-	    "/revistas/006/imaxes/CLUB_FOTO_coche.jpg"
-	),
-    ),
-    caption : [
-	Tricromías dun xeranio e un coche de xoguete. Fonte: 
-	Pablo Falgueras. 
-    ]
-)
-
-#columns[
+    //#figure(
+    //	image(
+    //	    width: 100%,
+    //	    "/revistas/006/imaxes/CLUB_FOTO_coche.jpg"
+    //	),
+    //	caption : [
+    //	    Tricromía dun coche de xoguete. Fonte: Pablo Falgueras.
+    //	]
+    //)    
 
     Por outra banda, a obtención de cores hiperrealistas tampouco é
     necesariamente o obxetivo co que se pode facer unha tricromía, 
     xa que hoxe en día existen métodos mellores se eso é o que se busca. 
     Este proceso tamén pode producir imaxes con coloreados interesantes,
-    difíciles de conseguir doutro xeito.
-
-    == Conclusións
-
-    Malia que o proceso de tricromía xa non é o método habitual para
-    lograr fotografías a cor, segue a ser interesante dende un punto
-    de vista artístico. 
-
-    As inevitables imperfeccións do proceso dan lugar a resultados 
-    moi interesantes, sen máis necesidade de equipamento que unha 
-    cámara que permita realizar fotografías en branco e negro e tres 
-    láminas de plástico de cores.
+    difíciles de conseguir doutro xeito, sen máis necesidade de equipamento 
+    que unha cámara que permita realizar fotografías en branco e negro 
+    e tres láminas de plástico de cores.
  
 //    #align(center)[
 //	#link(
@@ -211,6 +186,17 @@
 //	    )
 //	)
 //    ]
+
+    #figure(
+	image(
+	    width: 100%,
+	    "/revistas/006/imaxes/CLUB_FOTO_geranio.jpg"
+	),
+	caption : [
+	    Tricromías dun xeranio. Fonte: 
+	    Pablo Falgueras. 
+	]
+    )
 
     Aproveitamos tamén a ocasión para agradecer aos membros do club que 
     participaron na actividade e invitar ao lector a unirse 
