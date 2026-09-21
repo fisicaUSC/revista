@@ -6,6 +6,7 @@
         "/revistas/006/artigo_VICTOR_DD.typ",
         "/revistas/006/artigo_JULIO_NF.typ",
         "/revistas/006/artigo_RAUL_FC.typ",
+        "/revistas/006/artigo_SEBASTIAN_TP.typ",
         "/revistas/006/artigo_DAVID_CV.typ",
         "/revistas/006/artigo_SAXA_ESTEVO_MARTA.typ",
         "/revistas/006/artigo_CLUB_FOTO.typ"
