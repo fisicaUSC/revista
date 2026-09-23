@@ -363,7 +363,7 @@ $
     = 0
 $ <ec:sebas:22>
 
-A ecuación @ec:sebas:22 deixa explícita a torsión (algo que non se atopa na
+A @ec:sebas:22 deixa explícita a torsión (algo que non se atopa na
 formulación EH), no entanto, o teorema de Lovelock esixe que a acción sexa
 libre torsión, porén @ec:sebas:22 é trivial con $cal(T)^a=0$. A ecuación
 @ec:sebas:21 sería a correspondente ecuación de campo de Einstein para $5D$ con
