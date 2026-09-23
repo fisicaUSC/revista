@@ -8,7 +8,7 @@
       "revistas/005/artigo_GABRIEL_RM.typ",
       "revistas/005/artigo_XABIER_CV.typ",
       "revistas/005/artigo_CARBALLEIRA.typ",
-      "revistas/005/artigo_CELIA.typ", 
+      "revistas/005/artigo_CELIA.typ",
       "revistas/005/artigo_ANXEL.typ",
       "revistas/005/artigo_MAURO.typ",
       "revistas/005/artigo_SANTY_GG.typ",
@@ -24,7 +24,7 @@
 
     data_dia: 1,
     data_numero_mes: 3,
-    data_mes: "Marzo",
+    data_mes: "marzo",
     data_ano: 2026,
 
     comentario_imaxe: "Axl gato nun estado de superposición. Foto: Deivis",
@@ -46,7 +46,7 @@
             "David Cotelo Varela",
             "Diego Couto García",
             "María Alonso Iglesias",
-            "María Caplea Palagi",    
+            "María Caplea Palagi",
             "Víctor Díaz Díaz",
        ),
        "Correción": (

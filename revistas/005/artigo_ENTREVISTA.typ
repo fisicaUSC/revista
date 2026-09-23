@@ -24,7 +24,7 @@
 
   #v(0.3em)
 
-  #line(length: 100%, stroke: 0.6pt + rgb(datos.cor_resalte))
+  #context line(length: 100%, stroke: 0.6pt + rgb(datos_actuais().cor_resalte))
 
   #Pregunta[
     Gustaríame comezar agradecendo o interese posto na revista e na
@@ -32,7 +32,7 @@
     alumnado, é un pracer contar con el. Sendo que es unha alumna da nosa
     Universidade quería preguntarche polos teus comezos como estudante na
     Universidade de Santiago de Compostela, que foi o que te cativou da Física
-    e por que escolliches iniciarte na investigación de partículas. 
+    e por que escolliches iniciarte na investigación de partículas.
   ]
 
   Síntome moi agradecida e orgullosa de ser compostelá e de terme formado na
@@ -47,7 +47,7 @@
   de construción de instrumentos e de análise de grandes volumes de datos.
 
 
-  #Pregunta[ 
+  #Pregunta[
     Ás veces pode parecer que o que teñen máis importancia ou polo
     menos máis recoñecemento son as teorías científicas (por exemplo, no ano
     2013, os pais da teoría na que se incluía o bosón de Higgs foron
@@ -55,13 +55,13 @@
     fora probada no CERN) antes que a parte experimental na que converxen
     outras disciplinas técnicas. Cal é a túa percepción? Cres que a sociedade
     sabe o suficiente sobre as investigacións máis prácticas da Física?
-    Ademais, notas esa vocación experimental entre os estudantes máis novos? 
+    Ademais, notas esa vocación experimental entre os estudantes máis novos?
   ]
 
   #figure(
     image(width: 100%, "/revistas/005/imaxes/mar_capeans.jpg"),
     caption: [Mar Capeáns no CERN. (Foto: El País)]
-  ) 
+  )
 
   Creo que ás veces se percibe que as teorías teñen máis visibilidade, quizais
   porque resultan máis narrativas. Na realidade, a física avanza só cando
@@ -97,14 +97,14 @@
     Web nesta institución, sendo que a computación cuántica se ve como o futuro
     ao que aspirar, que papel pode xogar o CERN na súa expansión? Que
     beneficios, se os hai, pode aportar ás investigacións que levades a cabo?
-    //aportar: forma menos recomendábel por achegar 
+    //aportar: forma menos recomendábel por achegar
     De telos, poderíanse ver nun futuro próximo?
-  
+
   ]
 
   #figure(
     image(width: 100%, "/revistas/005/imaxes/smq.jpg"),
-    caption: [Proceso de fabricación de imáns para o High 
+    caption: [Proceso de fabricación de imáns para o High
               Luminosity LHC. (Foto: CERN)]
   )
 
@@ -143,7 +143,7 @@
 
   #figure(
     image(width: 100%, "/revistas/005/imaxes/swwwps.png"),
-    caption: [Imaxe dunha recreación da primeira páxina web. 
+    caption: [Imaxe dunha recreación da primeira páxina web.
               (Foto: CERN)]
   )
 
@@ -174,7 +174,7 @@
 
   #figure(
     image(width: 100%, "/revistas/005/imaxes/higos.jpg"),
-    caption: [Celebración do descubrimento do Higgs. 
+    caption: [Celebración do descubrimento do Higgs.
               (Foto: Maximilien Brice)]
   )
 
@@ -208,7 +208,7 @@
 
 
   #v(1em)
-  #text(size: 12pt, fill: rgb(datos.cor_resalte))[
+  #context text(size: 12pt, fill: rgb(datos_actuais().cor_resalte))[
     _* O mundo necesita persoas que combinen cabeza, corazón e mans. *_
   ]
 
