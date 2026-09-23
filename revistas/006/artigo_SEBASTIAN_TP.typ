@@ -221,7 +221,7 @@ integrados na contracción dos vielbein como se indica en @ec:sebas:4.
 
 A idea sería agora escribir lagranxianas neste formalismo para $D>4$ nas que
 podamos aplicar o principio variacional da acción e así calcular ecuacións de
-campo de Einste-Lovelock en altas dimensións.
+campo de Einstein-Lovelock en altas dimensións.
 
 == Accións de Lovelock
 
