@@ -60,7 +60,7 @@ verdadeiramente sentinme así, é unha pregunta moi boa.
 
 Claro, son moitos anos, porque empecei a tesis co voso profesor Enrique Zas en
 setembro do ano 94. Eu estudiei aquí en Santiago, logo, en setembro do ano 94,
-falei con Enrique e me proùxo traballar xa en simulacións diso, da señal de
+falei con Enrique e me propuxo traballar xa en simulacións diso, da señal de
 radio que tratamos de detectar, para outros experimentos e noutras
 circunstancias. Despois, pouco a pouco, o traballo foi avanzando, e xa che
 digo, todo o traballo que fixen sinto que confluíu agora neste proxecto.
