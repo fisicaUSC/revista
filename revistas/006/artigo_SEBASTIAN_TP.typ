@@ -365,7 +365,7 @@ $ <ec:sebas:22>
 
 A @ec:sebas:22 deixa explícita a torsión (algo que non se atopa na
 formulación EH), no entanto, o teorema de Lovelock esixe que a acción sexa
-libre torsión, porén @ec:sebas:22 é trivial con $cal(T)^a=0$. A ecuación
+libre torsión, porén @ec:sebas:22 é trivial con $cal(T)^a=0$. A
 @ec:sebas:21 sería a correspondente ecuación de campo de Einstein para $5D$ con
 constante cosmolóxica e a corrección GBL. Poderiamos realizar isto para
 calquera dimensión por grande que sexa facendo un pouco de muñeca e atopar
