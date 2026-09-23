@@ -669,6 +669,15 @@
     show math.equation.where(block: true): set block(inset: (top: 0.5em, bottom: 0.5em))
     show heading.where(level: 2): set text(font: _cond.familia, stretch: _cond.estiramento, size: 1.1em)
     set math.equation(numbering: "(1)")
+    show ref: eso => {
+        if eso.element == none or eso.element.func() != math.equation { return eso }
+        // son links, asique quitamoslle a cor azul
+        show link: set text(font: _norm.familia, fill: black)
+        link(
+            eso.element.location(),
+            counter(math.equation).display(at: eso.element.location())
+        )
+    }
     show divider: set line(length: 90%, stroke: (paint: rgb(datos.cor_resalte)))
     show enum: set block(inset: (top: 0.5em, bottom:0.5em))
     show list: set block(inset: (top: 0.5em, bottom:0.5em))
