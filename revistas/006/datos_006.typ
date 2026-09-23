@@ -12,17 +12,20 @@
         "/revistas/006/artigo_CLUB_FOTO.typ"
     ),
 
-    cor_resalte: "ff0000",
-    cor_texto: "ffffff",
+    // cor_resalte: "#DEB887", // veige
+    // cor_texto: "#22224f",   //
 
-    imaxe_portada: none,
+    cor_resalte: "701224",  // viño
+    cor_texto: "FEFEFE",
+
+    imaxe_portada: "revistas/006/imaxes/PORTADA.jpeg",
 
     data_dia: 1,
     data_numero_mes: 9,
     data_mes: "Setembro",
     data_ano: 2026,
 
-    comentario_imaxe: "",
+    comentario_imaxe: "Tricomía dunha camelia. Foto de Pablo Falgueras",
 
     participantes: (
         "Dirección": (
@@ -33,6 +36,7 @@
         ),
         "Edición": (
             "Andrea Real Blanco",
+            "Artai Isasi",
             "David Cotelo Varela",
             "Diego Couto García",
             "Víctor Díaz Díaz",
