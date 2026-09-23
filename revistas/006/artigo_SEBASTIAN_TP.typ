@@ -258,7 +258,7 @@ machete o resultado final reza
 ]
 
 Coa definición dunha acción está claro o que temos que facer para desentrañar
-toda a súa información dinámica: aplicar o principio variacional. Se variamos
+toda a súa información dinámica: aplicar o principio variacional. Se variamos a
 @ec:sebas:12 respecto de $e^a$ e $omega^(a b)$ temos unha expresión compacta da
 forma
 
