@@ -71,7 +71,7 @@ a conexión é simétrica nos índices inferiores. Isto definímolo así para qu
 traxectorias críticas (as máis "curtas") e as traxectorias autoparalelas (as
 máis "rectas", que manteñen un vector sen o torsionar ao longo do transporte)
 coincidan e a nosa álxebra redúcese á estudada na materia de gravitación: os
-símbolos de Cristoffel coinciden coa conexión de Levi-Civita (1).
+símbolos de Cristoffel coinciden coa conexión de Levi-Civita (@ec:sebas:1).
 
 $
     Gamma^(mu)_(#h(1em)alpha beta) = levicivita
@@ -123,7 +123,7 @@ complicar moito as cousas (poderíanse facer varios artigos falando soamente
 desta formulación), limitarémonos a dar unha serie de equivalencias entre a
 enunciación típica de Einstein e a de Cartan. Para aquelas persoas que cursaran
 Métodos Matemáticos V xa lles soará o espazo tanxente $T_P cal(M)$, pois o
-fibrado tanxente $T cal{M}$ é a colección de todos estes espazos sobre todos os
+fibrado tanxente $T cal(M)$ é a colección de todos estes espazos sobre todos os
 puntos $P$ da variedade. Para relacionar cada unha das formulacións debemos
 definir un cambio de base mediante unha aplicación que denominamos
 _vielbein_#footnote[Notemos que este se escribe con índices latinos, que
@@ -138,7 +138,7 @@ $
 $ <ec:sebas:4>
 
 
-A familia ${#viel | a=1,...,D}$ é o que chamamos \textit{vielbein}. A
+A familia ${#viel | a=1,...,D}$ é o que chamamos _vielbein_. A
 partir da definición anterior podemos decatarnos inmediatamente dalgunhas
 propiedades fundamentais deste obxecto como
 
