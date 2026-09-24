@@ -90,6 +90,11 @@ NUMEROS := $(patsubst revista_%.typ, %, $(notdir $(wildcard revistas/*/revista_*
 ARTIGOS := $(patsubst artigo_%.typ, artigo_%, $(notdir $(wildcard revistas/$(numero)/artigo_*.typ)))
 
 
+# Hai que asegurarse de que existen o directorios .pdf e .aux
+$(shell if [ ! -d ".pdf" ]; then mkdir .pdf; fi)
+$(shell if [ ! -d ".aux" ]; then mkdir .aux; fi)
+
+
 # Limpar os ficheiros xerados
 limpa:
 	rm -f .pdf/* .aux/*
@@ -113,10 +118,6 @@ artigos:
 # Xeramos o PDF correspondente co número pedido, dependendo de se algunha
 # dependencia cambiou ou non
 .pdf/revista_$(numero).pdf: $(DEPENDENCIAS)
-
-	@# Hai que asegurarse de que existen o directorios .pdf e .aux
-	$(shell if [ ! -d ".pdf" ]; then mkdir .pdf; fi)
-	$(shell if [ ! -d ".aux" ]; then mkdir .aux; fi)
 
 	@echo -e "======================================"
 	@echo -e "\033[1;32mREVISTA $${numero}\033[0m\n"
