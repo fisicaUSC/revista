@@ -10,11 +10,10 @@
 #columns[
 
 	== Introdución
-
 	O Seminario de Estudos Galegos (SEG) foi unha institución 
 	pioneira no pensamento científico do noso país. Fundado no ano 
 	1923, o SEG estivo fortemente vencellado á Universidade de 
-	Santiago de Compostela (USC) mais pretendía atender aquelas áreas 
+	Santiago de Compostela (USC), mais pretendía atender aquelas áreas 
 	que non eran obxecto de estudo no contexto académico daquel momento. 
 	Desta forma, o SEG procurou fomentar a investigación, a formación 
 	e a divulgación de múltiples disciplinas a través dun compromiso 
@@ -116,11 +115,11 @@
 
 	Nestas décadas produciuse un importante desenvolvemento da física 
 	de partículas a nivel internacional. Un dos principais centros 
-	activos no momento era a Organización Europa para a Investigación 
+	activos no momento era a Organización Europea para a Investigación
 	Nuclear (CERN). En particular, o CERN comezaba a centrar os seus 
 	esforzos na planificación do que sería o maior acelerador de 
-	partículas do mundo, o Gran Colisionador de Hadróns (LHC). Na 
-	comunidade científica galega, a visión estratéxica de contribuir 
+	partículas do mundo, o Gran Colisor de Hadróns (LHC). Na 
+	comunidade científica galega, a visión estratéxica de contribuír 
 	aos traballos relacionados co LHC e a necesidade dun centro 
 	autónomo especializado foron os motivos fundamentais para a 
 	creación do IGFAE no ano 1999. 
@@ -137,7 +136,7 @@
 	== Conclusións
 
 	A historia da ciencia é un campo en constante actualización. 
-	Quedan aínda moito por investigar sobre a traxectoria do SEG e 
+	Queda aínda moito por investigar sobre a traxectoria do SEG e
 	moitas incógnitas sobre a represión e a reorganización da 
 	universidade durante a ditadura. Está por escribir o rumbo do 
 	IGFAE e o seu papel científico nos próximos anos. Con todo, é 

@@ -33,45 +33,45 @@
 
 #show: columns
 
-Todas nós de cativas soñabamos con ir á universidade e cursar o grao de  física
-e estudar sobre buratos negros, sobre teoría de cordas ou sobre QFT e física de
+Todas nós de cativas soñabamos con ir á universidade e cursar o grao de Física
+e estudar sobre buratos negros, sobre teoría de cordas ou sobre QFT e física de // Vou deixar os dous "e" (o da liña anterior e o primeiro desta)
 partículas embelecados polos vídeos de divulgación que nos flipaban. Talvez
 sexa un pouco decepcionante entrar en física e atoparte con que vas pasar un
-ano enteiro repasando a física que te ensinaron no instituto e facendo mil
+ano enteiro repasando a física que che ensinaron no instituto e facendo mil
 materias de matemáticas para finalmente esperar até o teu último ano para
-estudar as cousas que tanta ilusión te facían.
+estudar as cousas que tanta ilusión che facían.
 
 O certo é que todos eses obxectos están moi afastados do currículo elemental
 dun egresado e requiren moitísimos estudos preliminares, empezando polos
 métodos matemáticos e rematando polas materias de QFT e gravitación (e de
 momento aínda non escoitei algo como _SUSY_ ou _string theory_). O máis cerca
 que estiven de teorías tan pomposas son as teorías de Lovelock (traballo
-optativo da materia de gravitación) que refire unha extensión da Relatividade
-Xeral (RX) de Einstein para $D$ dimensións. No presente escrito pretenderase
+optativo da materia de gravitación) que refire unha extensión da relatividade
+xeral (RX) de Einstein para $D$ dimensións. No presente escrito pretenderase // teño entendido que Relatividade Xeral aquí vai en minúsculas xa que aínda que se está describindo unha sigla, non é o nome dunha institución, polo que debería de ir en minúsculas
 dar unhas nocións xerais sobre estas como tamén abordar moi brevemente os
 principais resultados.
 
 == Preliminares
 
 Adentrarse no manexo completo das teorías de Lovelock require de bastante
-álxebra tensorial e xeometría diferencial, no momento de preparar o traballo
-orixinal ao que se debe este resumo foron vitais os libros de _Geometria
+álxebra tensorial e xeometría diferencial. No momento de preparar o traballo
+orixinal ao que se debe este resumo, foron vitais os libros de _Geometria
 Riemanniana_ de M. do Carmo e _Tensors, Differential Forms, and Variational
 Principles_ de D. Lovelock e H. Rund. Se se me permiten as palabras malsoantes,
-estas matemáticas son vitais para traballar co espazotempo $(cal(M),g,Gamma)$
+estas matemáticas son vitais para traballar co espazotempo $(cal(M),g,Gamma)$,
 que nas teorías de Lovelock é unha $cal(M)$ variedade pseudo-Riemann-Cartan
-afinmente conectada libre te torsión. A calquera persoa que estudara
-gravitación algunhas destas palabras deberíanlle soar, en primeiro lugar unha
+afinmente conectada libre de torsión. A calquera persoa que estudase
+gravitación algunhas destas palabras deberíanlle soar. En primeiro lugar, unha
 variedade diferencial é un espazo ao que se lle pode asociar un difeomorfismo
-($"diff"(cal(M))$), se esta ten unha métrica *g* de signatura $(p,q)$ dicimos
-que é *pseudoriemaniana*; que sexa afinmente conectada indícanos que $cal(M)$
+($"diff"(cal(M))$). Se esta ten unha métrica *g* de sinatura $(p,q)$, dicimos
+que é *pseudorriemanniana*; que sexa afinmente conectada indícanos que $cal(M)$
 está dotada de conexión $Gamma$, o apelido Cartan na variedade dinos que a
 conexión é compatible coa métrica e, por último, "libre de torsión" indica que
 a conexión é simétrica nos índices inferiores. Isto definímolo así para que as
 traxectorias críticas (as máis "curtas") e as traxectorias autoparalelas (as
 máis "rectas", que manteñen un vector sen o torsionar ao longo do transporte)
-coincidan e a nosa álxebra redúcese á estudada na materia de gravitación: os
-símbolos de Cristoffel coinciden coa conexión de Levi-Civita (@ec:sebas:1).
+coincidan e a nosa álxebra redúcese á estudada na materia de Gravitación: os
+símbolos de Christoffel coinciden coa conexión de Levi-Civita (@ec:sebas:1).
 
 $
     Gamma^(mu)_(#h(1em)alpha beta) = levicivita
@@ -108,20 +108,20 @@ $ <ec:sebas:3>
 onde @ec:sebas:2 é a torsión e o tensor de Riemann e @ec:sebas:3 o
 tensor de Ricci e o escalar de curvatura.
 
-Nótese entón que non estamos fronte a teoría máis xeral posible para estender a
-RX a altas dimensión, de desexar maior xeneralidade a extensión da RX a maiores
+Nótese entón que non estamos fronte á teoría máis xeral posible para estender a
+RX a altas dimensións, de desexar maior xeneralidade a extensión da RX a maiores
 dimensións sería unha tarefa titánica @CH_supergravities.
 
 No entanto, a xeometría diferencial posúe varias enunciacións posibles, nunha
 serie de correspondencias entre 1929 e 1932, Cartan e Einstein, discutían cal
 era a linguaxe lexítima da Relatividade (entre outras cuestións derivadas). O
-primeiro, non cría que a conexión @ec:sebas:1 fose a adecuada e esixía un nivel máis
-profundo de xeneralidade, hai dúas maneiras de lograr isto: mediante unha
-conexión máis xeral que se denomina de Palatini ou mediante a formulación dende
+primeiro non cría que a conexión @ec:sebas:1 fose a adecuada e esixía un nivel máis
+profundo de xeneralidade. Hai dúas maneiras de lograr isto: mediante unha
+conexión máis xeral, que se denomina de Palatini, ou mediante a formulación dende
 o fibrado tanxente (o que se denominaría punto de vista de Cartan). Para non
 complicar moito as cousas (poderíanse facer varios artigos falando soamente
 desta formulación), limitarémonos a dar unha serie de equivalencias entre a
-enunciación típica de Einstein e a de Cartan. Para aquelas persoas que cursaran
+enunciación típica de Einstein e a de Cartan. Para aquelas persoas que cursasen
 Métodos Matemáticos V xa lles soará o espazo tanxente $T_P cal(M)$, pois o
 fibrado tanxente $T cal(M)$ é a colección de todos estes espazos sobre todos os
 puntos $P$ da variedade. Para relacionar cada unha das formulacións debemos
@@ -129,7 +129,7 @@ definir un cambio de base mediante unha aplicación que denominamos
 _vielbein_#footnote[Notemos que este se escribe con índices latinos, que
 pertencen ao fibrado, e gregos, que pertencen á variedade. Os latinos operan
 cos latinos e os gregos cos gregos, nunca se cruzan.] (basicamente é a
-jacobiana), $#[*#e:*] cal(M) arrow.r T cal(M)$, que definimos como
+xacobiana), $#[*#e:*] cal(M) arrow.r T cal(M)$, que definimos como
 
 $
     (partial z^(a))/(partial x^(mu)) = viel(x)
@@ -156,7 +156,7 @@ $ <ec:sebas:6>
 
 
 
-Así podemos escribir unha equivalencia á torsión e ao tensor de Riemann
+Así, podemos escribir unha equivalencia á torsión e ao tensor de Riemann
 @ec:sebas:2 tal que
 
 $
@@ -167,10 +167,10 @@ $
     cal(T)^a  = 1/2viel T^mu_(#h(1em)rho sigma)dif x^rho and dif x^sigma.
 $ <ec:sebas:8>
 
-Para tratar todo este asunto en profundidade deberíamos estudar o que se
-denomina _álxebra exterior de formas diferencias_, introducir a conexión de
+Para tratar todo este asunto en profundidade deberiamos estudar o que se
+denomina _álxebra exterior de formas diferenciais_, introducir a conexión de
 spin (ou de Lorentz) $omega^a_(#h(0.7em) b mu)$ e enunciar os postulados do
-vielbein (estes son os que nos permite facer a redución anterior). Bibliografía
+vielbein (estes son os que nos permiten facer a redución anterior). Bibliografía
 útil para asimilalo son os libros xa mencionados.
 
 == Dinámica lagranxiana na RX
@@ -199,13 +199,13 @@ dúas perspectivas teñen unha implicación directa á hora de traballar coas
 lagranxianas da RX: a perspectiva de Einstein, tamén denominada formalismo
 métrico ou de segunda orde, implica unha dependencia de até a segunda derivada
 na métrica; mentras que a de Cartan (formalismo de primeira orde) ao estar
-enunciada co vielbein só ten dependencia nas primeiras derivadas#footnote[Isto
-débese a un resultado fundamental que non se introduciu que é o lema de
+enunciada co vielbein, só ten dependencia nas primeiras derivadas#footnote[Isto
+débese a un resultado fundamental que non se introduciu, que é o lema de
 Poincaré, este reza que para toda _p-forma_, como é o vielbein, a súa segunda
 derivada anúlase.]. É inmediato pensar que é moito máis doado realizar os
-cálculos se só temos primeiras derivadas que se chegamos até o segundo orde:
-esta é unha das ventaxas da enunciación dende a tanxente fronte a usual. Se
-agora queremos escribir a acción EH anterior co vielbein teríamos
+cálculos se só temos primeiras derivadas que se chegamos até a segunda orde:
+esta é unha das vantaxes da enunciación dende a tanxente fronte á usual. Se
+agora queremos escribir a acción EH anterior co vielbein, teriamos
 
 $
     cal(S) =
@@ -216,11 +216,11 @@ $ <ec:sebas:11>
 onde se suprimiron (para quen saiba de álxebra exterior de formas diferenciais)
 os produtos $and$ (_wedge_) e o elemento $epsilon$ é o pseudotensor
 completamente antisimétrico de Levi-Civita, que é un pseudotensor invariante
-($dd epsilon=0$). Nótese que non aparece ningún diferencial porque estos están
+($dd epsilon=0$). Nótese que non aparece ningún diferencial porque estes están
 integrados na contracción dos vielbein como se indica en @ec:sebas:4.
 
 A idea sería agora escribir lagranxianas neste formalismo para $D>4$ nas que
-podamos aplicar o principio variacional da acción e así calcular ecuacións de
+poidamos aplicar o principio variacional da acción e así calcular ecuacións de
 campo de Einstein-Lovelock en altas dimensións.
 
 == Accións de Lovelock
@@ -269,8 +269,8 @@ $
 $ <ec:sebas:14>
 
 onde está claro que os termos $cal(E)_a$ e $cal(E)(a b)$ débense anular
-simultaneamente para satisfacer que $delta cal(S)_D = 0$. Se fixeramos os
-cálculos varacionais con calma, chegaríamos ás seguintes expresión para os
+simultaneamente para satisfacer que $delta cal(S)_D = 0$. Se fixésemos os
+cálculos variacionais con calma, chegariamos ás seguintes expresións para os
 termos $cal(E)$
 
 $
@@ -309,8 +309,8 @@ $ <ec:sebas:18>
 
 A expresión @ec:sebas:16 é de verificación trivial xa que a torsión é nula,
 logo, o termo definido en @ec:sebas:18 sempre se anula por ter un termo de
-torsión. Para @ec:sebas:15 non pasa e tense que tratar cada caso concreto, no entanto,
-ambas condicións son polinomios de $cal(R)_(a b)$ así que se podería atopar
+torsión. Para @ec:sebas:15 non pasa e tense que tratar cada caso concreto; no entanto,
+ambas condicións son polinomios de $cal(R)_(a b)$, así que se podería atopar
 algunha combinación concreta baixo a que tanto @ec:sebas:15 como @ec:sebas:16
 se anulen sen impoñer restricións sobre a torsión. Este resultado válenos para
 construír as ecuacións dinámicas $forall cal(S)_D$ de Lovelock.
@@ -341,7 +341,7 @@ na que escollemos as constantes $a_1,a_0$ baixo unhas certas asuncións
 cosmolóxico (o que é unha gran vantaxe teórica), ademais notemos a equivalencia
 desta acción coa usual acción de Einstein-Hilbert @ec:sebas:11 con tan só
 escoller $alpha=0$. Logo, se queremos estudar a dinámica desta teoría da
-gravidade basta aplicar @ec:sebas:15 e @ec:sebas:16 e teríamos as ecuacións de
+gravidade basta aplicar @ec:sebas:15 e @ec:sebas:16 e teriamos as ecuacións de
 campo
 
 $
@@ -364,12 +364,12 @@ $
 $ <ec:sebas:22>
 
 A @ec:sebas:22 deixa explícita a torsión (algo que non se atopa na
-formulación EH), no entanto, o teorema de Lovelock esixe que a acción sexa
-libre torsión, porén @ec:sebas:22 é trivial con $cal(T)^a=0$. A
+formulación EH); no entanto, o teorema de Lovelock esixe que a acción sexa
+libre de torsión; porén, @ec:sebas:22 é trivial con $cal(T)^a=0$. A
 @ec:sebas:21 sería a correspondente ecuación de campo de Einstein para $5D$ con
 constante cosmolóxica e a corrección GBL. Poderiamos realizar isto para
-calquera dimensión por grande que sexa facendo un pouco de muñeca e atopar
-moitos termos novos, xa esta nova gravidade, tema de actualidade, é moito máis
-rica que a EH e da que hai un montón de papers destripándoa.
+calquera dimensión por grande que sexa facendo un pouco de pulso e atopar
+moitos termos novos, xa que esta nova gravidade, tema de actualidade, é moito máis
+rica que a EH e da que hai un montón de papers destripándoa. // non entendo esta frase final
 
 #CrearBibliografia("/revistas/006/bibliografia_SEBASTIAN_TP.bib")

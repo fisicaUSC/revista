@@ -105,7 +105,7 @@
 	dalgunha substancia que producise fume e, ao golpear a membrana, 
 	este saía pola abertura circular formando aneis. Este truco xa era
 	amplamente coñecido polos fumadores, pero Tait inventou a primeira 
-	caixa capaz	de fumar.
+	caixa capaz de fumar.
 
 	A caixa producía aneis de fume que saían da súa boca e viaxaban 
 	polo aire, antes de desfacerse e disiparse por completo. Nin o fume 
@@ -125,7 +125,7 @@
 			"/revistas/006/imaxes/VICTOR_DD_caixa.png"
 		),
 		caption: [
-			A caixa construida por Tait. Extraído de @Tait.
+			A caixa construída por Tait. Extraído de @Tait.
 		]
 	) <fig:caixa>
 
@@ -178,7 +178,7 @@
 	propias ideas. Xa noutras ocasións anteriores metera a pata coas 
 	súas conclusións, como cando aseverou que a Terra non podía ter 
 	máis de 100 millóns de anos, indo en contra da evidencia xeolóxica 
-	e a recentemente publicada teoría da evolución por selección natural.
+	e a recentemente publicada teoría da evolución por selección natural. // en contra de x e de x, aínda que pode quedar así
 
 	== O fin do éter
 
@@ -210,9 +210,9 @@
 	Lord Kelvin e con orixes nunha intersección entre a física da luz e 
 	a química dos elementos. A proposta para intentar clasificar os 
 	elementos como configuracións particulares do éter luminífero foi 
-	unha idea moi elegante, pero á que finalmente esa elegancia non a 
+	unha idea moi elegante, pero á que finalmente esa elegancia non a // esta frase sóame rara, poderíase quitar o "á que"
 	salvou de resultar sendo errónea. Lord Kelvin foi un dos máis 
-	grandes físicos da historia pero, coma xa se dixo, tiña o mal 
+	grandes físicos da historia pero, como xa se dixo, tiña o mal 
 	costume de quedar encadeado nas súas propias ideas demasiado pronto. 
 	Ademais, daba un gran valor ao carácter estético das súas teorías,
 	cousa que non sempre resulta nunha ferramenta útil para avalialas.

@@ -17,28 +17,28 @@ que esvaece na memoria.
 
 Se buscamos o significado de evanescente nun dicionario, atopamos algo como que
 se esfuma ou desaparece aos poucos; fai referencia a algo efémero, tenue ou
-fugaz. Que sentido pode ter no ámbito da Física? E, concretamente, cando nos
+fugaz. Que sentido pode ter no ámbito da física? E, concretamente, cando nos
 referimos ás ondas? Por razóns obvias voume referir ao campo da óptica, aínda
-que tamén son sonadas as ondas evanescentes cuánticas, sobre todo en relación
-co efecto túnel @raul_1. Podedes preguntarlle aos profesores de física cuántica
+que tamén son soadas as ondas evanescentes cuánticas, sobre todo en relación
+co efecto túnel @raul_1. Podedes preguntarlles aos profesores de Física Cuántica
 por este efecto, o efecto cuántico análogo ao efecto óptico da reflexión total
-frustrada (normalmente esta frase se formula ao revés, non coñezo o porqué).
+frustrada (normalmente esta frase formúlase ao revés, non coñezo o porqué).
 
 #figure(
   image("/revistas/006/imaxes/RAUL_FC_1.png"),
-  caption: [Representación dunha onda harmónica (esquerda), una onda
+  caption: [Representación dunha onda harmónica (esquerda), unha onda
   amortecida (centro) e unha onda evanescente (dereita). As frechas continuas
   indican a dirección de propagación das ondas mentres que as frechas
   descontinuas indican a dirección de decrecemento da amplitude das ondas.]
 )<im:1>
 
 Cando falamos da luz, falamos de algo que se despraza ou se propaga cunha
-velocidade inmensamente grande, $300000$~km/s
+velocidade inmensamente grande, $300 000$~km/s
 no espazo baleiro. As ondas de luz ordinarias son ondas viaxeiras, emerxen
-dunha fonte para propagarse polo espazo. No sentido clásico, propáganse como
+dunha fonte para propagárense polo espazo. No sentido clásico, propáganse como
 oscilacións ou vibracións de alta frecuencia dos campos electromagnéticos,
-arredor de 1014–1015 Hz. E apáganse, amortécense, cando chegan a obxectos
-opacos. Poderiamos dicir que as ondas esvaecen nos obxectos, pero ese non é o
+arredor de $10^{14}$–$10^{15}$~Hz. E apáganse, amortécense, cando chegan a obxectos
+opacos. Poderiamos dicir que as ondas se esvaecen nos obxectos, pero ese non é o
 termo que se usa: fálase de ondas amortecidas, xa que son ondas que perden a
 súa enerxía; desaparecen ou morren para aumentar a enerxía do medio opaco. En
 cambio, as ondas evanescentes prodúcense en medios transparentes onde a enerxía
@@ -75,7 +75,7 @@ refracción/transmisión e reflexión nunha superficie, o fenómeno atinxe á
 veciñanza desa superficie. Daquela, no noso exemplo, a onda penetra no aire
 pero decae rapidamente (unhas poucas micras como moito no caso da luz) e
 continuamente. É dicir, temos unha cola de luz no aire. Esta é unha onda
-evanescente, unha onda efémera que esvaece no aire (ou noutro medio).
+evanescente, unha onda efémera que se esvaece no aire (ou noutro medio).
 
 Este fenómeno que acabamos de describir recibe o nome de reflexión total: un
 fenómeno no que a enerxía dunha onda incidente nunha interface entre dous
@@ -89,13 +89,13 @@ misteriosas e, como corolario, marabillosas para un científico.
 Imos ver se resolvemos esta trama. Como xa comentamos, a luz corresponde a
 oscilacións moi rápidas dos campos electromagnéticos que se propagan a través
 do espazo. Os detectores de luz non son sensibles a esas oscilacións tan
-rápidas, senón que o que miden son sempre magnitude mediadas no tempo como o
+rápidas, senón que o que miden son sempre magnitudes mediadas no tempo como o
 fluxo de enerxía (a irradiancia). Non obstante, podemos considerar, imaxinar e
 calcular o que poderiamos chamar fluxo instantáneo. Deste xeito, o que ocorre é
 que ese fluxo instantáneo vai variando: ora vai do primeiro ao segundo medio,
-ora segue o camiño inverso, pero non existe un fluxo neto cara o aire, e o que
+ora segue o camiño inverso, pero non existe un fluxo neto cara ao aire, e o que
 se manifesta é a reflexión total da luz. Pero iso é no estado estacionario, no
-transitorio correspondente o inicio da chegada da luz a interface, parte dela a
+transitorio correspondente ao inicio da chegada da luz á interface, parte dela
 traspasa a fronteira e forma a cola evanescente que se mantén no tempo.
 
 A proba de que unha onda evanescente ten enerxía é o fenómeno de reflexión
@@ -119,12 +119,12 @@ En fibras ópticas típicas, o diámetro do núcleo varía de 8–10 $upright(mu
 $upright(mu)$m, cun revestimento de 125 $upright(mu)$m, aínda que existen fibras de centos de
 micras de espesor. Que papel xogan as ondas evanescentes nunha fibra? A maior
 parte da luz propágase dentro do núcleo, pero sempre existe unha cola que
-penetra no revestimento ata esvaecer dentro del. Poderiamos dicir que son
+penetra no revestimento ata se esvaecer dentro del. Poderiamos dicir que son
 simplemente unha parte da onda viaxeira que se propaga dentro da fibra, pero
 existen razóns para distinguir as partes da onda que se propagan dentro e fóra
 do núcleo. En primeiro lugar, descríbense matematicamente de xeito diferente:
-dentro do núcleo temos unha función oscilatoria e no revestimento unha función
-decaínte. Por outra banda, pódense fabricar dispositivos como acopladores ou
+dentro do núcleo temos unha función oscilatoria e no revestimento, unha función
+minguante. Por outra banda, pódense fabricar dispositivos como acopladores ou // decaínte non figura na RAG, cambiado por minguante. Aberto a suxestións
 sensores en fibras ópticas nos que a onda evanescente ten un papel esencial. 
 
 Un terceiro tipo de configuración onde aparecen ondas evanescentes é aquel que
@@ -156,7 +156,7 @@ presentes no metal na veciñanza da interface. A luz xera unha oscilación
 colectiva de electróns libres denominada plasmón de superficie @raul_4 (ver
 @im:3). Na práctica úsanse capas metálicas finas para que a luz penetre o
 suficiente no metal e chegue á superficie metal/dieléctrico coma unha onda
-evanescente cara ambos lados.
+evanescente cara a ambos os lados.
 
 Imos xa co último caso que reforza a importancia das ondas evanescentes. Imos
 falar da luz que reflicte un obxecto opaco. Para simplificar, consideramos un
@@ -174,7 +174,7 @@ non, os especialistas en óptica sabemos ben que hai un límite na perfección d
 imaxe: dise que a resolución da imaxe está limitada pola difracción.
 Basicamente, podemos dicir que a lente ten unha abertura limitada e non é capaz
 de recoller toda a luz reflectida. Pero podemos imaxinar que usamos un
-obxectivo de microscopio de gran abertura que colocamos moi preto do obxecto,
+obxectivo de microscopio de grande abertura que colocamos moi preto do obxecto,
 de xeito que poida recoller practicamente toda a luz reflectida por unha parte
 pequena do obxecto e facer unha imaxe moi boa desa zona. Con todo, aínda
 estamos limitados a resolucións da orde da lonxitude de onda da luz. É dicir,
