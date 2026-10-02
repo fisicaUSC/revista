@@ -15,14 +15,14 @@
     // cor_resalte: "#DEB887", // veige
     // cor_texto: "#22224f",   //
 
-    cor_resalte: "701224",  // viño
+    cor_resalte: "701224",  // viño (houbo empate, pero ás miñas amigas gústalle iste :D)
     cor_texto: "FEFEFE",
 
-    imaxe_portada: "revistas/006/imaxes/PORTADA.jpeg",
+    imaxe_portada: "/revistas/006/imaxes/PORTADA.jpeg",
 
-    data_dia: 1,
-    data_numero_mes: 9,
-    data_mes: "Setembro",
+    data_dia: 5,
+    data_numero_mes: 10,
+    data_mes: "Outubro",
     data_ano: 2026,
 
     comentario_imaxe: "Tricomía dunha camelia. Foto de Pablo Falgueras",
