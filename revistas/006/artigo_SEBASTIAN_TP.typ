@@ -17,21 +17,21 @@
 #let riemann = text(
     box(
         $partial_alpha Gamma^mu_(#h(1em) nu beta)
-        -partial_beta  Gamma^mu_(#h(1em) nu alpha)
         +Gamma^mu_(#h(1em) lambda alpha)
          Gamma^lambda_(#h(1em) mu nu)
-        -Gamma^mu_(#h(1em) lambda beta)
-         Gamma^lambda_(#h(1em) nu alpha)$
+        -(alpha arrow.l.r beta)$
     ),
 )
 
 #show: Artigo.with(
-    titulo: [Teorías de Lovelock],
+    titulo: [Gravidade en altas dimensións],
     autoria: [Sebastián Táboas Pazo],
     tema: "DIVULGACIÓN"
 )
 
 #show: columns
+#show footnote.entry: set text(costs: (widow: 0%, orphan: 0%))
+#show footnote.entry: block.with(breakable: false)
 
 Todas nós de cativas soñabamos con ir á universidade e cursar o grao de Física
 e estudar sobre buratos negros, sobre teoría de cordas ou sobre QFT e física de // Vou deixar os dous "e" (o da liña anterior e o primeiro desta)
@@ -71,7 +71,7 @@ a conexión é simétrica nos índices inferiores. Isto definímolo así para qu
 traxectorias críticas (as máis "curtas") e as traxectorias autoparalelas (as
 máis "rectas", que manteñen un vector sen o torsionar ao longo do transporte)
 coincidan e a nosa álxebra redúcese á estudada na materia de Gravitación: os
-símbolos de Christoffel coinciden coa conexión de Levi-Civita (@ec:sebas:1).
+símbolos de Christoffel coinciden coa conexión de Levi-Civita @ec:sebas:1.
 
 $
     Gamma^(mu)_(#h(1em)alpha beta) = levicivita
@@ -97,12 +97,12 @@ $
 $ <ec:sebas:2>
 
 $
-    R_(mu nu): = R^sigma_(#h(0.7em)mu sigma nu) =\
-    partial_sigma Gamma^sigma_(#h(0.7em)mu nu)
-        - partial_nu Gamma^(sigma)_(#h(0.7em)mu sigma)
-        + Gamma^sigma_(#h(0.7em)lambda sigma)Gamma^lambda_(#h(0.7em)mu nu)
-        - Gamma^sigma_(#h(0.7em)lambda nu)Gamma^(lambda)_(#h(0.7em)mu sigma)\
-    => R : = R^mu_(#h(0.7em)mu)
+    R_(mu nu): = R^sigma_(#h(0.7em)mu sigma nu) = riemann \
+    // partial_sigma Gamma^sigma_(#h(0.7em)mu nu)
+    //     - partial_nu Gamma^(sigma)_(#h(0.7em)mu sigma)
+    //     + Gamma^sigma_(#h(0.7em)lambda sigma)Gamma^lambda_(#h(0.7em)mu nu)
+    //     - Gamma^sigma_(#h(0.7em)lambda nu)Gamma^(lambda)_(#h(0.7em)mu sigma)\
+    R : = R^mu_(#h(0.7em)mu)
 $ <ec:sebas:3>
 
 onde @ec:sebas:2 é a torsión e o tensor de Riemann e @ec:sebas:3 o
@@ -138,15 +138,14 @@ $
 $ <ec:sebas:4>
 
 
-A familia ${#viel | a=1,...,D}$ é o que chamamos _vielbein_. A
-partir da definición anterior podemos decatarnos inmediatamente dalgunhas
-propiedades fundamentais deste obxecto como
+A familia ${#viel | a=1,...,D}$ é o que chamamos _vielbein_. A partir da
+definición anterior inmediatamente descríbese a ortonormalidade no índice
+@ec:sebas:5 e como se transforma entre espazos de tensores @ec:sebas:6
 
 $
     viel e^(mu)_(#h(0.7em)b)= delta^(a)_(b),
     quad
-    e^(mu)_(#h(0.7em)a) e^(a)_(#h(0.7em)nu) = delta^(mu)_(nu)\
-    #[(ortonormalidade do índice)]
+    e^(mu)_(#h(0.7em)a) e^(a)_(#h(0.7em)nu) = delta^(mu)_(nu)
 $ <ec:sebas:5>
 
 $

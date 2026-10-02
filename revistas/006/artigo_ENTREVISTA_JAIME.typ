@@ -1,233 +1,302 @@
 #import("/estilo.typ"): *
 
 #show: Artigo.with(
-    titulo  : [Entrevista: Jaime Álvarez Muñiz],
+    titulo  : [Entrevista a Jaime Álvarez Muñiz],
     autoria : [Iago Arsequell Rodríguez],
-    tema    : "ENTREVISTA"
+    tema    : "ENTREVISTAS"
 )
 
 #show: columns
 
-#Pregunta[
-    Hai bastantes meses da noticia do research grant, entendo a idea do
-    proxecto e todo, pero, como está sendo a carga de traballo e como te
-    sentes fronte a todo isto? Fuches á Arxentina e entendo que estiveches
-    con bastante trasfega estes meses.
-]
+Jaime Álvarez Muñiz (Ourense, 1972) licenciouse en Física no 94 e doutor desde
+o 99 no ámbito de astropartículas a moi altas enerxías pola USC. Realizou
+estancias posdoutorais nos Estados Unidos, na University of Wisconsin–Madison
+(1999-2000) e logo no Bartol Research Institute da University of Delaware
+(2000-2002), cun contrato financiado pola NASA. Esta etapa consolidou a súa
+especialización na física de astropartículas e do estudo dos raios cósmicos de
+ultra-alta enerxía na que traballa. En 2002 incorporouse á USC, catedrático
+desde 2023, e ao IGFAE, onde desenvolve desde entón a súa carreira académica e
+investigadora coordinada coa docencia. No mes de novembro de 2025 foi
+recoñecido cunha Synergy Grant da European Research Council (ERC),
+correspondente a un financiamento de 14 millóns de euros, en cooperación con
+outras tres universidades, para o desenvolvemento do proxecto de investigación
+HERON (Hybrid Elevated Radio Observatory for Neutrinos). Este proxecto propón o
+desenvolvemento dun novo detector híbrido de neutrinos de moi alta enerxía
+baseado en técnicas de radio, que será instalado nas proximidades da
+cordilleira dos Andes, na provincia de San Juan (Arxentina), co obxectivo de
+observar por primeira vez os esquivos neutrinos procedentes das fontes
+astrofísicas explosivas máis violentas do Universo.
 
-Si, ben, para empezar, cando un obtén un proxecto desta magnitude, que ao
-final é un financiamento de 14 millóns de euros repartido entre catro
-universidades distintas: a Universidade da Sorbona, o Instituto de Astrofísica
-de París (que depende do CNRS, que é un pouco coma o CSIC aquí en España) e a
-Universidade de Penn State nos Estados Unidos, a
-Unión Europea necesita facer un contrato coas distintas universidades. O
-contrato aínda non foi firmado, é dicir, aínda non recibimos o
-financiamento, pero iso si, xa estamos traballando en preparar moitas cousas do
-proxecto, na realización de simulacións.
-
-Por exemplo, aínda non temos moi claro en que parte da provincia de San Juan,
-na Arxentina, instalar estas antenas (despois falaremos un pouco máis do
-proxecto en si). Estivemos case dúas semanas alí facendo medidas de
-ruído, pescudando e mirando a accesibilidade dos distintos sitios nos que
-consideramos instalar o observatorio ou as antenas. E si, a carga de traballo,
-pois, é bastante grande. Eu neste momento teño tamén dous estudantes que están
-traballando comigo nas simulacións, que é a parte da que me encargo, e claro,
-isto o que fai é sumarse a todas as tarefas que fai un profesor universitario
-coma min, que son moitas: investigación en distintos proxectos, dar clase,
-ademais son secretario do departamento co cal teño unha certa carga
-burocrática, etcétera. É dicir, a carga de traballo, si, é moi grande.
+#divider()
 
 #Pregunta[
-    Levas dende o 95, xa o doutoramento o fixeches sobre un tema similar e puiden
-    ver que tamén con publicacións e artigos sobre temas semellantes, astrofísica,
-    especialmente a enfocada ás altas enerxías como raios cósmicos. Como se
-    sente ao chegar a iso, que entendo que é un punto de vista máis académico
-    ou teórico, ata este momento no que vas facer o proxecto máis práctico?
+    Hai xa bastantes meses da noticia da concesión da Synergy Grant da ERC, como
+    está sendo a carga de traballo e como te sentes fronte a todo isto? Fuches á
+    Arxentina e entendo que estiveches con bastante trasfega estes meses.
 ]
 
-Claro, para min é unha pregunta excelente, porque para min isto foi como
-cando nos deron a Synergy Grant do Consello Europeo de Investigación. A
-verdade é que eu me sentín coma se de repente fose a culminación de todo o
-traballo realizado dende que comecei a tese. Todo o traballo que fixen de
-caracterización do sinal, da busca de neutrinos, etc. confluíu nun punto. 
-Todo estaba preparado na miña vida para que acabase aquí e que converxese 
-neste punto. 
+En primeiro lugar, grazas polo interese e pola entrevista. Un proxecto desta
+magnitude, que corresponde efectivamente a un financiamento de 14 millóns de
+euros repartido entre catro universidades distintas (Universidade da Sorbona, o
+Instituto de Astrofísica de París que depende do CNRS, a Universidade de Penn
+State nos Estados Unidos e a USC), require, como no caso, de todas as grants do
+ERC, que se faga un acordo da Unión Europea coas distintas universidades antes
+de recibir o financiamento, o cal no noso caso foi un proceso que durou case un
+ano e foi bastante complexo e laborioso. Pero, a pesar disto, estivemos
+traballando durante ese ano en preparar e afinar moitas cousas do proxecto. En
+concreto, eu estou traballando con dous estudantes de doutoramento (María Durán
+e Sergio Cabana, profesores vosos das aulas interactivas) que están facendo
+simulacións do experimento, que é a parte do proxecto da que se encarga a USC,
+entre outras cousas. Estas simulacións servirán para definir por exemplo, en
+que parte da provincia de San Juan, na Arxentina, é mellor instalar estas
+antenas. Tamén estivemos case dúas semanas alí, en San Juan, no mes de abril
+deste ano facendo medidas de ruído, pescudando e comprobando a accesibilidade
+dos distintos sitios nos que consideramos instalar o observatorio. A todo isto
+súmanse todas as tarefas que fai un profesor universitario coma min, que son
+moitas: investigación e xestión doutros proxectos, as tarefas docentes,
+etcétera.
+
+#figure(image("/revistas/006/imaxes/ENTREVISTA_JAIME_1.jpeg"))
 
 #Pregunta[
-    Si, e ademais dende o 95, que son moitos anos. // esta interseción poderíase suprimir talvez?
+    Levas dende o ano 95 traballando en astrofísica de partículas, xa o
+    doutoramento o fixeches sobre un tema similar e puiden ver que tamén con
+    publicacións e artigos sobre temas semellantes, en concreto astrofísica,
+    especialmente a enfocada ás altas enerxías como raios cósmicos. Como se sente
+    un cando pasa dun punto de vista, digamos, máis teórico, a contemplar a
+    posibilidade de poñelo en práctica?
 ]
 
-Claro, son moitos anos, porque empecei a tese co voso profesor Enrique Zas en
-setembro do ano 94. Eu estudei aquí en Santiago, despois, en setembro do ano 94,
-falei con Enrique e me propuxo traballar xa en simulacións do sinal de
-radio que tratamos de detectar, para outros experimentos e noutras
-circunstancias. Despois, pouco a pouco, o traballo foi avanzando, e xa che
-digo, todo o traballo que fixen sinto que confluíu agora neste proxecto.
+É unha pregunta excelente. A verdade é que no momento da concesión da Synergy
+Grant da ERC sentinme coma se fose a culminación de todo o traballo,
+efectivamente máis teórico, que levo realizando dende que comecei a tese no
+ano 94. Todo o traballo que fixen, en concreto de caracterización dos sinais de
+emisión de radiofrecuencia para a busca de neutrinos, e moitas outras tarefas,
+confluíron neste proxecto. O primeiro que sentín foi como se levase toda a miña
+vida investigadora preparándome para este momento.
+
+#Pregunta[
+    Si, e ademais dende hai moitos anos. // esta interseción poderíase suprimir talvez?
+]
+
+Pois si, son moitos anos..., eu fixen a licenciatura de Física aquí en Santiago
+no ano 89 e acabei no ano 94. Despois, en setembro dese ano, contactei co voso
+profesor Enrique Zas, que me propuxo traballar, xa daquela, en simulacións do
+sinal de radio que tratamos de detectar para observar neutrinos astrofísicos de
+enerxías extremadamente altas, aínda que noutros detectores e noutras
+circunstancias experimentais. Este é un tema no que Enrique é pioneiro, ademais
+dun dos maiores expertos a nivel mundial. E até aquí chegamos, polo de agora...
 
 #Pregunta[
     Debe ser realmente gratificante. Sobre este proxecto, o HERON,
-    como foi o comezo ou o a proposta? Porque é un proxecto non só da
-    USC, senón de Penn State, Sorbona e o observatorio Pierre Auger.
+    como foi o comezo ou o a proposta?
 ]
 
-Pois isto ideouse porque, ben, existe o interese en detectar estes neutrinos
-de enerxía extremadamente alta. Como o seu fluxo é extremadamente pequeno, un
-necesita un detector extremadamente grande. Tiñamos distintos conceptos de
-detector: por exemplo, o observatorio Pierre Auger utiliza detectores Cherenkov
-en auga, é dicir, tanques de auga polos que pasan as partículas que producen as
-chuvias atmosféricas iniciadas polos raios cósmicos e por neutrinos nunha superficie
-moi grande.
+Pois isto ideouse porque primeiramente existe un grande interese en detectar
+estes neutrinos de enerxía extremadamente alta para obter información dos
+obxectos astrofísicos máis violentos do Universo nunha nova xanela de enerxías.
+Como o fluxo esperado destes neutrinos moi enerxéticos é extremadamente
+pequeno, un necesita un detector extremadamente grande. Existen distintos
+conceptos de detector extenso: por exemplo, xunto con Enrique que lidera o
+grupo de Astrofísica de Partículas da USC, traballamos no observatorio Pierre
+Auger, tamén na Arxentina. Este observatorio utiliza detectores Cherenkov en
+auga, é dicir, tanques de auga polos que pasan as partículas que producen as
+chuvias de partículas que se desenvolven na atmosfera terrestre, iniciadas
+polos raios cósmicos e, en principio, tamén por neutrinos. Este detectores
+están espallados nunha superficie enorme de 3000 km cadrados e separados 1.5 km
+entre eles.
 
-Despois alguén ideou a posibilidade de dicir: "En lugar de utilizar tanques
-Cherenkov, podemos utilizar antenas de radio". Este é un experimento que se está
-empezando a realizar na China que se chama GRAND (Giant Radio Array for Neutrino 
-Detection). Máis tarde, a alguén pensou en que se o que queremos é ver un volume 
-moi grande, ou sexa, unha zona moi grande da Terra onde os neutrinos poidan 
-interactuar, podemos lanzar un detector que voe. E, así, lanzouse un detector nun 
-globo que está a 35 quilómetros de altura sobre a superficie do Polo Sur. Ata que
-alguén reparou en que, como o globo no Polo Sur voa e, por tanto, pode só tomar
-datos durante un mes, se podía facer algo permanente nunha montaña, nun sitio que
-evidentemente non fose tan elevado como 35 quilómetros de altura. Entón, aí deseñouse 
-outro experimento chamado BEACON nos Estados Unidos, que era un experimento pequeno 
-nunha montaña a 3000 metros de altitude.
+Moito antes da construción do observatorio Pierre Auger, formulouse a
+posibilidade de, en lugar de utilizar tanques Cherenkov ou outros detectores de
+partículas, usar antenas de radio. O motivo desta proposta débese a que as
+chuvias están formadas por partículas cargadas que emiten radiación
+electromagnética, en particular a frecuencias de radio. Máis tarde, científicos
+dos Estados Unidos pensaron en que se o que queremos é ver un volume de
+material onde poidan interaccionar os neutrinos moi grande, poderiamos lanzar
+un detector que voe a grande altura. E, así, lanzouse unha rede de antenas nun
+globo que voou varias veces a 35 km de altura sobre a superficie do Polo Sur.
+Até que alguén reparou en que, como o globo no Polo Sur só pode tomar //cambio ata por até para manter coherencia co resto do texto
+datos durante un tempo limitado dun mes, se podía facer algo permanente nunha
+montaña, nun sitio que evidentemente non fose tan elevado como 35 km de altura
+pero si a uns poucos km sobre o nivel do mar. Entón deseñouse outro experimento
+chamado BEACON nos Estados Unidos, que só era un prototipo pequeno nunha
+montaña en California a 3000 metros de altitude. Case simultaneamente, esta
+mesma idea da detección de ondas electromagnéticas para a observación de
+neutrinos deu lugar a un experimento que se está empezando a construír na
+China, e que se chama GRAND (Giant Radio Array for Neutrino Detection), unha
+rede enorme de antenas sobre o chan que pretende ocupar unha superficie de dez
+mil quilómetros cadrados. //deixo así porque antes aparecía "10 mil km cadrados", o cal é un pouco raro poñer o número metade con cifra e metade con letra (10 mil) e a unidade metade abreviada metade expandida (km cadrados). Para iso poñer "10 000 km^2" ou "10 000 quilómetros cadrados", pero non mesturar. Non sei como se pon km2 con este compilador, teño medo de estragar o documento.
 
-Entón, o HERON é, en certo modo, a combinacion destas dúas ideas: o experimento en altura
-e o experimento de antenas do chan. Xa existía un grupo traballando en GRAND e outro
-traballando en BEACON, ao que eu pertencía. De súpeto, ocorréusenos a idea de xuntar estes 
-dous conceptos e facer un detector híbrido moi extenso e á vez moito máis sensible a
-neutrinos que o detector GRAND ou o BEACON por separado. Así xurdiu un pouco a
-idea, detectores que xa existían e que confluíron neste detector híbrido que é
-o “H”, que é o que significa o H no nome de HERON (ou Eron).
+Entón chegou a idea de HERON, que é, en certo modo, a combinación dos conceptos
+de BEACON e GRAND: o experimento en altura e o experimento de antenas do chan.
+Xa existían grupos traballando en GRAND (entre outros o dos investigadores da
+Universidade da Sorbona e o Instituto de Astrofísica de París, que colaboran na
+Synergy Grant), e outro grupo traballando en BEACON (o de Penn State
+University, tamén da Synergy), e estaba eu, que colaboraba cos dous
+experimentos a nivel máis teórico, desenvolvendo as simulacións imprescindibles
+para o desenvolvemento de calquera proxecto deste tipo. De súpeto, xurdiu a
+idea de xuntar estes dous conceptos e facer un detector moi extenso e á vez
+moito máis sensible a neutrinos que o detector GRAND ou o BEACON por separado.
+Así comezou a idea de combinar os dous detectores, dos que existían prototipos
+nun único detector híbrido, que é precisamente o significado do “H” no nome de
+HERON.
+
+E ademais estaba a colaboración da USC con investigadores do observatorio
+Pierre Auger na Arxentina, en concreto con grupos de Bariloche e Buenos Aires,
+con moita experiencia en desenvolver detectores que se usan en Astrofísica de
+Partículas e na instalación de infraestruturas de detección moi grandes coma o
+propio observatorio Auger. Esa experiencia e a súa colaboración é absolutamente
+imprescindible para a instalación do observatorio HERON.
 
 #Pregunta[
-    A xente que está especializada nestes neutrinos debédesvos coñecer de
-    colaboracións e supoño que de conferencias, e así ides falando e ao final
-    ideades algo coma isto, de maior ambición.
-]
-
-Efectivamente. Dos catro investigadores principais desta Synergy Grant, eu xa
-coñecía os outros tres. De feito, traballara nos dous experimentos, en BEACON e
-en GRAND. Traballara cos dous investigadores principais que estaban
-desenvolvendo o experimento GRAND e traballara tamén coa outra investigadora
-principal que desenvolvera o experimento BEACON. É dicir, en certo modo eu xa
-era a única persoa que traballara en todos os experimentos. Aínda que dunha maneira un
-pouco máis teórica (na ideación do proxecto, na realización de simulacións e de
-estudar a sensibilidade a neutrinos), pero si, eu era a única persoa que
-traballara nestes tres experimentos. E ademais a colaboración coa xente do
-observatorio Pierre Auger na Arxentina, que tamén ten experiencia: primeiro
-traballando inicialmente cunha infraestutura moi grande e segundo, na instalación
-doutra infraestrutura aínda maior. Esa experiencia vainos servir para instalar a
-infraestutura deste experimento HERON.
-
-#Pregunta[
-    Esa é a outra pregunta, por que A Arxentina? Por que non en Teruel, por
+    Esa é a outra pregunta, por que a Arxentina? Por que non en Teruel, por
     exemplo?
 ]
 
-
-Para a detección da clase de fenómenos tan estraños e tan pouco frecuentes que se pretenden 
-observar nun experimento deste estilo, é necesaria a observación de pulsos de radio, sinais 
-que son moi curtos e moi débiles. Por tanto, o lugar que se escolla debe ter moi pouco ruído
-de fondo de emisión de radio. En concreto, na banda na que imos traballar nós, próxima á
-FM, hai moitos sinais procedentes de emisoras que producen ruído. Entón, hai que ir a 
-un sitio onde haxa pouco ruído, como na provincia de San Juan. 
-
-#Pregunta[
-    Si, porque tamén… non sei se me equivoco, pero Antofagasta tamén é un sitio
-    no que hai astrofísica, en xeral.
-]
-
-Si, o que pasa é que ademais dun sitio con pouco ruído necesitabamos unha
-topografía concreta, de tal xeito que puidésemos instalar o detector nunha
-montaña e que esa montaña estivese vendo un val despoboado. E a ser posible que
-tivese outras montañas en fronte. Por iso decidimos elixir este sitio na
-provincia de San Juan na Arxentina, onde hai un val que ten uns cen
-quilómetros de ancho, que por un lado ten unha cadea montañosa duns dous 
-mil metros de altura, e por outro ten os Andes. Ou sexa, foron dous os motivos: 
-un xeográfico e outro de baixa emisión de ruído de radio. De feito, fixemos agora 
-medida aló e, efectivamente, confírmase que a emisión de radio é moi baixa e que 
-é un sitio "bastante limpo".
+Para a detección da clase de fenómenos tan estraños e tan pouco frecuentes que
+se pretenden observar, usamos a observación de pulsos de radio, sinais que son
+moi curtos en tempo e moi débiles. Por tanto, o lugar que se escolla debe ter
+moi pouco ruído de fondo de emisión de radio. En concreto, na banda na que imos
+traballar nós, próxima á das emisoras FM, hai moitas fontes que producen ruído.
+Entón, hai que escoller un sitio con pouca poboación onde por tanto haxa pouco
+ruído electromagnético. O norte da provincia de San Juan na Arxentina é un
+lugar ideal neste sentido.
 
 #Pregunta[
-    Vale, e como última pregunta deste bloque... como foi o proceso de pedir
-    financiamento á Unión Europea? Ou sexa, un científico pedindo financiamento…
-    é un proceso quizais moi burocrático e pesado? Como foi a vosa
-    experiencia con toda a lea da burocracia?
+    Si, porque... non sei se me equivoco..., en lugares coma o deserto de
+    Atacama en Chile, tamén non hai ruído e se fai moita astrofísica, en xeral.
 ]
 
-Si, a ver, estas ERC Synergy Grants son supercompetitivas. Á
-convocatoria do ano 2024 presentáronse setecentas e pico solicitudes, das cales
-ao final só se financiaron unhas 66 ou 70, é dicir, un 10%. É un proceso que
-vai pasando por distintas fases: hai que presentar unha especie de resumo
-executivo do proxecto de cinco páxinas e mais unha memoria un pouco máis
-grande de 20 páxinas, todo isto ao mesmo tempo. O resumo executivo revísano
-investigadores que non son necesariamente físicos de partículas ou expertos en
-astrofísica, entón o que teñen que ver é que, efectivamente, iso soe como a un
-gran proxecto.
+E que ademais dun sitio con pouco ruído necesitabamos unha topografía moi
+concreta, de tal xeito que puidésemos instalar o detector nunha montaña e que
+esa montaña estivese vendo un val despoboado. E a ser posible que tivese outras
+montañas en fronte. Por iso decidimos elixir este sitio na provincia de San
+Juan na Arxentina, onde hai un val que ten uns cen quilómetros de ancho, que
+cara ao leste ten unha cadea montañosa duns dous mil metros de altura onde
+instalar as antenas, e cara ao oeste ten os Andes que ofrecen unha gran
+cantidade de material onde os neutrinos poderían interaccionar con maior
+probabilidade. Ou sexa, foron dous os motivos: un xeográfico e outro de baixa
+emisión de ruído de radio. De feito, fixemos agora medidas aló no mes de abril
+e, efectivamente, confírmase que a emisión de radio é moi baixa e que é un
+sitio "bastante limpo" nese sentido.
 
 #Pregunta[
-    Algo razoable. // talvez este diálogo poderíase fundir co parágrafo anterior en caso de falta de espazo
+    E como foi o proceso de pedir financiamento á Unión Europea? Ou sexa, un
+    científico pedindo financiamento... é un proceso quizais moi burocrático e
+    pesado? Como foi a vosa experiencia con toda a lea da burocracia?
 ]
 
-Claro, algo razoable... e un pouco máis que razoable, non? Que soe a un gran
-proxecto. Entón tes que escribilo de tal maneira que sexa accesible á xente que
-é científica pero que ao mesmo tempo non sabe moito de astrofísica.
+Estas ERC Synergy Grants son supercompetitivas. Na convocatoria do ano 2024
+presentáronse máis de setecentas propostas, das cales ao final só se
+financiaron un 10% aproximadamente. É un proceso longo que vai pasando por
+distintas fases: primeiro hai que presentar unha especie de resumo executivo do
+proxecto de só cinco páxinas e mais unha memoria un pouco máis grande de 20
+páxinas, todo isto ao mesmo tempo. O resumo executivo revísano investigadores
+que non son necesariamente físicos de partículas ou expertos en astrofísica,
+entón a clave é que teñen que estar convencidos de que, efectivamente, están
+diante dun gran proxecto e teñen que entender a relevancia, viabilidade e as
+capacidades colaborativas dos investigadores involucrados, e ademais este
+resumo ten que estar escrito dunha maneira accesible para científicos que non
+son necesariamente do teu campo. Son moitos condicionantes ao mesmo tempo.
+
 
 #Pregunta[
-    É dicir, isto non entra na carreira...
+    É dicir, estas competencias non entran na carreira...
 ]
 
-Non, iso non entra na carreira nin entra en ningún sitio, iso só se aprende a
-base de escribir proxectos e que che digan que non, e despois noutros proxectos
-que che digan que si, e a base de facerte ti mesmo de revisor de proxectos e de
-ler artigos. Vas aprendendo ao longo de moitos anos. Iso é a primeira fase,
-que se chama fase B1. Despois, na fase B2 é cando xa che avalían o proxecto e
-logo aí tes unha serie de revisores. Nós tivemos once revisores de proxecto, o
-cal é unha cousa excepcional. Normalmente, cando envías un proxecto aquí ao
+Non, isto non entra na carreira nin en ningún sitio. Iso só se aprende a base
+de escribir proxectos de investigación, de facer ti mesmo de revisor de
+proxectos, e de revisar decenas de artigos científicos. Vas aprendendo ao longo
+de moitos anos. E iso só é a primeira fase. Despois, na segunda fase é cando xa
+che avalían o proxecto e aí sí que tes unha serie de revisores máis
+especializados. Nós tivemos once revisores do proxecto, o cal é unha cousa
+excepcional porque normalmente, cando envías un proxecto por exemplo ao
 Ministerio de Educación e Ciencia ou á Axencia Española de Investigación,
-revísancho dúas ou tres persoas, como moito. Cando pasas esa fase, vas a unha
+revísancho tres ou catro persoas, como moito. Cando pasas esa fase, vas a unha
 entrevista, que ademais foi presencial, en Bruxelas.
 
+#figure(
+    image("/revistas/006/imaxes/ENTREVISTA_JAIME_2.jpeg"),
+    caption: [
+        Equipa de investigadores que gañou a ERC Synergy Grant. De
+        esquerda á dereita: Jaime Álvarez Muñiz (Instituto Galego de
+        Física de Altas Enerxías, Universidade de Santiago de
+        Compostela, España); Stephanie Wissel (Penn State University,
+        E.E.U.U.); Kumiko Kotera (Institut d'Astrophysique de Paris,
+        Sorbonne Université, Francia); Olivier Martineau (LPNHE,
+        Sorbonne Université, Paris, Francia)
+    ]
+)
+<fig:jaime:investigadores>
+
 #Pregunta[
-    En Bruxelas catro persoas tedes unha foto xuntos. // poñer esta foto
+    En Bruxelas os catro investigadores, tedes unha foto xuntos. // poñer esta foto
 ]
 
-(Ri) Estamos aí os catro... Tivemos que facer a entrevista, unha presentación de
-dez minutos, é dicir, tes que ir realmente ao que queres contar. Eramos catro,
-cada un de nós falaba dous minutos e medio. Ao cabo de dez mintuos, o xefe do
-comité córtache automaticamente. Nós conseguimos chegar aos dez minutos e catro
-segundos porque se enlearon un pouco co temporizador ao principio. Despois desa
-presentación, no mesmo día, tes unha fase de preguntas de 35 minutos sobre o
-proxecto.
+(Ri) Efectivamente aí estamos os catro na foto, unhas horas antes da entrevista
+que consistía nunha presentación de dez minutos na que cada un de nós falou
+exactamente dous minutos e medio, é dicir, tes que ir realmente ao que queres
+contar. Ao cabo de dez minutos e dous segundos, o xefe do comité diante do cal
+fixemos a presentación, formado por 15 ou 16 persoas, cortounos
+automaticamente, afortunadamente xusto nese momento terminou o último dos catro
+de falar. Despois desa presentación veu unha sesión de 35 minutos de preguntas
+sobre o proxecto, preguntas das que non tes por que saber necesariamente a
+resposta pero si demostrar que pensaches nelas con anterioridade. A preparación
+desta entrevista durou varios meses con decenas de horas de ensaios,
+elaboración de preguntas e respostas, gráficos e outros materiais; foi
+verdadeiramente estresante e esgotador.
 
 #Pregunta[
-    É como unha defensa de tese.
+    É como unha defensa de tese?
 ]
 
-Como unha defensa de tese e ademais neste tipo de Synergy Grants tes que
-mostrar que hai colaboración, que hai sinerxía, que realmente nos xuntamos
-catro persoas do mesmo campo, pero que cada unha ten un expertise que,
-combinando as catro capacidades xuntas, somos moito máis que a suma individual.
-Que nos complementamos ben e que somos un valor engadido. Iso é o que tes que
-demostrar. Despois, ao cabo dun mes ou así vén a decisión e a alegría e, ao
-mesmo tempo, a gran responsabilidade, a vertixe.
+Bastante peor que a miña defensa de tese seguro... (risas), e ademais neste
+tipo de Synergy Grants tes que mostrar que hai colaboración, que hai sinerxía,
+que aínda que nos xuntamos catro persoas do mesmo campo cada unha ten unha
+experiencia, coñecemento e capacidade que, combinadas son moito máis que a suma
+individual, é dicir, que nos complementamos ben e que cada un de nós representa
+un valor engadido ao proxecto. Iso é o que tes que demostrar en 45 minutos e,
+en parte, é o motivo polo cal a entrevista é presencial, queren ver como
+actuamos en conxunto. Despois, ao cabo dun mes e medio, vén a decisión e, no
+noso caso a alegría e, ao mesmo tempo, a gran responsabilidade, a vertixe.
 
 #Pregunta[
     Quedemos coa alegría.
 ]
 
-Si, o primeiro é a alegría. Mais despois, unha vez que
-asimilas o éxito, o resultado, vénche unha gran presión.
+Si, o primeiro é a alegría... mais despois, unha vez que asimilas o éxito,
+vénche unha gran presión porque os retos aos que nos temos que enfrontar son
+considerables. Por fortuna, creo sinceramente que temos un moi bo equipo con
+grande experiencia previa e que poderemos afrontalos con éxito, axudados polos
+investigadores, técnicos e estudantes de doutoramento que contratemos para
+traballar connosco.
 
 #Pregunta[
     Pero conseguístelo á primeira, se non me equivoco, ou non?
 ]
 
-Conseguímolo á primeira, o cal tamén é unha cousa que non é demasiado habitual.
-Os dous investigadores principais de Francia xa perderan un houbera uns anos, pero
-tanto a de Penn State coma min era a primeira vez que optabamos a un contrato
-destes.
+Conseguímolo á primeira, o cal tamén é unha cousa que segundo teño entendido
+non é demasiado habitual. En realidade os dous investigadores principais de
+Francia xa solicitaran outra Synergy Grant hai uns anos, pero tanto para a
+investigadora de Penn State coma para min era a primeira vez que optabamos a
+unha grant da ERC. Foi un éxito monumental, pero nada se poderá comparar coa
+satisfacción de chegar a detectar estes neutrinos de enerxías descomunais,
+mensaxeiros diminutos de fenómenos cósmicos inimaxinables, e contribuír así,
+aínda que sexa modestamente, a desvelar os segredos do Universo que nos rodea.
+Esa é, en definitiva, a miña máxima aspiración como científico: comprender o
+cosmos.
 
-// Talvez debería ir falar con Jaime e dicirlle que se quere finiquitar
-// cunha frase máis molona (teño que lle preguntar que foto súa quere
-// poñer)
+#v(1fr)
+
+#place(
+    bottom + center,
+    float: true,
+    scope: "parent",
+    figure(
+        rect(
+            stroke: 0.6pt,
+            image("/revistas/006/imaxes/ENTREVISTA_JAIME_3.png"),
+        ),
+        caption: [Esquema do experimento HERON. Imaxe de Jaime.]
+    )
+)

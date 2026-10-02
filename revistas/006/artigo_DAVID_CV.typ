@@ -5,10 +5,12 @@
     subtitulo  : [As dificultades técnicas de crear un documento dixital de calidade.],
     afiliacion : [(un) xefe de Edición da Revista *$arrow("M")$*omentum],
     autoria    : "David Cotelo Varela",
-    tema       : "PROGRAMACIÓN e HISTORIA",
+    tema       : "MISCELÁNEA",
 )
 
 #show: columns
+// Ollo, isto é un apaño
+#show footnote.entry: set text(costs: (widow: 0%, orphan: 0%))
 
 A historia das revistas de física da nosa facultade comezou nos anos
 oitenta con _A gota de Millikan_, seguida do panfleto _Físical Interviú_ a
@@ -174,7 +176,7 @@ hai 6 números.
     ]
 ) <fig:equipa>
 
-== O presente
+== O presente e o futuro
 
 Actualmente o proceso para xerar a revista (simplificado enormemente) é o
 seguinte. Os redactores envían os seus artigos ao correo
@@ -215,17 +217,13 @@ fáciles de arranxar, a sintaxe é máis clara, e en xeral, síntese como un
 programa moderno e non dos anos 60. Se estades a usar `LaTeX` para as vosas
 memorias de laboratorio ou apuntamentos, recoméndovos que probedes `Typst`.
 
-== O futuro
-
-Confío na xente nova que se quede no proxecto (inda que polo de agora eu
-non teño pensado abandonar, realmente pásoo ben). As persoas que
-mencionei antes (véxase tamén a @fig:equipa) e sobre todo as novas que
-veñan no futuro son quen van manter a revista. Unha parte crucial do noso
-traballo é asegurarnos de que exista remuda xeracional, que haxa xente que
-preserve o interese e que saiba como levar o proxecto. O noso traballo non
-só foi programar e elixir o estilo visual da revista, tamén temos que
-atraer máis xente e educala no proceso de edición. É un proxecto feito por
-estudantes, para outros estudantes.
+O noso traballo non só foi programar e elixir o estilo visual da revista, tamén
+tivemos que atraer máis xente e educala no proceso de edición. É crucial que
+exista remuda xeracional, que haxa xente que preserve o interese e que saiba
+como levar o proxecto. Confío na xente nova que se queda no proxecto (inda que
+polo de agora eu non teño pensado abandonar, realmente pásoo ben). As persoas
+que mencionei antes (véxase tamén a @fig:equipa) e sobre todo as novas que
+veñan no futuro son quen van manter a revista.
 
 == Intelixencia Artificial? Non, grazas
 

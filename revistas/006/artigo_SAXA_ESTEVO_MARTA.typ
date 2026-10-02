@@ -21,7 +21,7 @@ A vida nos nosos centros de ensino está marcada polo constante empeoramento das
 condicións de estudo, traballo e investigación. Equipos que levan décadas sen
 renovarse, goteiras na facultade, programacións das que se recorta tempo pero
 non contido, falta de espazos, prácticas non pagadas en empresas con negocio no
-control de fronteiras e con relacións co estado xenocida de Israel
+control de fronteiras e con relacións co de Israel
 @gradiant_home @gradiantart, períodos de tempo cada vez máis longos
 para acadar unha praza fixa na universidade e precariedade na investigación.
 
@@ -30,7 +30,7 @@ nas entidades públicas. Non se restrinxe á existencia ou creación de empresas
 no sector educativo, trátase dunha invasión que opera en dúas frontes. Nun
 primeiro nivel, a loxística, da man da privatización de servizos básicos,
 exemplificada na subcontratación do servizo de cafetaría na nosa universidade,
-que monopoliza a empresa Solpor. Isto contribúe non só ao aumento dos custos de
+que está monopolizada. Isto contribúe non só ao aumento dos custos de
 sustento das estudantes proletarias a través da suba de prezos, senón tamén ao
 empeoramento das condicións de traballo no sector.
 
@@ -56,7 +56,7 @@ recortes no ensino do goberno de Milei, tal e como se analiza en
 // Entón, cabe preguntarse como xorde este empeoramento das nosas condicións de
 // vida e como podemos freala.
 
-== Causas estruturais desta crise (marco político)
+== Causas estruturais desta crise
 
 A resposta máis inmediata é culpar as responsables directas do estado da nosa
 educación, os gobernos de Alfonso Rueda e Pedro Sánchez. Mais, a pesar de que son eles
@@ -87,7 +87,7 @@ recadación é directamente proporcional ao beneficio capitalista. Así, a forma
 que atopan (/Estado/ e capital) de sostelo é a apertura de novos mercados,
 dando pé a outro dos grandes fenómenos da denominada crise educativa, a
 privatización vía desmantelamento. No noso territorio este proceso é
-especialmente aldraxante da man do goberno da Xunta: aumentan os ratios na
+especialmente aldraxante da man do goberno: aumentan os ratios na
 secundaria, redúcense as prazas nos graos, substitúense os ciclos presenciais
 por telemáticos, péchanse centros públicos... Á vez que asistimos á creación da
 primeira universidade privada en Galiza, ao crecemento descarado da subvención
@@ -124,9 +124,7 @@ crise educativa implica necesariamente a superación do capitalismo como modelo
 de sociedade. Quen vai acometer esta tarefa non é o estudantado en xeral, pois
 o empeoramento das condicións de estudo e o proceso de privatización da
 educación non afecta no mesmo grao a quen pode pagar unha matrícula nunha
-universidade privada e a quen non. Do mesmo xeito, o obxectivo do acceso á
-educación do proletariado é o mellor exercicio a futuro da súa función como
-forza de traballo explotada, distanciándoo do resto de sectores do estudantado.
+universidade privada e a quen non.
 Por último, tratándose a crise dunha problemática xeral, só a organización de // dumha -> dunha
 amplos sectores da clase pode atacar o problema de raíz. A forza da clase
 obreira reside no seu número e no seu lugar no proceso produtivo, restrinxir

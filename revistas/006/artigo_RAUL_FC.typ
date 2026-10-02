@@ -1,7 +1,7 @@
 #import("/estilo.typ"): *
 
 #show: Artigo.with(
-  titulo: [Aquelas marabillosas ondas de luz evanescentes],
+  titulo: [Aquelas marabillosas\ ondas de luz evanescentes],
   autoria: [Raúl de la Fuente Carballo],
   tema: "DIVULGACIÓN"
 )
@@ -51,7 +51,7 @@ ondas evanescentes poden considerarse ondas superficiais, xa que están
 localizadas na proximidade dunha superficie que separa dous medios con
 diferentes propiedades ópticas. Insistimos: son ondas localizadas, non
 viaxeiras, aínda que tamén podemos consideralas como a cola dunha onda
-viaxeira. Imos falar do exemplo máis coñecido. 
+viaxeira. Imos falar do exemplo máis coñecido.
 
 #figure(
   image("/revistas/006/imaxes/RAUL_FC_2.png"),
@@ -125,7 +125,7 @@ existen razóns para distinguir as partes da onda que se propagan dentro e fóra
 do núcleo. En primeiro lugar, descríbense matematicamente de xeito diferente:
 dentro do núcleo temos unha función oscilatoria e no revestimento, unha función
 minguante. Por outra banda, pódense fabricar dispositivos como acopladores ou // decaínte non figura na RAG, cambiado por minguante. Aberto a suxestións
-sensores en fibras ópticas nos que a onda evanescente ten un papel esencial. 
+sensores en fibras ópticas nos que a onda evanescente ten un papel esencial.
 
 Un terceiro tipo de configuración onde aparecen ondas evanescentes é aquel que
 contén capas metálicas moi finas. En xeral, a luz e os metais non se levan nada
@@ -136,11 +136,11 @@ que pasa co resto do sinal que se transmite ao metal? Pois é absorbido moi
 rapidamente, de forma que desaparece nunha distancia de decenas de nanómetros.
 Podemos concluír que nun metal non se propaga radiación, senón que esta é
 amortecida. Salvo que consideremos capas metálicas moi finas; por dicir, cun
-espesor inferior a 100 nm. 
+espesor inferior a 100 nm.
 
 #figure(
   image(width: 80%, "/revistas/006/imaxes/RAUL_FC_3.png"),
-  caption: [Representación da excitación dun plasmón de superficie 
+  caption: [Representación da excitación dun plasmón de superficie
     mediante luz.]
 )<im:3>
 
