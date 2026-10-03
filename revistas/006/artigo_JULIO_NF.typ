@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
     titulo      : [Do SEG ao IGFAE],
-    subtitulo   : [Un século de física galega],
+    subtitulo   : [Un século de física galega.],
     autoria     : "Julio Novoa Fernández",
     tema        : "HISTORIA",
 )
@@ -54,7 +54,7 @@
             "/revistas/006/imaxes/JULIO_NF_telescopio.jpg"
         ),
         caption: [
-            refractor ecuatorial Steinhell no Observatorio Astronómico de
+            Refractor ecuatorial Steinhell no Observatorio Astronómico de
             Lalín. Ramón María Aller. Publicado en "El Observatorio Astronómico
             de Lalín y sus coordenadas geográficas", Arquivos do SEG, Volume
             III (1929). Imaxe no dominio público.

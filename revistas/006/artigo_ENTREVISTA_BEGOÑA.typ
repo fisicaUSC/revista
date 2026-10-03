@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
   titulo: [Entrevista a Begoña Vila Costas],
-  subtitulo: [A observación espacial dende o centro máis icónico do mundo],
+  subtitulo: [A observación espacial dende o centro máis icónico do mundo.],
   autoria: [Gemma Ruiz Lavandeira],
   tema: "ENTREVISTAS",
 )
@@ -13,7 +13,7 @@ María Begoña Vila Costas naceu en Vigo un ano despois de que John Glenn se
 convertese no primeiro estadounidense en orbitar a Terra. Este fito
 histórico da NASA pareceu marcar a traxectoria desta galega formada entre a
 Universidade de Santiago de Compostela e o Instituto de Astrofísica de  //As Canarias levan artigo en galego, pero vou respectar a
-Canarias, que se doutorou en Astrofísica na Universidade de Manchester.  //forma orixinal ao tratarse dunha institución. 
+Canarias, que se doutorou en Astrofísica na Universidade de Manchester.  //forma orixinal ao tratarse dunha institución.
 
 A súa pegada continuou ata Canadá, onde traballou nunha empresa baixo a
 dirección da Axencia Espacial dese país, deseñando e construíndo o Fine
@@ -51,7 +51,7 @@ and Slitless Spectrograph (NIRISS) --. Eles coñeceron o meu traballo como enxe�
 de sistemas neses dous instrumentos, gustáballes ese traballo e aprenderon a
 confiar en min. Cando entregamos os instrumentos para a integración do telescopio
 en Goddard, tivo sentido pedirme que seguise o meu traballo xa alí -- en parte
-polo ben que os coñecía, pero tamén sabendo que podía encargarme doutras cousas, 
+polo ben que os coñecía, pero tamén sabendo que podía encargarme doutras cousas,
 xa que tiñan fe de que sería unha boa adición ao seu equipo.
 
 Ou sexa, é resultado de moito traballo ao longo da miña vida, de aceptar novos
@@ -77,12 +77,12 @@ necesario para a ciencia e que o telescopio se manteña estable cando os datos
 científicos se están tomando -- é como se queres tomar unha foto coa cámara,
 pero se a cámara se está movendo, a foto sería movida. Facemos isto buscando
 unha estrela en particular en cada zona do ceo que se queira mirar e mandando a
-información da súa posición moi precisamente -- 1 millisegundo de arco (mas) --
+información da súa posición moi precisamente -- 1 milisegundo de arco (mas) --
 16 veces cada segundo. Esta información é recibida polo control de altitude do
 telescopio, que pode mover un espello para que a estrela se quede exactamente
 nesa posición cando os datos científicos se están tomando.
 
-O telescopio Webb pode observar galaxias, estrelas, etc., obxectos moi afastados 
+O telescopio Webb pode observar galaxias, estrelas, etc., obxectos moi afastados
 -- os primeiros que se formaron no Universo --, pero tamén pode observar no noso
 Sistema Solar. O instrumento de guía funciona distinto neste último tipo de observacións.
 
@@ -197,7 +197,7 @@ sorte de empezar a participar un pouco no seu instrumento de guía. Este novo
 telescopio combinará o coñecemento de Webb cun espello moi grande feito de
 espellos máis pequenos e con instrumentos avanzados, un deles un avance baseado
 en Roman dun coronógrafo (un instrumento que pode tapar a luz da estrela para
-buscar planetas arredor) -- neste caso, como o di o nome do telescopio, 
+buscar planetas arredor) -- neste caso, como o di o nome do telescopio,
 teremos planetas candidatos que xa pensamos que poderían ter unha
 atmosfera que mostre compoñentes onde a vida se poida dar (auga líquida,
 dióxido de carbono, metano, etc), inda que non saibamos como chegar a

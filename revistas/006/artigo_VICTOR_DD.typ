@@ -125,7 +125,7 @@
             "/revistas/006/imaxes/VICTOR_DD_caixa.png"
         ),
         caption: [
-            A caixa construída por Tait. Extraído de @Tait.
+            A caixa construída por Tait @Tait.
         ]
     ) <fig:caixa>
 
@@ -165,8 +165,7 @@
             "/revistas/006/imaxes/VICTOR_DD_nos.png"
         ),
         caption: [
-            Os sete nós máis sinxelos clasificados por Tait.
-            Extraído de @Silver.
+            Os sete nós máis sinxelos clasificados por Tait @Silver.
         ]
     )
 

@@ -112,7 +112,7 @@ partículas, usar antenas de radio. O motivo desta proposta débese a que as
 chuvias están formadas por partículas cargadas que emiten radiación
 electromagnética, en particular a frecuencias de radio. Máis tarde, científicos
 dos Estados Unidos pensaron en que se o que queremos é ver un volume de
-material onde poidan interaccionar os neutrinos moi grande, poderiamos lanzar
+material onde poidan interactuar os neutrinos moi grande, poderiamos lanzar
 un detector que voe a grande altura. E, así, lanzouse unha rede de antenas nun
 globo que voou varias veces a 35 km de altura sobre a superficie do Polo Sur.
 Até que alguén reparou en que, como o globo no Polo Sur só pode tomar //cambio ata por até para manter coherencia co resto do texto
@@ -174,7 +174,7 @@ montañas en fronte. Por iso decidimos elixir este sitio na provincia de San
 Juan na Arxentina, onde hai un val que ten uns cen quilómetros de ancho, que
 cara ao leste ten unha cadea montañosa duns dous mil metros de altura onde
 instalar as antenas, e cara ao oeste ten os Andes que ofrecen unha gran
-cantidade de material onde os neutrinos poderían interaccionar con maior
+cantidade de material onde os neutrinos poderían interactuar con maior
 probabilidade. Ou sexa, foron dous os motivos: un xeográfico e outro de baixa
 emisión de ruído de radio. De feito, fixemos agora medidas aló no mes de abril
 e, efectivamente, confírmase que a emisión de radio é moi baixa e que é un
@@ -208,7 +208,7 @@ Non, isto non entra na carreira nin en ningún sitio. Iso só se aprende a base
 de escribir proxectos de investigación, de facer ti mesmo de revisor de
 proxectos, e de revisar decenas de artigos científicos. Vas aprendendo ao longo
 de moitos anos. E iso só é a primeira fase. Despois, na segunda fase é cando xa
-che avalían o proxecto e aí sí que tes unha serie de revisores máis
+che avalían o proxecto e aí si que tes unha serie de revisores máis
 especializados. Nós tivemos once revisores do proxecto, o cal é unha cousa
 excepcional porque normalmente, cando envías un proxecto por exemplo ao
 Ministerio de Educación e Ciencia ou á Axencia Española de Investigación,
@@ -224,7 +224,7 @@ entrevista, que ademais foi presencial, en Bruxelas.
         Compostela, España); Stephanie Wissel (Penn State University,
         E.E.U.U.); Kumiko Kotera (Institut d'Astrophysique de Paris,
         Sorbonne Université, Francia); Olivier Martineau (LPNHE,
-        Sorbonne Université, Paris, Francia)
+        Sorbonne Université, Paris, Francia).
     ]
 )
 <fig:jaime:investigadores>
@@ -297,6 +297,6 @@ cosmos.
             stroke: 0.6pt,
             image("/revistas/006/imaxes/ENTREVISTA_JAIME_3.png"),
         ),
-        caption: [Esquema do experimento HERON. Imaxe de Jaime.]
+        caption: [Esquema do experimento HERON. Foto: Jaime.]
     )
 )

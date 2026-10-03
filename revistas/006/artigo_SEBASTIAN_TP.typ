@@ -58,7 +58,7 @@ Adentrarse no manexo completo das teorías de Lovelock require de bastante
 orixinal ao que se debe este resumo, foron vitais os libros de _Geometria
 Riemanniana_ de M. do Carmo e _Tensors, Differential Forms, and Variational
 Principles_ de D. Lovelock e H. Rund. Se se me permiten as palabras malsoantes,
-estas matemáticas son vitais para traballar co espazotempo $(cal(M),g,Gamma)$,
+estas matemáticas son vitais para traballar co espazo-tempo $(cal(M),g,Gamma)$,
 que nas teorías de Lovelock é unha $cal(M)$ variedade pseudo-Riemann-Cartan
 afinmente conectada libre de torsión. A calquera persoa que estudase
 gravitación algunhas destas palabras deberíanlle soar. En primeiro lugar, unha
@@ -197,7 +197,7 @@ nu)$. Antes falabamos de puntos de vista de Cartan e de Einstein, ben, estas
 dúas perspectivas teñen unha implicación directa á hora de traballar coas
 lagranxianas da RX: a perspectiva de Einstein, tamén denominada formalismo
 métrico ou de segunda orde, implica unha dependencia de até a segunda derivada
-na métrica; mentras que a de Cartan (formalismo de primeira orde) ao estar
+na métrica; mentres que a de Cartan (formalismo de primeira orde) ao estar
 enunciada co vielbein, só ten dependencia nas primeiras derivadas#footnote[Isto
 débese a un resultado fundamental que non se introduciu, que é o lema de
 Poincaré, este reza que para toda _p-forma_, como é o vielbein, a súa segunda
