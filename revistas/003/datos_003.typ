@@ -17,7 +17,7 @@
 
     depuracion_visual: false,
 
-    data_dia: 00,
+    data_dia: 15,
     data_numero_mes: 9,
     data_mes: "setembro",
     data_ano: 2025,
