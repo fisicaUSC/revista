@@ -3,7 +3,7 @@
 #show: Artigo.with(
     titulo      : [Do SEG ao IGFAE],
     subtitulo   : [Un século de física galega.],
-    autoria     : "Julio Novoa Fernández",
+    autoria     : "Julio Nóvoa Fernández",
     tema        : "HISTORIA",
 )
 

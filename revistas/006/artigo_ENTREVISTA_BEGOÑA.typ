@@ -58,8 +58,14 @@ Ou sexa, é resultado de moito traballo ao longo da miña vida, de aceptar novos
 retos, pero tamén de prepararse e facer as cousas o mellor que se poida co equipo
 e inspirar a confianza de que se vai cumprir aquilo do que se é responsable.
 
-#figure(
-  image("/revistas/006/imaxes/ENTREVISTA_BEGOÑA_1.jpg")
+#place(
+    top + center,
+    float: true,
+    scope: "column",
+    {
+        show figure: set block(inset: 0pt)
+        figure(image("/revistas/006/imaxes/ENTREVISTA_BEGOÑA_1.jpg"))
+    }
 )
 
 #Pregunta[

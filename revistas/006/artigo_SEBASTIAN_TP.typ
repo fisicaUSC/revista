@@ -97,11 +97,7 @@ $
 $ <ec:sebas:2>
 
 $
-    R_(mu nu): = R^sigma_(#h(0.7em)mu sigma nu) = riemann \
-    // partial_sigma Gamma^sigma_(#h(0.7em)mu nu)
-    //     - partial_nu Gamma^(sigma)_(#h(0.7em)mu sigma)
-    //     + Gamma^sigma_(#h(0.7em)lambda sigma)Gamma^lambda_(#h(0.7em)mu nu)
-    //     - Gamma^sigma_(#h(0.7em)lambda nu)Gamma^(lambda)_(#h(0.7em)mu sigma)\
+    R_(mu nu): = R^sigma_(#h(0.7em)mu sigma nu) arrow.double.r
     R : = R^mu_(#h(0.7em)mu)
 $ <ec:sebas:3>
 
@@ -149,8 +145,7 @@ $
 $ <ec:sebas:5>
 
 $
-    T^(mu nu)= vieli T^(a nu) = vieli bieli T^(a b)\
-    #[(transformación entre espazos de tensores)]
+    T^(mu nu)= vieli T^(a nu) = vieli bieli T^(a b)
 $ <ec:sebas:6>
 
 

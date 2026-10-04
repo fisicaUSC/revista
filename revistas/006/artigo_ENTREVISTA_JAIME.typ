@@ -56,7 +56,15 @@ súmanse todas as tarefas que fai un profesor universitario coma min, que son
 moitas: investigación e xestión doutros proxectos, as tarefas docentes,
 etcétera.
 
-#figure(image("/revistas/006/imaxes/ENTREVISTA_JAIME_1.jpeg"))
+#place(
+    top + center,
+    float: true,
+    scope: "column",
+    {
+        show figure: set block(inset:0pt)
+        figure(image("/revistas/006/imaxes/ENTREVISTA_JAIME_1.jpeg"))
+    }
+)
 
 #Pregunta[
     Levas dende o ano 95 traballando en astrofísica de partículas, xa o
@@ -218,7 +226,7 @@ entrevista, que ademais foi presencial, en Bruxelas.
 #figure(
     image("/revistas/006/imaxes/ENTREVISTA_JAIME_2.jpeg"),
     caption: [
-        Equipa de investigadores que gañou a ERC Synergy Grant. De
+        Equipo de investigadores que gañou a ERC Synergy Grant. De
         esquerda á dereita: Jaime Álvarez Muñiz (Instituto Galego de
         Física de Altas Enerxías, Universidade de Santiago de
         Compostela, España); Stephanie Wissel (Penn State University,
@@ -295,8 +303,19 @@ cosmos.
     figure(
         rect(
             stroke: 0.6pt,
-            image("/revistas/006/imaxes/ENTREVISTA_JAIME_3.png"),
+            image(width: 80%, "/revistas/006/imaxes/ENTREVISTA_JAIME_3.png"),
         ),
-        caption: [Esquema do experimento HERON. Foto: Jaime.]
+        caption: [
+            Un neutrino de sabor tau procedente dunha fonte astrofísica a
+            distancias cosmolóxicas chega á Terra e interacciona na cordilleira
+            dos Andes, producindo un leptón tau que, ao desintegrarse, inicia
+            unha chuvia atmosférica de miles de millóns de partículas
+            secundarias. Estas partículas cargadas, maiormente electróns, ao
+            seren desviadas polo campo magnético terrestre, emiten radiación
+            electromagnética no rango de frecuencias de radio (MHz–GHz), que
+            sería detectada por medio dunha rede de dous tipos de antenas
+            estendida ao longo dunha distancia de 72 km e situadas a
+            aproximadamente 1 km de altura sobre o solo. Fonte: Jaime Álvarez.
+        ]
     )
 )
