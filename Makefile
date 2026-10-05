@@ -51,12 +51,13 @@ OPCIONS_TYPST := \
 	--format pdf              \
 	--root .                  \
 	--pdf-standard 2.0        \
-	--pdf-tagged=false        \
+	--pdf-tagged=true         \
 	--diagnostic-format short \
 	--ignore-system-fonts     \
 	--ignore-embedded-fonts   \
 	--font-path=fontes        \
 	--deps-format=json        \
+	--features=a11y-extras    \
 	--input numero=$(numero)
 
 # Información de Git que aparece no índice. Son parámetros que tamén lle

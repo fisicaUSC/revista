@@ -252,36 +252,50 @@
     // O titulo
     grid.cell(
         x:0,y:0,
-        block(
-            {
-                text( fill: rgb(datos.cor_resalte), size: 70pt)[*$arrow("M")$*]
-                text(size: 70pt)[*OMENTUM*]
-            }
+        figure(
+            alt: "Momentum",
+            pdf.artifact(
+                kind: "other",
+                {
+                    text(size: 70pt, fill: rgb(datos.cor_resalte),[*$arrow("M")$*])
+                    text(size: 70pt, [*OMENTUM*])
+                }
+            )
         )
     ),
 
     // O subtítulo
     grid.cell(
         x:0, y:1,
-        block(
-            {
-                set text(size: 18pt)
-                sans[A revista estudantil da Facultade de Física da USC]
-            }
+        figure(
+            alt : "A revista estudantil da Facultade de Física da USC",
+            pdf.artifact(
+                kind: "other",
+                {
+                    set text(size: 18pt)
+                    sans[A revista estudantil da Facultade de Física da USC]
+                }
+            )
         )
     ),
 
     // Número e data
     grid.cell(
         x:0, y:2,
-        block(
-            inset  : 13pt,
-            stroke : 2pt,
-            fill   : rgb(datos.cor_resalte),
-            text(
-                fill : rgb(datos.cor_texto),
-                size : 17pt,
-                mono[Núm.#sys.inputs.at("numero") #h(1fr) #datos.data_mes #datos.data_ano]
+        figure(
+            alt: "Número " + str(sys.inputs.numero) + ", " + str(datos.data_mes) + " " + str(datos.data_ano),
+            pdf.artifact(
+                kind: "other",
+                block(
+                    inset  : 13pt,
+                    stroke : 2pt,
+                    fill   : rgb(datos.cor_resalte),
+                    text(
+                        fill : rgb(datos.cor_texto),
+                        size : 17pt,
+                        mono[Núm.#sys.inputs.at("numero") #h(1fr) #datos.data_mes #datos.data_ano]
+                    )
+                )
             )
         )
     ),
@@ -289,50 +303,57 @@
     // Imaxe portada
     grid.cell(
         x:0, y:3,
-        block(
-            inset : 1pt,
-            stroke : 2pt,
-            {
-                // Se pasamos o nome da portada, usamos esa
-                if datos.imaxe_portada != none {
-                    image(width: 100%, datos.imaxe_portada)
-                // Se non, poñemos un fondo por defecto
-                } else {
-                    // Un rectángulo
-                    rect(
-                        width  : 100%,
-                        height : 100%,
-                        stroke : red + 2pt,
-                        fill   : tiling( // cheo dun patrón de liñas
-                            size: (30pt, 30pt),
-                            {
-                                place(line(start: (0%, 0%)  , end: (100%, 100%), stroke: (paint: gray, dash: "dashed")))
-                                place(line(start: (0%, 100%), end: (100%,   0%), stroke: (paint: gray, dash: "dashed")))
-                            }
-                        ),
-                        {
-                            // E metemos no centro un aviso
-                            set align(center + horizon)
-                            set text(size: 3em)
+        figure(
+            alt: "Imaxe da portada. " + datos.comentario_imaxe,
+            pdf.artifact(
+                kind: "other",
+                block(
+                    inset : 1pt,
+                    stroke : 2pt,
+                    {
+                        // Se pasamos o nome da portada, usamos esa
+                        if datos.imaxe_portada != none {
+                            image(width: 100%, datos.imaxe_portada)
+                        // Se non, poñemos un fondo por defecto
+                        } else {
+                            // Un rectángulo
                             rect(
-                                fill   : white,
-                                stroke : red + 3pt,
-                                inset  : 1em,
-                                mono[SEN IMAXE DE PORTADA]
+                                width  : 100%,
+                                height : 100%,
+                                stroke : red + 2pt,
+                                fill   : tiling( // cheo dun patrón de liñas
+                                    size: (30pt, 30pt),
+                                    {
+                                        place(line(start: (0%, 0%)  , end: (100%, 100%), stroke: (paint: gray, dash: "dashed")))
+                                        place(line(start: (0%, 100%), end: (100%,   0%), stroke: (paint: gray, dash: "dashed")))
+                                    }
+                                ),
+                                {
+                                    // E metemos no centro un aviso
+                                    set align(center + horizon)
+                                    set text(size: 3em)
+                                    rect(
+                                        fill   : white,
+                                        stroke : red + 3pt,
+                                        inset  : 1em,
+                                        mono[SEN IMAXE DE PORTADA]
+                                    )
+                                }
                             )
                         }
-                    )
-                }
-                // O comentario da imaxe da portada
-                place(
-                    left + bottom, dy: -0.4cm, dx:  0.4cm,
-                    rect(
-                        fill   : rgb("#44444499"),
-                        stroke : 0.6pt + white.transparentize(70%),
-                        text(fill: white, size : 11pt, sans(datos.comentario_imaxe))
-                    )
+                        // O comentario da imaxe da portada
+                        place(
+                            left + bottom, dy: -0.4cm, dx:  0.4cm,
+                            rect(
+                                fill   : rgb("#44444499"),
+                                stroke : 0.6pt + white.transparentize(70%),
+                                text(fill: white, size : 11pt, sans(datos.comentario_imaxe))
+                            )
+                        )
+                    }
                 )
-            }
+
+            )
         )
     ),
 
@@ -340,22 +361,22 @@
     // :FACER: meter info dos logos en datos_xxx.typ?
     grid.cell(
         x:0, y:4,
-        grid(
-            columns : (1fr, 1fr),
-            rows    : 100%,
-            align   : (left+horizon, right+horizon),
-            grid.cell(
-                x:0,y:0,
-                image(
-                    width: 12cm,
-                    "/logos/vicerreitoria-branco-negro.pdf",
-                )
-            ),
-            grid.cell(
-                x:1,y:0,
-                image(
-                    width: 5cm,
-                    "/logos/IGFAE_acronimo_escuro.pdf",
+        figure(
+            alt: "Logotipia da revista",
+            pdf.artifact(
+                kind: "other",
+                grid(
+                    columns : (1fr, 1fr),
+                    rows    : 100%,
+                    align   : (left+horizon, right+horizon),
+                    grid.cell(
+                        x:0,y:0,
+                        image(width: 12cm, alt: "Logo da Vicerreitoría de Estudantes", "/logos/vicerreitoria-branco-negro.pdf",)
+                    ),
+                    grid.cell(
+                        x:1,y:0,
+                        image(width: 5cm, alt: "Logo do IGFAE", "/logos/IGFAE_acronimo_escuro.pdf",)
+                    )
                 )
             )
         )
@@ -404,14 +425,7 @@
             block(
                 width : 100%,
                 inset : (bottom: 1em),
-                heading(
-                    level: 1,
-                    numbering: none,
-                    text(
-                        size: 2em,
-                        condensada[*Índice*]
-                    )
-                )
+                heading(level: 1, numbering: none, text( size: 2em, condensada[*Índice*]))
             )
             // Texto coas liñas e o tema da sección
             // :FACER: poñer esta función afora do grid
@@ -426,39 +440,39 @@
                     line(stroke: 0.6pt, length: 100%),
                 )
             )
+
             // ERRO (curioso) facer simplemente #_artigos.final() non vai, está bugueado.
             //
             // Partindo do array final dos artigos, creamos outro array con
             // 'map' que teña so os temas (sen duplicar), como ("divulgacion", "historia", ...)
-            context for tema in _artigos.final().map(x => x.tema).dedup() {
-                // Mostramos o separador co tema
-                separador(tema)
-                // Do array de artigos, collemos os que teñen o noso tema, e iteramos un a un
-                for artigo in _artigos.final().filter(x => x.tema == tema) {
-                    // Creamos un ligazón
-                    link(
-                        // A onde nos vai levar a ligazón
-                        artigo.localizacion,
-                        // Que mostra a ligazón
-                        {
-                            text(
-                                fill    : rgb(datos.cor_resalte).darken(20%),
-                                font    : _semi.familia,
-                                stretch : _semi.estiramento,
-                                [
-                                    #show "\n": " " // Un truco para eliminar as novas liñas "\n" dos títulos
-                                    *#artigo.titulo* // TITULO
-                                ],
-                            )
-                            h(1fr)
-                            [*#(artigo.localizacion.page - 2)*] // PÁXINA, compensando onde comezan os artigos
-                            linebreak()
-                            artigo.autoria // AUTORIA
-                            v(1em)
-                        }
-                    )
+            context {
+                let taboa = ()
+                for tema in _artigos.final().map(x => x.tema).dedup(){
+                    taboa = taboa + ( pdf.artifact(kind: "layout", separador(tema)) ,)
+                    for artigo in _artigos.final().filter(x => x.tema == tema) {
+                        taboa = taboa + (
+                            link(
+                                artigo.localizacion,
+                                {
+                                    text(
+                                        fill    : rgb(datos.cor_resalte).darken(20%),
+                                        font    : _semi.familia,
+                                        stretch : _semi.estiramento,
+                                        [
+                                            #show "\n": " " // Un truco para eliminar as novas liñas "\n" dos títulos
+                                            *#artigo.titulo* // TITULO
+                                        ]
+                                    )
+                                    pdf.artifact([#h(1fr)*#(artigo.localizacion.page - 2)*#linebreak()]) // PÁXINA, compensando onde comezan os artigos
+                                    artigo.autoria // AUTORIA
+                                }
+                            ), // NON QUITAR ESTA COMA
+                        )
+                    }
                 }
+                table(stroke: none, ..taboa)
             }
+
         }
     ),
 
@@ -466,11 +480,14 @@
     grid.cell(
         x:2,y:0,
         align: center,
-        text(
-            size   : 1.5em,
-            font   : _sans.familia,
-            weight : "black",
-            [#datos.data_dia de #datos.data_mes do #datos.data_ano#v(1em) Núm.#sys.inputs.at("numero")]
+        pdf.artifact(
+            kind: "other",
+            text(
+                size   : 1.5em,
+                font   : _sans.familia,
+                weight : "black",
+                [#datos.data_dia de #datos.data_mes do #datos.data_ano#v(1em) Núm.#sys.inputs.at("numero")]
+            )
         )
     ),
 
@@ -483,16 +500,16 @@
             rows       : 1,
             row-gutter : 1.4em,
 
-            {
+            context {
                 show text: sans
+                let taboa = ()
                 for posto in datos.participantes.keys() {
-                    v(1em)
-                    text( size:1.2em, [*#posto*\ ],)
-                    v(1em)
+                    taboa = taboa + (text(size:1.2em, [*#posto*\ ]),)
                     for persoa in datos.participantes.at(posto) {
-                        [#persoa\ ]
+                        taboa = taboa + ([#persoa\ ],)
                     }
                 }
+                table(stroke: none, ..taboa)
             }
 
         )
@@ -502,61 +519,67 @@
     // É un pouco lioso porque é un grid, con outros grids dentro, con máis grid dentro...
     grid.cell(
         x: 2, y:2,
-        {
-            set par(spacing: 0pt)
-            grid(
-                rows: 4,
-                row-gutter: 1em,
-                columns : (100%,),
-                // CORREO
+        pdf.artifact(
+            kind: "other",
+            {
+                set par(spacing: 0pt)
                 grid(
-                    columns:1, rows:2, row-gutter: 7pt,
-                    text(size: 20pt, font: _simb.familia)[#h(3pt) ],
-                    link("mailto:" + datos.correo, sans[#datos.correo])
-                ),
-                // INSTAGRAM
-                grid(
-                    columns:1, rows:2, row-gutter: 7pt,
-                    text(size: 20pt, font: _simb.familia)[#h(3pt) ],
-                    link("https://www.instagram.com/" + datos.instagram, sans[@#datos.instagram])
-                ),
-                // TWITTER
-                grid(
-                    columns:1, rows:2, row-gutter: 7pt,
-                    text(size: 20pt, font: _simb.familia)[#h(3pt) 󰕄],
-                    link("https://www.twitter.com/" + datos.twitter, sans[@#datos.twitter])
-                ),
-                // INFO GIT
-                grid(
-                    columns:1, rows:3, row-gutter: 7pt,
-                    text(size: 20pt, font: _simb.familia)[#h(3pt) ],
-                    link(
-                        "https://github.com/" + datos.repositorio,
+                    rows: 4,
+                    row-gutter: 1em,
+                    columns : (100%,),
+                    // CORREO
+                    grid(
+                        columns:1, rows:2, row-gutter: 7pt,
+                        text(size: 20pt, font: _simb.familia)[#h(3pt) ],
+                        link("mailto:" + datos.correo, sans[#datos.correo])
+                    ),
+                    // INSTAGRAM
+                    grid(
+                        columns:1, rows:2, row-gutter: 7pt,
+                        text(size: 20pt, font: _simb.familia)[#h(3pt) ],
+                        link("https://www.instagram.com/" + datos.instagram, sans[@#datos.instagram])
+                    ),
+                    // TWITTER
+                    grid(
+                        columns:1, rows:2, row-gutter: 7pt,
+                        text(size: 20pt, font: _simb.familia)[#h(3pt) 󰕄],
+                        link("https://www.twitter.com/" + datos.twitter, sans[@#datos.twitter])
+                    ),
+                    // INFO GIT
+                    grid(
+                        columns:1, rows:3, row-gutter: 7pt,
+                        text(size: 20pt, font: _simb.familia)[#h(3pt) ],
+                        link(
+                            "https://github.com/" + datos.repositorio,
+                            {
+                                set text(size: 0.9em)
+                                mono[#datos.repositorio]
+                            }
+                        ),
                         {
                             set text(size: 0.9em)
-                            mono[#datos.repositorio]
+                            simbolos[]
+                            mono(sys.inputs.at("rama", default: "sen rama"))
+                            [:]
+                            mono(sys.inputs.at("hash", default: "sen hash"))
+                            mono(sys.inputs.at("dirt", default: "sen dirt"))
                         }
-                    ),
-                    {
-                        set text(size: 0.9em)
-                        simbolos[]
-                        mono(sys.inputs.at("rama", default: "sen rama"))
-                        [:]
-                        mono(sys.inputs.at("hash", default: "sen hash"))
-                        mono(sys.inputs.at("dirt", default: "sen dirt"))
-                    }
+                    )
                 )
-            )
-        }
+            }
+        )
     ),
 
     // Logo USC
     grid.cell(
         x: 2, y:3,
-        {
-            v(1fr)
-            image("/logos/usc-negativo-escuro.pdf")
-        }
+        pdf.artifact(
+            kind: "other",
+            {
+                v(1fr)
+                image("/logos/usc-negativo-escuro.pdf")
+            }
+        )
     )
 
 )
@@ -578,66 +601,72 @@
             bottom : 25mm,
         ),
         header-ascent : 15pt,
-        header: {
-            grid(
-                columns    : (1fr, 2.3cm, 1fr),
-                rows       : (1em,1em,1em),
-                row-gutter : 0pt,
-                align      : (left+horizon, center+horizon, right+horizon ),
-                grid.cell(
-                    x:0, y:0,
-                    text(
-                        fill   : rgb(datos.cor_resalte),
-                        size   : 1.2em,
-                        font   : _cond.familia,
-                        stretch: _cond.estiramento,
-                        weight : "bold",
-                        upper(tema)
-                    )
-                ),
-                grid.cell(x:0, y:1, line(length:100%, stroke:0.2pt)),
-                grid.cell(x:2, y:1, line(length:100%, stroke:0.2pt)),
-                grid.cell(
-                    x:1,
-                    rowspan:3,
-                    circle(
-                        fill   : rgb(datos.cor_resalte),
-                        radius : 1.4em,
+        header: pdf.artifact(
+            kind : "header",
+            {
+                grid(
+                    columns    : (1fr, 2.3cm, 1fr),
+                    rows       : (1em,1em,1em),
+                    row-gutter : 0pt,
+                    align      : (left+horizon, center+horizon, right+horizon ),
+                    grid.cell(
+                        x:0, y:0,
                         text(
-                            fill : rgb(datos.cor_texto),
-                            size : 22pt,
-                            [$accent(m,arrow)$]
+                            fill   : rgb(datos.cor_resalte),
+                            size   : 1.2em,
+                            font   : _cond.familia,
+                            stretch: _cond.estiramento,
+                            weight : "bold",
+                            upper(tema)
+                        )
+                    ),
+                    grid.cell(x:0, y:1, line(length:100%, stroke:0.2pt)),
+                    grid.cell(x:2, y:1, line(length:100%, stroke:0.2pt)),
+                    grid.cell(
+                        x:1,
+                        rowspan:3,
+                        circle(
+                            fill   : rgb(datos.cor_resalte),
+                            radius : 1.4em,
+                            text(
+                                fill : rgb(datos.cor_texto),
+                                size : 22pt,
+                                [$accent(m,arrow)$]
+                            )
                         )
                     )
                 )
-            )
-        },
-        footer : context {
-            let p = counter(page).get().first()
-            if calc.even(p) {
-                // Pe de paxinas pares
-                grid(
-                    columns : 1fr,
-                    rows    : 1fr,
-                    align   : (left + top),
-                    {
-                        let p = counter(page).get().first()
-                        [*#numbering("1",p)*#h(1fr)#text(font:_sans.familia, fill: rgb(datos.cor_resalte), [MOMENTUM])]
-                    }
-                )
-            } else {
-                // Pe de paxinas impares
-                grid(
-                    columns : 1fr,
-                    rows    : 1fr,
-                    align   : (right + top),
-                    {
-                        let p = counter(page).get().first()
-                        [#text(font:_sans.familia, fill: rgb(datos.cor_resalte), [MOMENTUM])#h(1fr)*#numbering("1",p)*]
-                    }
-                )
             }
-        }
+        ),
+        footer : pdf.artifact(
+            kind: "footer",
+            context {
+                let p = counter(page).get().first()
+                if calc.even(p) {
+                    // Pe de paxinas pares
+                    grid(
+                        columns : 1fr,
+                        rows    : 1fr,
+                        align   : (left + top),
+                        {
+                            let p = counter(page).get().first()
+                            [*#numbering("1",p)*#h(1fr)#text(font:_sans.familia, fill: rgb(datos.cor_resalte), [MOMENTUM])]
+                        }
+                    )
+                } else {
+                    // Pe de paxinas impares
+                    grid(
+                        columns : 1fr,
+                        rows    : 1fr,
+                        align   : (right + top),
+                        {
+                            let p = counter(page).get().first()
+                            [#text(font:_sans.familia, fill: rgb(datos.cor_resalte), [MOMENTUM])#h(1fr)*#numbering("1",p)*]
+                        }
+                    )
+                }
+            }
+        )
     )
     set text(
         hyphenate : true,
