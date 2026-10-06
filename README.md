@@ -220,13 +220,17 @@ reinicia numeracións, dá formato aos encabezados, define nomes... Véxase
 
 ### Dependencias
 
-Este proxecto usa [Typst](https://typst.app/) como linguaxe de programación; a
-compilación manéxase con [make](https://www.gnu.org/software/make/); e as
-versións do código con [Git](https://git-scm.com/). Fai falla ter o compilador
-de Typst, GNU-Make e Git instalados e na `$PATH`. **non** se soporta a
-compilación en liña en typst.app. En principio so se soporta Linux(es), pero
-pode que Mac e Windows tamén funcionen.
+Este proxecto usa
+1. [Typst](https://typst.app/) como linguaxe de programación
+2. A compilación manéxase con [make](https://www.gnu.org/software/make/)
+3. precísase Python, especificamente, [uv](https://docs.astral.sh/uv/) para xerar o modelo da revista _impresa_.
+4. Para versionar o código, fai falla [Git](https://git-scm.com/).
 
+Fai falla ter `typst`, `make`, `uv` e `git` instalados e na `$PATH`. **non** se
+soporta a compilación en liña en typst.app. En principio so se soporta
+Linux(es), pero pode que Mac e Windows tamén funcionen.
+
+Unhas notas a maiores
 - O recomendable é traballar en Linux e ter unha [instalación de rust](https://rustup.rs/),
   logo instalar a última versión de desenvolvemento de Typst usando
   [Cargo](https://doc.rust-lang.org/cargo/):
@@ -246,6 +250,9 @@ pode que Mac e Windows tamén funcionen.
   ás anteriores, o que reduce moito o tamaño do repo. Se clonades o repositorio
   sen telo instalado, en vez dos ficheiros reais, teredes eses punteiros de texto
   e o proxecto dará erros na compilación.
+- A versión impresa da revista (que ten máis páxinas en branco, e distintos
+  marxes) xérase con Python. É preciso instalar `uv` e usalo para executar
+  Python, en vez de usar Python directamente ou `pip` para as dependencias.
 
 <p align="right"><a href="#mag-índice-de-contidos">(voltar ao índice)</a></p>
 
@@ -262,6 +269,7 @@ pode que Mac e Windows tamén funcionen.
   make numero=001 metodo=watch # compila a revista usando o método incremental de Typst
   make numero=001 propaganda   # Xerar as propagandas do número 001
   make numero=001 artigos      # compila a revista e os artigos individuais para os redactores.
+  make numero=001 impresa      # xera a versión impresa da revista
   make todo                    # Compila todas as revistas, propagandas e artigos individuais
   make limpa                   # Limpar os ficheiros auxiliares
   ```

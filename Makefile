@@ -13,6 +13,7 @@
 # make numero=001 metodo=watch -> compila a revista 001 de maneira continuada
 # make numero=001 propaganda   -> compila a revista 001 e xera a propaganda
 # make numero=001 artigos      -> compila os artigos da 001 separados
+# make numero=001 impresa      -> xera a versión impresa da revista
 #
 # OLLO:
 #
@@ -26,7 +27,7 @@ SHELL := bash
 
 # Regras de tipo 'phony'
 # Véxase: https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html
-.PHONY: limpa propaganda artigos todo
+.PHONY: limpa propaganda artigos impresa todo
 
 # Que acción se vai executar por defecto
 .DEFAULT_GOAL := .pdf/revista_$(numero).pdf
@@ -102,7 +103,7 @@ limpa:
 
 # Compilar todo. Isto simplemente re-chama a make varias veces
 todo:
-	for N in $(NUMEROS); do echo -e ""; make --no-print-directory numero=$${N} propaganda artigos; done
+	for N in $(NUMEROS); do echo -e ""; make --no-print-directory numero=$${N} propaganda artigos impresa; done
 
 
 # Compila os artigos separados, para enviarllos aos redactores
@@ -113,6 +114,11 @@ artigos:
 		typst compile $(OPCIONS_TYPST) revistas/$(numero)/$${A}.typ .pdf/artigos_$(numero)_$${A}.pdf;\
 	done;\
 	echo "";
+
+
+# Xera a versión impresa, usando python
+impresa: .pdf/revista_$(numero).pdf
+	uv run trebellos/crear_version_impresa.py .pdf/revista_$(numero).pdf
 
 
 # Xeramos o PDF correspondente co número pedido, dependendo de se algunha

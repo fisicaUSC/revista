@@ -1,0 +1,7 @@
+[project]
+name = "revista"
+version = "0.1.0" # versión irrelevante para poder usar 'uv'. Non corresponde ca revista
+requires-python = ">=3.13"
+dependencies = [
+    "pymupdf>=1.28.2",
+]

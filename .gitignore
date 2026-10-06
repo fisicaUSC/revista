@@ -1,6 +1,7 @@
 # diretorios auxiliares
 .pdf/
 .aux/
+.venv/
 
 # arquivos comprimidos
 *.zip
