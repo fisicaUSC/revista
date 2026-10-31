@@ -2,7 +2,7 @@
 
 #let numero = sys.inputs.at("numero")
 #let version = sys.inputs.at("version")
-#import("/estilo.typ"): datos
+#import("/estilo.typ"): datos_actuais
 
 #set text(
     font     : "New Computer Modern Sans",
@@ -19,19 +19,23 @@
     leading           : 0.4em,
 )
 
-#let QR = tiaoma.barcode(
-    datos.whatsapp,
-    "QRCode",
-    options : (
-        option-1 : 4,
-        option-2 : 8,
-        scale    : 3.0,
-    ),
-)
+#let QR = context {
+    let datos = datos_actuais()
+    tiaoma.barcode(
+        datos.whatsapp,
+        "QRCode",
+        options : (
+            option-1 : 4,
+            option-2 : 8,
+            scale    : 3.0,
+        ),
+    )
+}
 
 #let propaganda(
     estilo : none,
-) = {
+) = context {
+    let datos = datos_actuais()
     if (estilo != "branca") and (estilo != "cor" ) { panic("As opcións para a propaganda son 'branca' ou 'cor'") }
     set align(center)
 

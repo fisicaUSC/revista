@@ -92,16 +92,16 @@
 //     --input dirt=*            -> estado do WorkingTree | na Makefile
 //
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-// Número da revista. Sae de '--input numero=001'
-#let numero = sys.inputs.at("numero", default: "001")
-
-// Información específica dun número.
-#import("/revistas/" + numero + "/datos_" + numero + ".typ"): informacion_revista
-
+//
+// NOTA: O número da revista inclúese en cada revista_XXX.typ usando
+// 'crear_revista("001", informacion_revista)' directamente. Isto permite compilar
+// tanto coa Makefile (`make numero=001`)
+// coma directamente (`typst compile --root . revistas/001/revista_001.typ`).
+//
 // Información por defecto da revista. Esta información logo sobreescríbese ca
 // info específica de cada número
 #let informacion_por_defecto = (
+    numero            : "001",
     artigos           : (),
     cor_resalte       : "ff0000",
     cor_texto         : "ffffff",
@@ -123,13 +123,34 @@
     agradecementos    : "-- SEN AGRADECEMENTOS --",
 )
 
-// Combinamos a información por defecto ca información específica da revista. O
-// que pasa é que os valores por defecto se sobreescriben cos específicos dun
-// número. Os que non sobreescribamos mantéñense por defecto.
-#let datos = informacion_por_defecto + informacion_revista
+// Valor inicial do estado 'datos'
+#let _numero_cli = sys.inputs.at("numero", default: none)
+#let _datos_iniciais = {
+    // Caso no que se compilan os artigos individualmente (`make numero=XXX artigos`).
+    // Aquí compílase directamente o documento do artigo, sen chamar a crear_revista(),
+    // polo que é necesario pasar o número da revista como parámetro.
+    // Combinamos a información por defecto coa información específica da revista.
+    if _numero_cli != none {
+        import("/revistas/" + _numero_cli + "/datos_" + _numero_cli + ".typ"): informacion_revista
+        informacion_por_defecto + informacion_revista + (numero: _numero_cli)
+    } else {
+    // Caso no que se colle o número dende 'revista_XXX.typ'
+        informacion_por_defecto
+    }
+}
 
 // Unha variable global.
 // https://typst.app/docs/reference/introspection/state/
+//
+// Estado global cos datos do número que se está a compilar. As funcións que
+// precisan destes datos fanno a través de 'context'.
+#let _datos = state("datos", _datos_iniciais)
+
+// Función para ler os datos do número actual dende dentro do corpo dun artigo.
+// Hai que chamala dentro de 'context', por exemplo:
+// `#context rgb(datos_actuais().cor_resalte)`
+#let datos_actuais() = _datos.get()
+
 //
 // Array que se encherá de dicionarios con info dos artigos, co seu título,
 // autoría e localización. Úsase para xerar o índice, por defecto está baleiro.
@@ -184,7 +205,8 @@
 // metadatos, data, etc.
 #let estilo_xeral(
     doc
-) = {
+) = context {
+    let datos = _datos.get()
     set document(
         title       : "Revista Estudantil Momentum",
         author      : datos.participantes.values().flatten(),
@@ -237,7 +259,10 @@
 }
 
 // Función para crear a portada
-#let crear_portada() = grid(
+#let crear_portada() = context {
+    let datos = _datos.get()
+
+    grid(
 
     align   : (bottom + center),
     columns : 1fr,
@@ -281,7 +306,7 @@
             text(
                 fill : rgb(datos.cor_texto),
                 size : 17pt,
-                mono[Núm.#sys.inputs.at("numero") #h(1fr) #datos.data_mes #datos.data_ano]
+                mono[Núm.#datos.numero #h(1fr) #datos.data_mes #datos.data_ano]
             )
         )
     ),
@@ -361,11 +386,13 @@
     )
 
 )
+}
 
 // Estilo para o índice de contidos
 #let estilo_indice(
     doc
-) = {
+) = context {
+    let datos = _datos.get()
     // Non usar sangría
     set par(first-line-indent: 0pt)
     set page(
@@ -390,7 +417,10 @@
 
 // Función para crear o propio índice de contidos
 // :FACER: simplificar na medida do posible todo o índice
-#let crear_indice() = grid(
+#let crear_indice() = context {
+    let datos = _datos.get()
+
+    grid(
 
     // Grid tamaño 4x3
     rows    : (2cm, 1fr  , 7cm, 3.5cm),
@@ -469,7 +499,7 @@
             size   : 1.5em,
             font   : _sans.familia,
             weight : "black",
-            [#datos.data_dia de #datos.data_mes do #datos.data_ano#v(1em) Núm.#sys.inputs.at("numero")]
+            [#datos.data_dia de #datos.data_mes do #datos.data_ano#v(1em) Núm.#datos.numero]
         )
     ),
 
@@ -558,10 +588,13 @@
         }
     )
 
-)
+    )
+}
 
 // xera o circuliño unha m dentro, para as cabeceiras
-#let circuliño = circle(
+#let circuliño = context{
+    let datos = _datos.get()
+    circle(
     fill   : rgb(datos.cor_resalte),
     radius : 1.4em,
     text(
@@ -569,23 +602,28 @@
         size : 22pt,
         [$accent(m,arrow)$]
     )
-)
+    )
+}
 
 // formatea o tema co estilo correcto, para as cabeceiras
-#let temiña(tema) = text(
+#let temiña(tema) = context {
+    let datos = _datos.get()
+    text(
     fill   : rgb(datos.cor_resalte),
     size   : 1.2em,
     font   : _cond.familia,
     stretch: _cond.estiramento,
     weight : "bold",
     upper(tema)
-)
+    )
+}
 
 // Estilo para os artigos
 #let estilo_artigos(
     tema: "-- SEN TEMA --",
     doc
-) = {
+) = context {
+    let datos = _datos.get()
     // Re-usamos o estilo xeral, así, se compilamos os artigos individualmente,
     // estes tamén terán este estilo
     show: estilo_xeral
@@ -722,6 +760,8 @@
 
     import "@preview/tiaoma:0.3.0"
 
+    context {
+    let datos = _datos.get()
     grid(
         columns    : 100%,
         rows       : (auto, 1fr, 0pt, auto),
@@ -817,11 +857,15 @@
         )
 
     )
-
+    }
 }
 
 // Función que xunta todo
-#let crear_revista() = {
+#let crear_revista(numero, informacion_revista) = {
+
+    // Gardamos os datos deste número no estado global, para que o resto de
+    // funcións (e os propios artigos) poidan acceder a eles polo 'context'
+    _datos.update(informacion_por_defecto + informacion_revista + (numero: numero))
 
     // Activamos o estilo xeral, que vai afectar a toda a revista
     show: estilo_xeral
@@ -842,7 +886,8 @@
     counter(page).update(1)
 
     // Activamos o estilo para os artigos (corpo) e mostrámolos
-    {
+    context {
+        let datos = _datos.get()
         for artigo in datos.artigos { include(artigo) }
     }
 
@@ -862,7 +907,8 @@
     // :FACER: realmente fai falla esto? Engadimos combrobacións?
     tema        : "-- SEN ESTILO --",  // STRING  Estilo do artigo (divulgación, historia, etc.)
     artigo
-) = {
+) = context {
+    let datos = _datos.get()
     // :FACER: engadir comprobacións, p.e. assert(type(titulo) == "content")
 
     show: estilo_artigos.with(tema: tema)
@@ -968,7 +1014,8 @@
     titulo: none,
     autoria: none,
     extra: none
-) = {
+) = context {
+    let datos = _datos.get()
     heading(
         level: 2,
         text(fill: rgb(datos.cor_resalte), titulo)
