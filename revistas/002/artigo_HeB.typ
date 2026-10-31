@@ -85,8 +85,6 @@
     chegou a considerar a posibilidade de secuestralo, pero isto nunca chegou a
     suceder.
 
-    // :FACER:MIGRACION: ás veces as figuras non enchen o 100% do espazo da
-    // columna, o cal dealinea as captions co resto do texto
     #figure(
         image(width: 55%,"/revistas/002/imaxes/bergChicago.jpg"),
         caption : [Cromo de Berg mentres xogaba para os Chicago White Sox. Fonte: Wikipedia.]

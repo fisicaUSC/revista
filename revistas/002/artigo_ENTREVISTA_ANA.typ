@@ -39,7 +39,6 @@
 
     == Entrevista
 
-    // :FACER:MIGRACION: como facer as preguntas das entrevistas?
     == Gemma:
 
     En primeiro lugar, Ana, moitas grazas por participar na nosa
