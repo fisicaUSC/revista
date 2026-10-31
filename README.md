@@ -265,13 +265,24 @@ Unhas notas a maiores
   ```
 - Todo o proceso de compilación se manexa con Make (véxase a [makefile](./Makefile)):
   ```bash
-  make numero=001              # Compilar a revista número 001
-  make numero=001 metodo=watch # compila a revista usando o método incremental de Typst
-  make numero=001 propaganda   # Xerar as propagandas do número 001
-  make numero=001 artigos      # compila a revista e os artigos individuais para os redactores.
+  make                         # compila o último número da revista
+  make metodo=watch            # variable para poder usar o método incremental de typst
+  make impresa                 # xera a versión impresa do último número
+  make propaganda              # xera as propagandas do último número
+  make artigos                 # xera os PDF dos artigos individuais do último número
+  make completa                # compila a revista, artigos e propagandas do último número
+
+  # Para un número específico:
+  make numero=001              # compila a revista 001
+  make numero=001 metodo=watch # compila a revista 001 de maneira continuada
   make numero=001 impresa      # xera a versión impresa da revista
-  make todo                    # Compila todas as revistas, propagandas e artigos individuais
-  make limpa                   # Limpar os ficheiros auxiliares
+  make numero=001 propaganda   # compila a revista 001 e xera a propaganda
+  make numero=001 artigos      # compila os artigos da 001 separados
+  make numero=001 completa     # compila a revista, propagandas e artigos da 001
+
+  # Regras especiais:
+  make todo                    # compila todas as revistas, artigos e propagandas de todos os números
+  make limpa                   # elimina os ficheiros xerados
   ```
   Por defecto, coa configuración de `make` adxunta, ao compilar unha revista
   o PDF que se xere gárdase no directorio `.pdf/` e os ficheiros auxiliares
