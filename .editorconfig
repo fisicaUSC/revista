@@ -1,0 +1,24 @@
+# https://editorconfig.org
+# Un ficheiro de configuración que varios (pero non todos) editores de texto
+# leen para establecer certos valores, como se usar TAB ou SPACE para as
+# indentacións, ou borrar automaticamente espazos en branco ao final
+root = true
+
+[*.{typ,bib,py}]
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.typ]
+indent_size = 4
+
+[*.bib]
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+[Makefile]
+indent_size = 4
+indent_style = tab
