@@ -1,26 +1,72 @@
-# diretorios auxiliares
-.pdf/
-.aux/
-.venv/
+# Por defecto ignoramos TODO
+*
 
-# arquivos comprimidos
-*.zip
+# Branquear os ficheiros principais do proxecto
+!.gitattributes
+!.gitignore
+!.editorconfig
+!CITATION.cff
+!Makefile
+!README.md
+!estilo.typ
+!momentum-citacions.csl
+!pyproject.toml
+!uv.lock
 
-# mac >:(
-.DS_Store
-.AppleDouble
-.LSOverride
+# Branquear o directorio `revistas`, os subdirectorios `revistas/001`, os
+# ficheiros con extensións `.typ` e `.bib`, e o directorio `revistas/*/imaxes/`
+# xunto con todos seus contidos
+!revistas/
+!revistas/[0-9][0-9][0-9]/
+!revistas/[0-9][0-9][0-9]/*.typ
+!revistas/[0-9][0-9][0-9]/*.bib
+!revistas/[0-9][0-9][0-9]/imaxes/
+!revistas/[0-9][0-9][0-9]/imaxes/*
 
-# windows >:(
-Thumbs.db
-[Dd]esktop.ini
-*.lnk
+# Branqueamos o directorio de trebellos e todos seus contidos, un a un
+!trebellos/
+!trebellos/README.md
+!trebellos/commit-msg.sh
+!trebellos/crear_version_impresa.py
+!trebellos/diccionario_galego.sh
+!trebellos/propaganda_horizontal.typ
+!trebellos/propaganda_vertical.typ
 
-# editores
-.vscode/
-*.swp
+# Branqueamos o directorio de logos e seus contidos un a un
+!logos/
+!logos/IGFAE_acronimo_escuro.pdf
+!logos/IGFAE_acronimo_gris.pdf
+!logos/IGFAE_denominador_escuro.pdf
+!logos/IGFAE_denominador_gris.pdf
+!logos/botafumeiro.png
+!logos/cigus.png
+!logos/fisica-branco-negro.pdf
+!logos/fisica-negativo-azul.pdf
+!logos/fisica-negativo-escuro.pdf
+!logos/fisica-normal.pdf
+!logos/usc-branco-negro.pdf
+!logos/usc-negativo-escuro.pdf
+!logos/usc-normal.pdf
+!logos/vicerreitoria-branco-negro.pdf
+!logos/vicerreitoria-negativo-escuro.pdf
+!logos/vicerreitoria-normal.pdf
 
-# varios
-tags
-*.patch
-*.diff
+# Branqueamos o directorio de fontes, seus subdirectorios, e os ficheiros de
+# fontes (usando prefixos como Roboto_*.ttf)
+!fontes/
+!fontes/*
+!fontes/NerdFonts/LICENSE
+!fontes/NerdFonts/SymbolsNerdFontMono-Regular.ttf
+!fontes/NewComputerModern/
+!fontes/NewComputerModern/NewCM*.otf
+!fontes/Roboto/
+!fontes/Roboto/OFL.txt
+!fontes/Roboto/Roboto_*.ttf
+
+# Branqueamos o directorio `docs/` e todos seus ficheiros un a un
+!docs/
+!docs/comandos.md
+!docs/erros_tipicos.md
+!docs/identidade_visual_colaboradores.md
+!docs/proceso_edicion.md
+!docs/revistas_vellas.md
