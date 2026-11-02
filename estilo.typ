@@ -861,11 +861,11 @@
     autoria       : none,                // STRING  Quen fixo o artigo
     subtitulo     : none,                // CONTENT Subtítulo do artigo
     afiliacion    : none,                // STRING  Afiliación dos autores
-    // :FACER: realmente fai falla esto? Engadimos combrobacións?
     tema        : "-- SEN ESTILO --",  // STRING  Estilo do artigo (divulgación, historia, etc.)
     artigo
 ) = {
-    // :FACER: engadir comprobacións, p.e. assert(type(titulo) == "content")
+
+    assert(type(autoria) == "string", message: "a autoría debe ser unha cadea, con \"...\"")
 
     show: estilo_artigos.with(tema: tema)
 
