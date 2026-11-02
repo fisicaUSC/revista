@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "HISTORIA",
   titulo    : [Relatos dunha vida extraordinaria],
-  autoria   : [Celia Álvarez Álvarez],
+  autoria   : "Celia Álvarez Álvarez",
   subtitulo : [Memorias e leccións da vida de Jane Goodall.],
 )
 

@@ -3,7 +3,7 @@
 #show: Artigo.with(
     tema      : "DIVULGACION",
     titulo    : [O misterio da materia escura],
-    autoria   : [Pablo Falgueras Casarejos],
+    autoria   : "Pablo Falgueras Casarejos",
     subtitulo : [O descubrimento da maior parte da materia do universo e o enigma da súa composición.],
 )
 

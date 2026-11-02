@@ -3,7 +3,7 @@
 #show: Artigo.with(
   titulo: [Entrevista a Begoña Vila Costas],
   subtitulo: [A observación espacial dende o centro máis icónico do mundo.],
-  autoria: [Gemma Ruiz Lavandeira],
+  autoria: "Gemma Ruiz Lavandeira",
   tema: "ENTREVISTAS",
 )
 

@@ -3,7 +3,7 @@
 #show: Artigo.with(
     titulo: [Viaxeiros espaciais. Oda á Voyager 1],
     subtitulo: [De como a Voyager 1 partiu dende a Terra ata o espazo profundo.],
-    autoria: [Celia Álvarez Álvarez],
+    autoria: "Celia Álvarez Álvarez",
     tema  : "HISTORIA"
 )
 

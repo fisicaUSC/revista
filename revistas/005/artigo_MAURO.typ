@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
   titulo: [Érase unha vez un gato...],
-  autoria: [Mauro Garrido Rodríguez],
+  autoria: "Mauro Garrido Rodríguez",
   subtitulo: [Como se probaría que está vivo e morto e que significa isto.],
   tema: "FILOSOFÍA"
 )

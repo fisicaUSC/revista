@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
   titulo: [Erros, chapuzas e desatinos],
-  autoria: [Ánxel Costas],
+  autoria: "Ánxel Costas",
   subtitulo: [Historias mal feitas para facelo mellor.],
   tema: "MISCELÁNEA",
 )

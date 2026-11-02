@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
   titulo: [Tributo a Outer Wilds],
-  autoria: [Celia Álvarez Álvarez],
+  autoria: "Celia Álvarez Álvarez",
   tema: "MISCELÁNEA",
 )
 

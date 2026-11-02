@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "FILOSOFÍA",
   titulo    : [Que é un metro?],
-  autoria   : [Antón Táboas Pazo],
+  autoria   : "Antón Táboas Pazo",
   subtitulo : [Designadores ríxidos; relación entre linguaxe e mundo.],
 )
 

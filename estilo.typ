@@ -185,13 +185,15 @@
 #let estilo_xeral(
     doc
 ) = {
-    set document(
-        title       : "Revista Estudantil Momentum",
-        author      : datos.participantes.values().flatten(),
-        description : "Revista de Física Estudantil e Compostelana",
-        keywords    : ("física","divulgación","galego"),
-        date        : datetime.today()
-    )
+    context {
+        set document(
+            title       : "Revista Estudantil Momentum",
+            author      : (datos.participantes.values().flatten() + _artigos.final().map(x => x.autoria).filter(x => x != none)).dedup(),
+            description : "Revista de Física Estudantil e Compostelana",
+            keywords    : ("física","divulgación","galego"),
+            date        : datetime.today()
+        )
+    }
     set page(paper: "a4")
     set text(
         size      : 11pt,

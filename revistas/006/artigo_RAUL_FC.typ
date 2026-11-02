@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
   titulo: [Aquelas marabillosas\ ondas de luz evanescentes],
-  autoria: [Raúl de la Fuente Carballo],
+  autoria: "Raúl de la Fuente Carballo",
   tema: "DIVULGACIÓN"
 )
 

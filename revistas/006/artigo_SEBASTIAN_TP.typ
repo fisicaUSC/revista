@@ -25,7 +25,7 @@
 
 #show: Artigo.with(
     titulo: [Gravidade en altas dimensións],
-    autoria: [Sebastián Táboas Pazo],
+    autoria: "Sebastián Táboas Pazo",
     tema: "DIVULGACIÓN"
 )
 

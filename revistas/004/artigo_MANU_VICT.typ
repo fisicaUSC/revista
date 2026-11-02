@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "DIVULGACIÓN",
   titulo    : [A programadora invisible],
-  autoria   : [Manuel Tiago Barbosa Aresta e Victoria Bello Pastor],
+  autoria   : "Manuel Tiago Barbosa Aresta e Victoria Bello Pastor",
   subtitulo : [E como terminou contrariando un Nobel.],
 )
 

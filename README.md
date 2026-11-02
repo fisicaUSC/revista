@@ -185,7 +185,7 @@ e inclúense na revista metendo o seu nome en `datos_001.typ`. Teñen a seguinte
 // Á función `Artigo` pode pasárselle a info deste artigo concreto
 #show: Artigo.with(
   titulo     /* OBRIGADO */ : [Prefires quedarte calvo, ou roubar Plutonio-239?],
-  autoria    /* OPCIONAL */ : [Mar B. T.],
+  autoria    /* OPCIONAL */ : "Mar B. T.",
   subtitulo  /* OPCIONAL */ : [Relacións neurolóxicas entre a calvicie e os deportes de risco.],
   afiliacion /* OPCIONAL */ : [Faculdade de Psicoloxía]
   estilo     /* OPCIONAL */ : "Psicoloxía Nuclear",

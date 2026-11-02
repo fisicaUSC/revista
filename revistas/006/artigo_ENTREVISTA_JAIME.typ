@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
     titulo  : [Entrevista a Jaime Álvarez Muñiz],
-    autoria : [Iago Arsequell Rodríguez],
+    autoria : "Iago Arsequell Rodríguez",
     tema    : "ENTREVISTAS"
 )
 

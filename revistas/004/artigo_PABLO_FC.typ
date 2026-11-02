@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "DIVULGACIÓN",
   titulo    : [A escada cósmica de distancias],
-  autoria   : [Pablo Falgueras Casarejos],
+  autoria   : "Pablo Falgueras Casarejos",
   subtitulo : [O conxunto de métodos que permite medir distancias no Universo.],
 )
 

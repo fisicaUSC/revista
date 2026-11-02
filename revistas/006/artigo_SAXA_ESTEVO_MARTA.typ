@@ -2,7 +2,7 @@
 
 #show: Artigo.with(
     titulo  : [Crise e educación],
-    autoria : [Saxa Lú Meitín, Estevo Santamarina Puga e Marta Maquieira Álvarez],
+    autoria : "Saxa Lú Meitín, Estevo Santamarina Puga e Marta Maquieira Álvarez",
     tema    : "ACTUALIDADE"
 )
 
