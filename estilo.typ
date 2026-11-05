@@ -865,7 +865,7 @@
     artigo
 ) = {
 
-    assert(type(autoria) == str, message: "a autoría debe ser unha cadea, con \"...\"")
+    assert((type(autoria) == str) or (autoria == none), message: "a autoría debe ser unha cadea, con \"...\"")
 
     show: estilo_artigos.with(tema: tema)
 
