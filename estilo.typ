@@ -185,13 +185,15 @@
 #let estilo_xeral(
     doc
 ) = {
-    set document(
-        title       : "Revista Estudantil Momentum",
-        author      : datos.participantes.values().flatten(),
-        description : "Revista de Física Estudantil e Compostelana",
-        keywords    : ("física","divulgación","galego"),
-        date        : datetime.today()
-    )
+    context {
+        set document(
+            title       : "Revista Estudantil Momentum",
+            author      : (datos.participantes.values().flatten() + _artigos.final().map(x => x.autoria).filter(x => x != none)).dedup(),
+            description : "Revista de Física Estudantil e Compostelana",
+            keywords    : ("física","divulgación","galego"),
+            date        : datetime.today()
+        )
+    }
     set page(paper: "a4")
     set text(
         size      : 11pt,
@@ -859,11 +861,11 @@
     autoria       : none,                // STRING  Quen fixo o artigo
     subtitulo     : none,                // CONTENT Subtítulo do artigo
     afiliacion    : none,                // STRING  Afiliación dos autores
-    // :FACER: realmente fai falla esto? Engadimos combrobacións?
     tema        : "-- SEN ESTILO --",  // STRING  Estilo do artigo (divulgación, historia, etc.)
     artigo
 ) = {
-    // :FACER: engadir comprobacións, p.e. assert(type(titulo) == "content")
+
+    assert((type(autoria) == str) or (autoria == none), message: "a autoría debe ser unha cadea, con \"...\"")
 
     show: estilo_artigos.with(tema: tema)
 

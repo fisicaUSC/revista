@@ -3,8 +3,6 @@
 #show: Artigo.with(
   tema      : "PASATEMPOS",
   titulo    : [Intuición, Integrais e Álxebra],
-  autoria   : [],
-  subtitulo : [],
 )
 
 #set math.equation(numbering: none)

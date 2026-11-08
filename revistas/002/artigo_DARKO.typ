@@ -3,7 +3,7 @@
 #show: Artigo.with(
     titulo    : [Donnie Darko: ciencia para estadounidenses?],
     subtitulo : [Breve disertación sobre a ciencia no filme _Donnie Darko_.],
-    autoria   : [Emilia Prado Senlle],
+    autoria   : "Emilia Prado Senlle",
     tema      : "DIVULGACIÓN"
 )
 

@@ -3,7 +3,7 @@
 #show: Artigo.with(
     tema      : "HISTORIA",
     titulo    : [Robert Hooke. Nunca vaias contra Newton],
-    autoria   : [Pablo Duarte López],
+    autoria   : "Pablo Duarte López",
     subtitulo : [Sobre como se pode pasar de ser a gran figura da túa época a ser case esquecido.]
 )
 

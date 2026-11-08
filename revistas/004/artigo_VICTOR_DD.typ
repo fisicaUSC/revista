@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "DIVULGACIÓN",
   titulo    : [Por que o bosón de Higgs non é moi "natural"],
-  autoria   : [Víctor Díaz Díaz],
+  autoria   : "Víctor Díaz Díaz",
   subtitulo : [Breve explicación da relación entre o problema da xerarquía e a
 supersimetría.],
 )

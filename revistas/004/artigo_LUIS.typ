@@ -3,7 +3,7 @@
 #show: Artigo.with(
   tema      : "ENTREVISTAS",
   titulo    : [Coñecendo a Edelstein],
-  autoria   : [Luis Arcas Morcillo],
+  autoria   : "Luis Arcas Morcillo",
   subtitulo : [Por mor do centenario da visita de Einstein á Arxentina, 
   falamos cun dos homes que máis sabe do pai da relatividade sobre a 
   importancia da memoria na ciencia, a situación internacional da 

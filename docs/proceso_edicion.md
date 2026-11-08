@@ -46,12 +46,15 @@ que non sirve de nada.
 - Cada artigo comeza con:
   ```typst
   #show Artigo.with(
-      titulo: [Título to wapo],            // obrigatorio
-      autoria: [Quen o escribiu?]          // opcional
-      subtitulo: [Unha breve explicación], // opcional,
-      estilo: "PROGRAMACIÓN e HISTORIA"    // obrigatorio
+      titulo    : [Título to wapo],         // OBRIGATORIO
+      subtitulo : [Unha breve explicación], // OPCIONAL
+      autoria   : "Quen o escribiu?"        // OPCIONAL
+      estilo    : "PROGRAMACIÓN e HISTORIA" // OBRIGATORIO
   )
   ```
+  É moi importante que os tipos de datos sexan correctos. En especial, a
+  autoría _debe_ ser unha cadea de texto, e se non hai autoría, o campo completo
+  debe eliminarse en vez de poñer unha cadea baleira ou 'none'
 
 - Os artigos van a dúas columnas. Pode facerse con
   ```typst
